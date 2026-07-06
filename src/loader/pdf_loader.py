@@ -23,7 +23,10 @@ class PdfLoader:
         try:
             import fitz
         except ImportError as exc:
-            raise DocumentLoadError("PyMuPDF가 설치되어 있지 않습니다. requirements.txt를 설치하세요.") from exc
+            raise DocumentLoadError(
+                "PyMuPDF가 설치되어 있지 않습니다.\n"
+                "다음 명령으로 설치하세요: pip install PyMuPDF"
+            ) from exc
 
         try:
             with fitz.open(path) as pdf:

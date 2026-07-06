@@ -67,7 +67,7 @@ class DocumentTab(QWidget):
             self,
             "문서 파일 선택",
             "",
-            "지원 문서 (*.pdf *.txt *.png *.jpg *.jpeg *.zip)",
+            "PDF/Text/Image/ZIP Files (*.pdf *.txt *.png *.jpg *.jpeg *.zip)",
         )
         self._add_paths([Path(file) for file in files])
 

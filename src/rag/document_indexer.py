@@ -84,18 +84,19 @@ class DocumentIndexer:
             return report
 
         for index, file_path in enumerate(files, start=1):
+            file_type = file_path.suffix.lower().lstrip(".").upper()
             try:
                 if log_callback:
-                    log_callback(f"처리 시작: {file_path}")
+                    log_callback(f"처리 시작 [{file_type}]: {file_path}")
                 created_chunks = self.index_file(file_path)
                 report.processed_files += 1
                 report.created_chunks += created_chunks
                 if log_callback:
-                    log_callback(f"처리 완료: {file_path} / Chunk {created_chunks}개")
+                    log_callback(f"처리 완료 [{file_type}]: {file_path} / Chunk {created_chunks}개")
             except Exception as exc:
                 report.failed_files.append(f"{file_path} - {exc}")
                 if log_callback:
-                    log_callback(f"처리 실패: {file_path} / {exc}")
+                    log_callback(f"처리 실패 [{file_type}]: {file_path} / {exc}")
             if progress_callback:
                 progress_callback(int(index / total * 100))
         return report

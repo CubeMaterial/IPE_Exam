@@ -101,9 +101,11 @@ class QuestionAnalyzeTab(QWidget):
             return
         try:
             path = Path(file)
-            loader = TxtLoader() if path.suffix.lower() == ".txt" else PdfLoader()
-            document = loader.load(path)
-            self.input.setPlainText(TextCleaner().clean(document.text))
+            if path.suffix.lower() == ".txt":
+                text = TxtLoader().load(path)
+            else:
+                text = PdfLoader().load(path).text
+            self.input.setPlainText(TextCleaner().clean(text))
         except Exception as exc:
             QMessageBox.critical(self, "파일 불러오기 오류", str(exc))
 

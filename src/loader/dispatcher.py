@@ -29,7 +29,8 @@ class DocumentDispatcher:
         if extension == ".pdf":
             return [self.pdf_loader.load(path)]
         if extension == ".txt":
-            return [self.txt_loader.load(path)]
+            text = self.txt_loader.load(path)
+            return [Document(source_path=path, text=text, document_type="txt")]
         if extension in {".png", ".jpg", ".jpeg"}:
             return [self.image_loader.load(path)]
         if extension == ".zip":
