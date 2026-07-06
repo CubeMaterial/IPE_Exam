@@ -14,6 +14,8 @@ ollama pull nomic-embed-text
 python main.py
 ```
 
+`python main.py`를 실행하면 PySide6 기반 로컬 데스크톱 GUI가 열립니다.
+
 ## 주요 기능
 
 - PDF/TXT/이미지/ZIP 문서 등록
@@ -21,4 +23,3 @@ python main.py
 - Chunk 분리, Ollama 임베딩, ChromaDB 저장
 - RAG 질문 답변 및 참고 문서/Chunk 출력
 - 개념 분석, 문제 유형 분석, 예상문제 생성, 요약, 암기 카드 생성
-

@@ -30,6 +30,8 @@ class EasyOCREngine:
 
     def extract_text(self, image_path: Path, save_processed: bool = True) -> str:
         """이미지 파일에서 OCR 텍스트를 추출합니다."""
+        if not CONFIG.ocr_enabled:
+            return ""
         try:
             reader = self._get_reader()
             results = reader.readtext(str(image_path), detail=0, paragraph=True)
