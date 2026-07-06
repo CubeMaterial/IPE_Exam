@@ -13,7 +13,7 @@ class DocumentIndexerCollectTest(TestCase):
     """문서 등록 대상 파일 수집 테스트입니다."""
 
     def test_collect_supported_files_reads_pdf_in_nested_folders(self) -> None:
-        """지정 폴더의 하위 폴더까지 PDF와 지원 문서를 재귀적으로 찾습니다."""
+        """지정 폴더의 하위 폴더까지 PDF, TXT 지원 문서를 재귀적으로 찾습니다."""
         with TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)
             nested = root / "chapter" / "sql"

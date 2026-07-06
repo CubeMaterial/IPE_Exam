@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 
@@ -89,7 +90,11 @@ def detect_language_by_extension(path: Path) -> str:
 def detect_language_in_query(question: str) -> str | None:
     """질문 문장에서 우선 검색할 코드 언어를 추정합니다."""
     lowered = question.lower()
-    for keyword, language in LANGUAGE_ALIASES.items():
+    for keyword, language in sorted(LANGUAGE_ALIASES.items(), key=lambda item: len(item[0]), reverse=True):
+        if keyword == "c":
+            if re.search(r"(^|[^a-z0-9+#])c([^a-z0-9+#]|$)", lowered):
+                return language
+            continue
         if keyword in lowered:
             return language
     return None
