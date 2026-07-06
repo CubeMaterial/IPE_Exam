@@ -8,6 +8,8 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
+from src.utils.code_utils import CODE_EXTENSIONS
+
 
 load_dotenv()
 
@@ -50,13 +52,14 @@ class AppConfig:
     collection_name: str = "studyrag_documents"
     chunk_size: int = _get_int("CHUNK_SIZE", 900)
     chunk_overlap: int = _get_int("CHUNK_OVERLAP", 150)
+    code_chunk_size: int = _get_int("CODE_CHUNK_SIZE", 1600)
     top_k: int = 5
     ollama_base_url: str = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
     ollama_model: str = os.getenv("OLLAMA_MODEL", "qwen3:8b")
     embedding_model: str = os.getenv("OLLAMA_EMBEDDING_MODEL", "nomic-embed-text")
     ocr_enabled: bool = _get_bool("OCR_ENABLED", True)
     ocr_languages: tuple[str, ...] = ("ko", "en")
-    supported_extensions: tuple[str, ...] = (".pdf", ".txt", ".png", ".jpg", ".jpeg", ".zip")
+    supported_extensions: tuple[str, ...] = (".pdf", ".txt", ".png", ".jpg", ".jpeg", ".zip") + CODE_EXTENSIONS
 
 
 CONFIG = AppConfig()
@@ -79,6 +82,7 @@ def update_runtime_config(
     embedding_model: str,
     chunk_size: int,
     chunk_overlap: int,
+    code_chunk_size: int,
     chroma_dir: Path,
     ocr_enabled: bool,
     config: AppConfig = CONFIG,
@@ -88,6 +92,7 @@ def update_runtime_config(
     config.embedding_model = embedding_model
     config.chunk_size = chunk_size
     config.chunk_overlap = chunk_overlap
+    config.code_chunk_size = code_chunk_size
     config.chroma_dir = chroma_dir
     config.ocr_enabled = ocr_enabled
     ensure_directories(config)
@@ -98,6 +103,7 @@ def save_env_config(
     embedding_model: str,
     chunk_size: int,
     chunk_overlap: int,
+    code_chunk_size: int,
     chroma_dir: Path,
     ocr_enabled: bool,
 ) -> Path:
@@ -109,6 +115,7 @@ def save_env_config(
         f"OLLAMA_EMBEDDING_MODEL={embedding_model}",
         f"CHUNK_SIZE={chunk_size}",
         f"CHUNK_OVERLAP={chunk_overlap}",
+        f"CODE_CHUNK_SIZE={code_chunk_size}",
         f"CHROMA_DB_PATH={chroma_dir}",
         f"OCR_ENABLED={'true' if ocr_enabled else 'false'}",
     ]

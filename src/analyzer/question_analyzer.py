@@ -15,5 +15,5 @@ class QuestionAnalyzer:
 
     def analyze(self, question_text: str) -> str:
         """기출문제 텍스트를 분석합니다."""
-        prompt = f"다음 기출문제를 분석하세요.\n\n{question_text}"
+        prompt = f"다음 기출문제 또는 소스코드를 분석하세요.\n\n{question_text}"
         return self.llm.generate(QUESTION_ANALYSIS_PROMPT, prompt)

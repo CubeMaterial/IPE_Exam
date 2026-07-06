@@ -9,6 +9,7 @@ from typing import Callable
 from config.config import CONFIG
 from src.embedding.embedding import ChromaEmbeddingStore
 from src.loader.dispatcher import DocumentDispatcher
+from src.preprocess.code_chunker import CodeChunker
 from src.preprocess.chunker import TextChunker
 from src.preprocess.cleaner import TextCleaner
 from src.utils.file_utils import copy_to_raw
@@ -46,12 +47,14 @@ class DocumentIndexer:
         dispatcher: DocumentDispatcher | None = None,
         cleaner: TextCleaner | None = None,
         chunker: TextChunker | None = None,
+        code_chunker: CodeChunker | None = None,
         store: ChromaEmbeddingStore | None = None,
     ) -> None:
         """등록 파이프라인의 의존성을 초기화합니다."""
         self.dispatcher = dispatcher or DocumentDispatcher()
         self.cleaner = cleaner or TextCleaner()
         self.chunker = chunker or TextChunker(CONFIG.chunk_size, CONFIG.chunk_overlap)
+        self.code_chunker = code_chunker or CodeChunker(CONFIG.code_chunk_size)
         self.store = store or ChromaEmbeddingStore()
 
     def index_file(self, file_path: str | Path) -> int:
@@ -60,14 +63,18 @@ class DocumentIndexer:
         documents = self.dispatcher.load(raw_path)
         all_chunks = []
         for document in documents:
-            cleaned_text = self.cleaner.clean(document.text)
+            is_code = document.metadata.get("source_type") == "code"
+            cleaned_text = document.text if is_code else self.cleaner.clean(document.text)
             cleaned_document = type(document)(
                 source_path=document.source_path,
                 text=cleaned_text,
                 document_type=document.document_type,
                 metadata=document.metadata,
             )
-            all_chunks.extend(self.chunker.split(cleaned_document))
+            if is_code:
+                all_chunks.extend(self.code_chunker.split(cleaned_document))
+            else:
+                all_chunks.extend(self.chunker.split(cleaned_document))
         return self.store.add_chunks(all_chunks)
 
     def index_paths(

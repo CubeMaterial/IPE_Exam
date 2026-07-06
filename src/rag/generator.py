@@ -42,10 +42,18 @@ class RAGGenerator:
         """검색 Chunk를 LLM 입력용 문자열로 변환합니다."""
         if not chunks:
             return "검색된 참고 문서가 없습니다."
-        return "\n\n".join(
-            f"[문서: {chunk.source_path} / Chunk {chunk.chunk_number} / score {chunk.score:.3f}]\n{chunk.text}"
-            for chunk in chunks
-        )
+        formatted = []
+        for chunk in chunks:
+            language = chunk.metadata.get("language")
+            source_type = chunk.metadata.get("source_type", "document")
+            meta = f" / type {source_type}"
+            if language:
+                meta += f" / language {language}"
+            formatted.append(
+                f"[문서: {chunk.source_path} / Chunk {chunk.chunk_number} / score {chunk.score:.3f}{meta}]\n"
+                f"{chunk.text}"
+            )
+        return "\n\n".join(formatted)
 
     def _format_references(self, chunks: list[RetrievedChunk]) -> str:
         """사용자 출력용 참고 문서 목록을 생성합니다."""
@@ -53,5 +61,10 @@ class RAGGenerator:
             return "참고 문서: 없음"
         lines = ["참고 문서:"]
         for chunk in chunks:
-            lines.append(f"- {chunk.source_path} / Chunk {chunk.chunk_number} / 유사도 {chunk.score:.3f}")
+            language = chunk.metadata.get("language")
+            source_type = chunk.metadata.get("source_type", "document")
+            extra = f" / {source_type}"
+            if language:
+                extra += f" / {language}"
+            lines.append(f"- {chunk.source_path} / Chunk {chunk.chunk_number}{extra} / 유사도 {chunk.score:.3f}")
         return "\n".join(lines)

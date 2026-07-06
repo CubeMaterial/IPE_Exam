@@ -9,10 +9,12 @@ from PySide6.QtWidgets import QFileDialog, QMessageBox, QPushButton, QTextEdit, 
 
 from src.analyzer.concept_analyzer import ConceptAnalyzer
 from src.analyzer.question_analyzer import QuestionAnalyzer
+from src.loader.code_loader import CodeLoader
 from src.loader.pdf_loader import PdfLoader
 from src.loader.txt_loader import TxtLoader
 from src.preprocess.cleaner import TextCleaner
 from src.ui.worker import Worker
+from src.utils.code_utils import is_code_file
 
 
 class ConceptAnalyzeTab(QWidget):
@@ -96,16 +98,30 @@ class QuestionAnalyzeTab(QWidget):
 
     def _load_question_file(self) -> None:
         """TXT 또는 PDF 파일에서 문제 텍스트를 불러옵니다."""
-        file, _ = QFileDialog.getOpenFileName(self, "문제 파일 선택", "", "문제 파일 (*.txt *.pdf)")
+        file, _ = QFileDialog.getOpenFileName(
+            self,
+            "문제 파일 선택",
+            "",
+            "Question/Code Files (*.txt *.pdf *.c *.h *.cpp *.hpp *.java *.py *.dart *.js *.ts *.kt *.swift *.go *.rs *.cs)",
+        )
         if not file:
             return
         try:
             path = Path(file)
             if path.suffix.lower() == ".txt":
                 text = TxtLoader().load(path)
+            elif is_code_file(path):
+                metadata = CodeLoader().metadata(path)
+                code_text = CodeLoader().load(path)
+                text = (
+                    f"파일: {metadata['file']}\n"
+                    f"언어: {metadata['language']}\n"
+                    f"확장자: {metadata['extension']}\n\n"
+                    f"{code_text}"
+                )
             else:
                 text = PdfLoader().load(path).text
-            self.input.setPlainText(TextCleaner().clean(text))
+            self.input.setPlainText(text if is_code_file(path) else TextCleaner().clean(text))
         except Exception as exc:
             QMessageBox.critical(self, "파일 불러오기 오류", str(exc))
 

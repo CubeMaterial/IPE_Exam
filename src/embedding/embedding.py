@@ -37,18 +37,26 @@ class ChromaEmbeddingStore:
         except Exception as exc:
             raise VectorStoreError("Chunk 저장 중 오류가 발생했습니다.") from exc
 
-    def query(self, query_text: str, top_k: int = CONFIG.top_k) -> dict[str, Any]:
+    def query(
+        self,
+        query_text: str,
+        top_k: int = CONFIG.top_k,
+        metadata_filter: dict[str, Any] | None = None,
+    ) -> dict[str, Any]:
         """질문 텍스트와 유사한 Chunk를 검색합니다."""
         try:
             collection = self._get_collection()
             if collection.count() == 0:
                 return {"documents": [[]], "metadatas": [[]], "distances": [[]], "ids": [[]]}
             query_embedding = self.ollama_client.embed(query_text)
-            return collection.query(
-                query_embeddings=[query_embedding],
-                n_results=top_k,
-                include=["documents", "metadatas", "distances"],
-            )
+            query_args: dict[str, Any] = {
+                "query_embeddings": [query_embedding],
+                "n_results": top_k,
+                "include": ["documents", "metadatas", "distances"],
+            }
+            if metadata_filter:
+                query_args["where"] = metadata_filter
+            return collection.query(**query_args)
         except Exception as exc:
             raise VectorStoreError("Chunk 검색 중 오류가 발생했습니다.") from exc
 

@@ -38,6 +38,9 @@ class SettingsTab(QWidget):
         self.chunk_overlap_spin = QSpinBox()
         self.chunk_overlap_spin.setRange(0, 5000)
         self.chunk_overlap_spin.setValue(CONFIG.chunk_overlap)
+        self.code_chunk_size_spin = QSpinBox()
+        self.code_chunk_size_spin.setRange(100, 20000)
+        self.code_chunk_size_spin.setValue(CONFIG.code_chunk_size)
         self.chroma_path_input = QLineEdit(str(CONFIG.chroma_dir))
         self.ocr_checkbox = QCheckBox("OCR 사용")
         self.ocr_checkbox.setChecked(CONFIG.ocr_enabled)
@@ -54,6 +57,7 @@ class SettingsTab(QWidget):
         layout.addRow("Embedding 모델명", self.embedding_model_input)
         layout.addRow("Chunk Size", self.chunk_size_spin)
         layout.addRow("Chunk Overlap", self.chunk_overlap_spin)
+        layout.addRow("Code Chunk Size", self.code_chunk_size_spin)
         layout.addRow("ChromaDB 경로", path_layout)
         layout.addRow("OCR", self.ocr_checkbox)
         layout.addRow(self.save_button)
@@ -74,9 +78,26 @@ class SettingsTab(QWidget):
 
         ollama_model = self.ollama_model_input.text().strip()
         embedding_model = self.embedding_model_input.text().strip()
+        code_chunk_size = self.code_chunk_size_spin.value()
         chroma_dir = Path(self.chroma_path_input.text()).expanduser()
         ocr_enabled = self.ocr_checkbox.isChecked()
 
-        update_runtime_config(ollama_model, embedding_model, chunk_size, chunk_overlap, chroma_dir, ocr_enabled)
-        env_path = save_env_config(ollama_model, embedding_model, chunk_size, chunk_overlap, chroma_dir, ocr_enabled)
+        update_runtime_config(
+            ollama_model,
+            embedding_model,
+            chunk_size,
+            chunk_overlap,
+            code_chunk_size,
+            chroma_dir,
+            ocr_enabled,
+        )
+        env_path = save_env_config(
+            ollama_model,
+            embedding_model,
+            chunk_size,
+            chunk_overlap,
+            code_chunk_size,
+            chroma_dir,
+            ocr_enabled,
+        )
         QMessageBox.information(self, "설정 저장", f"설정을 저장했습니다.\n.env 위치: {env_path}")

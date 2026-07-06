@@ -21,6 +21,13 @@ from src.rag.document_indexer import DocumentIndexer, IndexReport
 from src.ui.worker import Worker
 
 
+SUPPORTED_FILE_FILTER = (
+    "PDF/Text/Image/ZIP/Code Files "
+    "(*.pdf *.txt *.png *.jpg *.jpeg *.zip "
+    "*.c *.h *.cpp *.hpp *.java *.py *.dart *.js *.ts *.kt *.swift *.go *.rs *.cs)"
+)
+
+
 class DocumentTab(QWidget):
     """파일/폴더/ZIP 문서 등록 화면입니다."""
 
@@ -67,7 +74,7 @@ class DocumentTab(QWidget):
             self,
             "문서 파일 선택",
             "",
-            "PDF/Text/Image/ZIP Files (*.pdf *.txt *.png *.jpg *.jpeg *.zip)",
+            SUPPORTED_FILE_FILTER,
         )
         self._add_paths([Path(file) for file in files])
 
