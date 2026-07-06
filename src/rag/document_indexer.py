@@ -77,7 +77,7 @@ class DocumentIndexer:
         log_callback: LogCallback | None = None,
     ) -> IndexReport:
         """여러 파일 경로를 등록하고 처리 결과 보고서를 반환합니다."""
-        files = self._collect_supported_files(paths)
+        files = self.collect_supported_files(paths)
         report = IndexReport(stored_location=CONFIG.chroma_dir)
         total = len(files)
         if total == 0:
@@ -100,16 +100,16 @@ class DocumentIndexer:
                 progress_callback(int(index / total * 100))
         return report
 
-    def _collect_supported_files(self, paths: list[str | Path]) -> list[Path]:
+    def collect_supported_files(self, paths: list[str | Path]) -> list[Path]:
         """파일과 폴더 경로에서 지원 파일을 재귀적으로 수집합니다."""
-        collected: list[Path] = []
+        collected: dict[Path, None] = {}
         supported = set(CONFIG.supported_extensions)
         for raw_path in paths:
             path = Path(raw_path).expanduser()
             if path.is_dir():
-                collected.extend(
-                    child for child in path.rglob("*") if child.is_file() and child.suffix.lower() in supported
-                )
+                for child in sorted(path.rglob("*")):
+                    if child.is_file() and child.suffix.lower() in supported:
+                        collected[child.resolve()] = None
             elif path.is_file() and path.suffix.lower() in supported:
-                collected.append(path)
-        return collected
+                collected[path.resolve()] = None
+        return list(collected.keys())

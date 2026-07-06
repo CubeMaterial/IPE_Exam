@@ -28,6 +28,7 @@ class DocumentTab(QWidget):
         """문서 등록 탭 UI를 초기화합니다."""
         super().__init__()
         self.selected_paths: list[Path] = []
+        self.indexer = DocumentIndexer()
         self.thread: QThread | None = None
         self.worker: Worker | None = None
         self._build_ui()
@@ -74,7 +75,10 @@ class DocumentTab(QWidget):
         """문서가 들어 있는 폴더를 선택 목록에 추가합니다."""
         folder = QFileDialog.getExistingDirectory(self, "문서 폴더 선택")
         if folder:
-            self._add_paths([Path(folder)])
+            files = self.indexer.collect_supported_files([Path(folder)])
+            self._add_paths(files)
+            self.log_output.append(f"폴더 선택: {folder}")
+            self.log_output.append(f"하위 폴더 포함 지원 문서 {len(files)}개를 찾았습니다.")
 
     def _select_zip(self) -> None:
         """ZIP 파일을 선택 목록에 추가합니다."""
