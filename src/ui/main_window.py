@@ -10,6 +10,7 @@ from src.ui.chat_tab import ChatTab
 from src.ui.document_tab import DocumentTab
 from src.ui.flashcard_tab import FlashcardTab
 from src.ui.generate_tab import GenerateTab
+from src.ui.past_exam_tab import PastExamTab
 from src.ui.settings_tab import SettingsTab
 from src.ui.summary_tab import SummaryTab
 
@@ -33,6 +34,7 @@ class MainWindow(QMainWindow):
         tabs.addTab(ConceptAnalyzeTab(), "개념 분석")
         tabs.addTab(QuestionAnalyzeTab(), "문제 유형 분석")
         tabs.addTab(GenerateTab(), "예상문제 생성")
+        tabs.addTab(PastExamTab(), "과년도 기출 분석")
         tabs.addTab(SummaryTab(), "요약")
         tabs.addTab(FlashcardTab(), "암기 카드")
         tabs.addTab(SettingsTab(), "설정")

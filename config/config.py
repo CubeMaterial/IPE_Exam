@@ -48,6 +48,9 @@ class AppConfig:
     raw_data_dir: Path = BASE_DIR / "data" / "raw"
     processed_data_dir: Path = BASE_DIR / "data" / "processed"
     temp_data_dir: Path = BASE_DIR / "data" / "temp"
+    past_exam_dir: Path = BASE_DIR / "data" / "past_exams"
+    past_exam_index_dir: Path = BASE_DIR / "data" / "past_exams" / "index"
+    past_exam_index_file: Path = BASE_DIR / "data" / "past_exams" / "index" / "past_exam_index.json"
     chroma_dir: Path = _get_path("CHROMA_DB_PATH", BASE_DIR / "database" / "chroma")
     collection_name: str = "studyrag_documents"
     chunk_size: int = _get_int("CHUNK_SIZE", 900)
@@ -72,6 +75,8 @@ def ensure_directories(config: AppConfig = CONFIG) -> None:
         config.raw_data_dir,
         config.processed_data_dir,
         config.temp_data_dir,
+        config.past_exam_dir,
+        config.past_exam_index_dir,
         config.chroma_dir,
     ):
         directory.mkdir(parents=True, exist_ok=True)

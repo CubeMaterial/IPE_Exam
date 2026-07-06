@@ -38,3 +38,14 @@ class RetrievedChunk:
     text: str
     score: float
     metadata: dict[str, Any] = field(default_factory=dict)
+
+
+@dataclass(frozen=True)
+class PastExamQuestion:
+    """과년도 기출문제의 문제 단위 데이터를 표현합니다."""
+
+    question_number: int
+    body: str
+    answer: str = ""
+    explanation: str = ""
+    metadata: dict[str, Any] = field(default_factory=dict)
