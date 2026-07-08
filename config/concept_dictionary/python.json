@@ -1,0 +1,10 @@
+{
+  "리스트": ["list", "리스트", "[]"],
+  "슬라이싱": ["slice", "slicing", "슬라이싱", "[:"],
+  "딕셔너리": ["dict", "dictionary", "딕셔너리", "{}"],
+  "튜플": ["tuple", "튜플"],
+  "Set": ["set", "집합"],
+  "Class": ["class", "클래스"],
+  "Lambda": ["lambda", "람다"],
+  "Range": ["range", "범위"]
+}

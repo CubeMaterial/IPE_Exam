@@ -18,7 +18,7 @@ python main.py
 
 ## 주요 기능
 
-- PDF/TXT/이미지/ZIP 문서 등록
+- PDF/TXT/Markdown/이미지/ZIP 문서 등록
 - EasyOCR 기반 이미지 및 스캔 PDF OCR
 - Chunk 분리, Ollama 임베딩, ChromaDB 저장
 - RAG 질문 답변 및 참고 문서/Chunk 출력

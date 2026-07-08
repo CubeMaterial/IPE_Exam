@@ -1,0 +1,617 @@
+[
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 1,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "빈칸",
+    "difficulty": "",
+    "concepts": [
+      "인증",
+      "TCP/IP",
+      "보안",
+      "네트워크"
+    ],
+    "intent": [
+      "인증 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 네트워크 보안에 관련된 문제이다. 괄호 안에 알맞은 용어를 작성하시오.\n\n(   )은/는 '세션을 가로채다.'라는 의미로 다른 사람의 세션 상태를 훔치거나 도용하여 액세스하는 해킹 기법이다.\n\nTCP (   )은/는 TCP의 3-way 핸드셰이크가 완료된 후에 공격자가 시퀀스 번호 등을 조작하여 정상적인 세션을 가로채고 인증 없이 통신을 탈취하는 공격이다.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 2,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "무결성",
+    "primary": "무결성",
+    "secondary": [],
+    "question_type": "빈칸",
+    "difficulty": "",
+    "concepts": [
+      "무결성"
+    ],
+    "intent": [
+      "무결성 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 제약조건과 관련된 문제이다. 괄호 안에 알맞은 용어를 보기에서 골라 작성하시오.\n\n> 원문은 표 이미지로 제시됨.\n\n[보기]\n\n개체, 참조, 도메인\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 3,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "빈칸",
+    "difficulty": "",
+    "concepts": [],
+    "intent": [],
+    "mistakes": [],
+    "language": "",
+    "body": "아래의 내용에서 설명 글의 괄호 안의 용어를 영문 약자로 작성하시오.\n\n(        )은/는 3글자의 영어 약자로 이루어진 오류 기법으로 데이터를 전송하거나 저장할 때 데이터의 오류를 감지하는 데 사용되는 오류 검출 코드이다.\n\n(        )은/는 데이터에 체크섬을 추가하여 데이터를 전송하거나 저장한 후, 수신 또는 읽을 때 이 체크섬을 다시 계산하여 데이터가 변경되었는지 확인하는 기법이다.\n\n(        )은/는 데이터 전송의 안정성을 높이는 데 중요한 역할을 한다.\n\n데이터는 이진수(0과 1)로 표현되며 정해진 다항식(x³ + x + 1)을 기반으로 데이터를 2진수 나눗셈하고 나머지를 (        ) 값으로 삼는다.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 4,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "악성코드",
+    "primary": "악성코드",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "difficulty": "",
+    "concepts": [
+      "악성코드"
+    ],
+    "intent": [
+      "악성코드 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 악성코드 관련된 문제이다. 아래 내용을 확인하여 보기에서 골라 작성하시오.\n\n사용자가 원치 않는 소프트웨어를 구매하도록 조작하기 위해 사회 공학을 사용하여 충격, 불안 또는 위협에 대한 인식을 유발하는 악성 소프트웨어의 한 형태이다.\n\n‘겁을 주다’라는 영어 단어에서 유래한 것으로 공포를 이용하여 피해자를 속여 대가를 지불하거나 특정 행동을 유도하는 랜섬웨어이다.\n\n가짜 바이러스 경고나 시스템 문제를 표시하여 사용자가 돈을 지불하거나 특정 소프트웨어를 설치하도록 속이는 방식으로 작동한다.\n\n[보기]\n\nㄱ. 컴포넌트 웨어  \nㄴ. 유즈웨어  \nㄷ. 셔블웨어  \nㄹ. 스캐어 웨어  \nㅁ. 안티 스파이 웨어  \nㅂ. 네트웨어  \nㅅ. 그룹웨어  \nㅇ. 애드웨어\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 5,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "예외처리",
+    "primary": "예외처리",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "예외처리",
+      "static",
+      "클래스"
+    ],
+    "intent": [
+      "객체지향 문법 이해",
+      "예외처리 이해"
+    ],
+    "mistakes": [
+      "오버라이딩 대상 메서드",
+      "동적 바인딩",
+      "상속 호출 순서"
+    ],
+    "language": "Java",
+    "body": "다음은 Java 코드에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        int a = 5, b = 0;\n\n        try {\n            System.out.print(a / b);\n        } catch (ArithmeticException e) {\n            System.out.print(\"출력1\");\n        } catch (ArrayIndexOutOfBoundsException e) {\n            System.out.print(\"출력2\");\n        } catch (NumberFormatException e) {\n            System.out.print(\"출력3\");\n        } catch (Exception e) {\n            System.out.print(\"출력4\");\n        } finally {\n            System.out.print(\"출력5\");\n        }\n    }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 6,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "네트워크",
+    "subcategory": "ARP",
+    "primary": "ARP",
+    "secondary": [],
+    "question_type": "네트워크",
+    "difficulty": "",
+    "concepts": [
+      "ARP",
+      "TCP/IP",
+      "네트워크"
+    ],
+    "intent": [
+      "네트워크 계층/프로토콜 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "아래 내용은 ARP/RARP에 대한 설명이다. 각 설명에 해당하는 것을 작성하시오.\n\n( 1 )은/는 네트워크상에서 IP 주소를 MAC 주소로 변환하는 프로토콜이고,\n\n( 2 )은/는 MAC 주소를 IP 주소로 변환하는 프로토콜이다.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 7,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "SELECT",
+    "primary": "SELECT",
+    "secondary": [],
+    "question_type": "SQL 결과",
+    "difficulty": "",
+    "concepts": [
+      "SELECT"
+    ],
+    "intent": [
+      "SELECT 이해",
+      "SQL 실행 결과 해석"
+    ],
+    "mistakes": [
+      "JOIN 조건",
+      "GROUP BY 기준",
+      "NULL 처리",
+      "집계 함수 적용 순서"
+    ],
+    "language": "SQL",
+    "body": "다음은 SQL 문제이다. 아래 두 테이블을 참고하여 보기의 쿼리 실행 결과를 작성하시오.\n\n> 원문은 `emp`, `sal` 두 테이블 이미지로 제시됨.\n\n[보기]\n\n```sql\nSELECT name, incentive\nFROM emp, sal\nWHERE emp.id = sal.id\n  AND incentives >= 500;\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 8,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "Cardinality",
+    "primary": "Cardinality",
+    "secondary": [
+      "Degree",
+      "무결성"
+    ],
+    "question_type": "빈칸",
+    "difficulty": "",
+    "concepts": [
+      "Cardinality",
+      "Degree",
+      "무결성"
+    ],
+    "intent": [
+      "Cardinality 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "아래는 데이터베이스에 관련된 설명이다. 알맞은 용어를 보기에서 골라 괄호를 작성하시오.\n\n1. 릴레이션에서 속성의 개수를 의미 : ( 1 )\n2. 릴레이션에서 튜플의 개수를 의미 : ( 2 )\n3. 한 릴레이션의 속성이 다른 릴레이션의 기본 키를 참조할 때, 참조하는 속성을 의미 : ( 3 )\n4. 특정 속성에 대해 입력될 수 있는 값의 유형이나 범위를 의미하고 무결성을 보장하는 기준 : ( 4 )\n\n[보기]\n\nㄱ. domain  \nㄴ. primary  \nㄷ. degree  \nㄹ. candidate  \nㅁ. cardinality  \nㅂ. attribute  \nㅅ. foreign\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 9,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "네트워크",
+    "difficulty": "",
+    "concepts": [],
+    "intent": [],
+    "mistakes": [],
+    "language": "",
+    "body": "IP 주소가 `192.168.35.10`, 서브넷 `255.255.252.0`인 PC에서 브로드캐스팅으로 다른 IP로 정보를 전달한다고 할 때 수신할 수 있는 알맞은 IP를 보기에서 골라 모두 작성하시오.\n\n[보기]\n\nㄱ. 192.168.34.1  \nㄴ. 192.168.32.19  \nㄷ. 192.168.35.200  \nㄹ. 192.168.33.138  \nㅁ. 192.168.35.50\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 10,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "증감연산",
+    "primary": "증감연산",
+    "secondary": [
+      "반복문",
+      "문자열"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "증감연산",
+      "반복문",
+      "문자열"
+    ],
+    "intent": [
+      "증감연산 핵심 개념 이해"
+    ],
+    "mistakes": [
+      "break 위치",
+      "continue 위치",
+      "증감식 실행 순서"
+    ],
+    "language": "C",
+    "body": "다음은 C언어에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n\nchar Data[5] = {'B', 'A', 'D', 'E'};\nchar c;\n\nint main() {\n    int i, temp, temp2;\n    c = 'C';\n\n    printf(\"%d\\n\", Data[3] - Data[1]);\n\n    for (i = 0; i < 5; ++i) {\n        if (Data[i] > c)\n            break;\n    }\n\n    temp = Data[i];\n    Data[i] = c;\n    i++;\n\n    for (; i < 5; ++i) {\n        temp2 = Data[i];\n        Data[i] = temp;\n        temp = temp2;\n    }\n\n    for (i = 0; i < 5; i++) {\n        printf(\"%c\", Data[i]);\n    }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 11,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "프로세스",
+      "반복문"
+    ],
+    "intent": [
+      "프로세스 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "C",
+    "body": "다음은 C언어에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n#include <stdlib.h>\n\nvoid set(int** arr, int* data, int rows, int cols) {\n    for (int i = 0; i < rows * cols; ++i) {\n        arr[((i + 1) / rows) % rows][(i + 1) % cols] = data[i];\n    }\n}\n\nint main() {\n    int rows = 3, cols = 3, sum = 0;\n    int data[] = {5, 2, 7, 4, 1, 8, 3, 6, 9};\n    int** arr;\n\n    arr = (int**) malloc(sizeof(int*) * rows);\n\n    for (int i = 0; i < cols; i++) {\n        arr[i] = (int*) malloc(sizeof(int) * cols);\n    }\n\n    set(arr, data, rows, cols);\n\n    for (int i = 0; i < rows * cols; i++) {\n        sum += arr[i / rows][i % cols] * (i % 2 == 0 ? 1 : -1);\n    }\n\n    for (int i = 0; i < rows; i++) {\n        free(arr[i]);\n    }\n\n    free(arr);\n\n    printf(\"%d\", sum);\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 12,
+    "subject": "서버 프로그램 구현",
+    "category": "소프트웨어설계",
+    "subcategory": "결합도",
+    "primary": "결합도",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "difficulty": "",
+    "concepts": [
+      "결합도",
+      "배열"
+    ],
+    "intent": [
+      "결합도 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 결합도와 관련된 내용이다. 보기에 알맞은 답을 골라 작성하시오.\n\n(1) 다른 모듈 내부에 있는 변수나 기능을 다른 모듈에서 사용하는 경우의 결합도\n\n(2) 모듈 간의 인터페이스로 배열이나 오브젝트, 자료구조 등이 전달되는 경우의 결합도\n\n(3) 파라미터가 아닌 모듈 밖에 선언되어 있는 전역 변수를 참조하고 전역 변수를 갱신하는 식으로 상호작용하는 경우의 결합도\n\n[보기]\n\nㄱ. 자료 결합도  \nㄴ. 스탬프 결합도  \nㄷ. 제어 결합도  \nㄹ. 공통 결합도  \nㅁ. 내용 결합도  \nㅂ. 외부 결합도\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 13,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "상속",
+    "primary": "상속",
+    "secondary": [
+      "오버라이딩",
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "상속",
+      "오버라이딩",
+      "static",
+      "클래스"
+    ],
+    "intent": [
+      "객체지향 문법 이해",
+      "상속 이해"
+    ],
+    "mistakes": [
+      "오버라이딩 대상 메서드",
+      "동적 바인딩",
+      "상속 호출 순서"
+    ],
+    "language": "Java",
+    "body": "다음은 Java 코드에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        new Child();\n        System.out.println(Parent.total);\n    }\n}\n\nclass Parent {\n    static int total = 0;\n    int v = 1;\n\n    public Parent() {\n        total += (++v);\n        show();\n    }\n\n    public void show() {\n        total += total;\n    }\n}\n\nclass Child extends Parent {\n    int v = 10;\n\n    public Child() {\n        v += 2;\n        total += v++;\n        show();\n    }\n\n    @Override\n    public void show() {\n        total += total * 2;\n    }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 14,
+    "subject": "서버 프로그램 구현",
+    "category": "디자인패턴",
+    "subcategory": "Adapter",
+    "primary": "Adapter",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "difficulty": "",
+    "concepts": [
+      "Adapter",
+      "디자인 패턴"
+    ],
+    "intent": [
+      "Adapter 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "아래는 디자인 패턴에 대한 설명이다. 알맞은 답을 보기에서 골라 작성하시오.\n\n서로 다른 인터페이스를 가진 클래스들을 연결해 사용 가능하게 한다.\n\n기존 클래스(Adaptee)를 원하는 인터페이스(Target)에 맞게 변환하는 어댑터(Adapter)를 만든다.\n\n기존 클래스를 감싸서(wrapper) 인터페이스를 변환해주는 역할을 한다.\n\n> 원문은 디자인 패턴 구조 이미지가 함께 제시됨.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 15,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "증감연산",
+    "primary": "증감연산",
+    "secondary": [
+      "배열",
+      "반복문"
+    ],
+    "question_type": "빈칸",
+    "difficulty": "",
+    "concepts": [
+      "증감연산",
+      "배열",
+      "반복문",
+      "커버리지"
+    ],
+    "intent": [
+      "증감연산 핵심 개념 이해"
+    ],
+    "mistakes": [
+      "break 위치",
+      "continue 위치",
+      "증감식 실행 순서"
+    ],
+    "language": "C",
+    "body": "문장(Statement) 커버리지 테스트를 수행하려고 한다. 코드를 아래의 제어 흐름도 빈칸에 연결되도록 작성하고 문장 커버리지 순서대로 작성하시오.\n\n```c\nint Main(int b[], int m, int x) {\n    int a = 0;\n\n    while (a < m || b[a] < x) {\n        if (b[a] < 0)\n            b[a] = -b[a];\n\n        a++;\n    }\n\n    return 1;\n}\n```\n\n[흐름도]\n\n> 원문은 제어 흐름도 이미지로 제시됨.\n\n1. (    ①    )  \n2. (    ②    )  \n3. (    ③    )  \n4. (    ④    )  \n5. (    ⑤    )  \n6. (    ⑥    )\n\n문장 커버리지 순서\n\n```text\n1 → 2 → (          ⑦          )\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 16,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "static",
+    "primary": "static",
+    "secondary": [
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "static",
+      "클래스"
+    ],
+    "intent": [
+      "객체지향 문법 이해",
+      "static 이해"
+    ],
+    "mistakes": [
+      "오버라이딩 대상 메서드",
+      "동적 바인딩",
+      "상속 호출 순서"
+    ],
+    "language": "Java",
+    "body": "다음은 Java 코드에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        int[] data = {3, 5, 8, 12, 17};\n        System.out.println(func(data, 0, data.length - 1));\n    }\n\n    static int func(int[] a, int st, int end) {\n        if (st >= end) return 0;\n\n        int mid = (st + end) / 2;\n\n        return a[mid] + Math.max(func(a, st, mid), func(a, mid + 1, end));\n    }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 17,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "프로세스",
+      "반복문"
+    ],
+    "intent": [
+      "프로세스 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "Python",
+    "body": "다음은 파이썬에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```python\nclass Node:\n    def __init__(self, value):\n        self.value = value\n        self.children = []\n\ndef tree(li):\n    nodes = [Node(i) for i in li]\n\n    for i in range(1, len(li)):\n        nodes[(i - 1) // 2].children.append(nodes[i])\n\n    return nodes[0]\n\ndef calc(node, level=0):\n    if node is None:\n        return 0\n\n    return (node.value if level % 2 == 1 else 0) + sum(calc(n, level + 1) for n in node.children)\n\nli = [3, 5, 8, 12, 15, 18, 21]\nroot = tree(li)\n\nprint(calc(root))\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 18,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "반복문",
+      "구조체"
+    ],
+    "question_type": "SQL 결과",
+    "difficulty": "",
+    "concepts": [
+      "포인터",
+      "증감연산",
+      "반복문",
+      "구조체"
+    ],
+    "intent": [
+      "포인터 증가 이해",
+      "배열 주소 계산"
+    ],
+    "mistakes": [
+      "*p++",
+      "(*p)++",
+      "주소 증가와 값 증가 혼동"
+    ],
+    "language": "C",
+    "body": "다음은 C언어에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n#include <stdlib.h>\n\ntypedef struct Data {\n    int value;\n    struct Data *next;\n} Data;\n\nData* insert(Data* head, int value) {\n    Data* new_node = (Data*)malloc(sizeof(Data));\n    new_node->value = value;\n    new_node->next = head;\n    return new_node;\n}\n\nData* reconnect(Data* head, int value) {\n    if (head == NULL || head->value == value) return head;\n\n    Data *prev = NULL, *curr = head;\n\n    while (curr != NULL && curr->value != value) {\n        prev = curr;\n        curr = curr->next;\n    }\n\n    if (curr != NULL && prev != NULL) {\n        prev->next = curr->next;\n        curr->next = head;\n        head = curr;\n    }\n\n    return head;\n}\n\nint main() {\n    Data *head = NULL, *curr;\n\n    for (int i = 1; i <= 5; i++)\n        head = insert(head, i);\n\n    head = reconnect(head, 3);\n\n    for (curr = head; curr != NULL; curr = curr->next)\n        printf(\"%d\", curr->value);\n\n    return 0;\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 19,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "반복문",
+      "문자열",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "포인터",
+      "증감연산",
+      "반복문",
+      "문자열",
+      "구조체"
+    ],
+    "intent": [
+      "포인터 증가 이해",
+      "배열 주소 계산"
+    ],
+    "mistakes": [
+      "*p++",
+      "(*p)++",
+      "주소 증가와 값 증가 혼동"
+    ],
+    "language": "C",
+    "body": "다음은 C언어에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n\ntypedef struct student {\n    char* name;\n    int score[3];\n} Student;\n\nint dec(int enc) {\n    return enc & 0xA5;\n}\n\nint sum(Student* p) {\n    return dec(p->score[0]) + dec(p->score[1]) + dec(p->score[2]);\n}\n\nint main() {\n    Student s[2] = { \"Kim\", {0xA0, 0xA5, 0xDB}, \"Lee\", {0xA0, 0xED, 0x81} };\n    Student* p = s;\n    int result = 0;\n\n    for (int i = 0; i < 2; i++) {\n        result += sum(&s[i]);\n    }\n\n    printf(\"%d\", result);\n\n    return 0;\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 20,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "static",
+    "primary": "static",
+    "secondary": [
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "static",
+      "클래스"
+    ],
+    "intent": [
+      "객체지향 문법 이해",
+      "static 이해"
+    ],
+    "mistakes": [
+      "오버라이딩 대상 메서드",
+      "동적 바인딩",
+      "상속 호출 순서"
+    ],
+    "language": "Java",
+    "body": "다음은 Java 코드에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(calc(\"5\"));\n    }\n\n    static int calc(int value) {\n        if (value <= 1) return value;\n\n        return calc(value - 1) + calc(value - 2);\n    }\n\n    static int calc(String str) {\n        int value = Integer.valueOf(str);\n\n        if (value <= 1) return value;\n\n        return calc(value - 1) + calc(value - 3);\n    }\n}\n```",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  }
+]

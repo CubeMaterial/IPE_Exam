@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 from pathlib import Path
+import re
+from urllib.parse import unquote
 
 from src.loader.code_loader import CodeLoader
 from src.loader.image_loader import ImageLoader
@@ -31,9 +33,12 @@ class DocumentDispatcher:
 
         if extension == ".pdf":
             return [self.pdf_loader.load(path)]
-        if extension == ".txt":
+        if extension in {".txt", ".md"}:
             text = self.txt_loader.load(path)
-            return [Document(source_path=path, text=text, document_type="txt")]
+            document_type = "markdown" if extension == ".md" else "txt"
+            if extension == ".md":
+                text = self._append_markdown_image_ocr(path, text)
+            return [Document(source_path=path, text=text, document_type=document_type)]
         if extension in {".png", ".jpg", ".jpeg"}:
             return [self.image_loader.load(path)]
         if extension == ".zip":
@@ -52,3 +57,56 @@ class DocumentDispatcher:
             ]
 
         raise UnsupportedFileError(f"지원하지 않는 파일 형식입니다: {path}")
+
+    def _append_markdown_image_ocr(self, path: Path, text: str) -> str:
+        """Markdown 안의 로컬 이미지 링크를 OCR해 본문 뒤에 붙입니다."""
+        image_paths = self._markdown_image_paths(path, text)
+        if not image_paths:
+            return text
+
+        parts = [text]
+        missing = []
+        for image_path in image_paths:
+            if not image_path.exists():
+                missing.append(str(image_path))
+                continue
+            try:
+                image_document = self.image_loader.load(image_path)
+            except Exception as exc:
+                parts.append(f"\n\n[이미지 OCR 실패: {image_path.name} / {exc}]")
+                continue
+            parts.append(f"\n\n[이미지 OCR: {image_path.name}]\n{image_document.text}")
+        if missing:
+            parts.append("\n\n[Markdown 참조 이미지 없음]\n" + "\n".join(f"- {item}" for item in missing))
+        return "\n".join(parts)
+
+    def _markdown_image_paths(self, path: Path, text: str) -> list[Path]:
+        """Markdown 이미지 링크에서 로컬 파일 경로를 추출합니다."""
+        candidates = []
+        patterns = [
+            r"!\[.*?\]\(([^)]+)\)",
+            r"!\[[^\]]*\]\(([^)]+)\)",
+            r"!\[\[[^\]]*\]\(([^)]+)\)",
+            r"!\[\[([^]|]+)(?:\|[^\]]+)?\]\]",
+            r"<img[^>]+src=[\"']([^\"']+)[\"']",
+        ]
+        for pattern in patterns:
+            candidates.extend(re.findall(pattern, text, flags=re.IGNORECASE))
+
+        resolved: list[Path] = []
+        seen: set[Path] = set()
+        for candidate in candidates:
+            raw = unquote(candidate.strip()).split("#", 1)[0].split("?", 1)[0]
+            if raw.startswith(("http://", "https://", "data:")):
+                continue
+            image_path = Path(raw)
+            if not image_path.is_absolute():
+                image_path = path.parent / image_path
+            image_path = image_path.expanduser()
+            if image_path.suffix.lower() not in {".png", ".jpg", ".jpeg"}:
+                continue
+            normalized = image_path
+            if normalized not in seen:
+                seen.add(normalized)
+                resolved.append(normalized)
+        return resolved

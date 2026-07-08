@@ -1,0 +1,212 @@
+{
+  "exam_keys": [
+    "2024-1",
+    "2024-2",
+    "2024-3",
+    "2025-1",
+    "2025-2",
+    "2025-3",
+    "2026-1"
+  ],
+  "gaps": {
+    "static": {
+      "gap": 0,
+      "last_seen": "2026-1",
+      "total_count": 6
+    },
+    "프로세스": {
+      "gap": 0,
+      "last_seen": "2026-1",
+      "total_count": 7
+    },
+    "응집도": {
+      "gap": 0,
+      "last_seen": "2026-1",
+      "total_count": 2
+    },
+    "정규화": {
+      "gap": 6,
+      "last_seen": "2024-1",
+      "total_count": 1
+    },
+    "라우팅": {
+      "gap": 6,
+      "last_seen": "2024-1",
+      "total_count": 1
+    },
+    "무결성": {
+      "gap": 3,
+      "last_seen": "2025-1",
+      "total_count": 4
+    },
+    "상속": {
+      "gap": 0,
+      "last_seen": "2026-1",
+      "total_count": 6
+    },
+    "증감연산": {
+      "gap": 1,
+      "last_seen": "2025-3",
+      "total_count": 6
+    },
+    "커버리지": {
+      "gap": 4,
+      "last_seen": "2024-3",
+      "total_count": 2
+    },
+    "악성코드": {
+      "gap": 0,
+      "last_seen": "2026-1",
+      "total_count": 3
+    },
+    "집계함수": {
+      "gap": 0,
+      "last_seen": "2026-1",
+      "total_count": 3
+    },
+    "Factory": {
+      "gap": 6,
+      "last_seen": "2024-1",
+      "total_count": 1
+    },
+    "DML": {
+      "gap": 5,
+      "last_seen": "2024-2",
+      "total_count": 1
+    },
+    "Cardinality": {
+      "gap": 1,
+      "last_seen": "2025-3",
+      "total_count": 4
+    },
+    "인증": {
+      "gap": 1,
+      "last_seen": "2025-3",
+      "total_count": 5
+    },
+    "Range": {
+      "gap": 5,
+      "last_seen": "2024-2",
+      "total_count": 1
+    },
+    "TCP/IP": {
+      "gap": 5,
+      "last_seen": "2024-2",
+      "total_count": 1
+    },
+    "포인터": {
+      "gap": 0,
+      "last_seen": "2026-1",
+      "total_count": 6
+    },
+    "결합도": {
+      "gap": 3,
+      "last_seen": "2025-1",
+      "total_count": 3
+    },
+    "JOIN": {
+      "gap": 0,
+      "last_seen": "2026-1",
+      "total_count": 3
+    },
+    "ICMP": {
+      "gap": 1,
+      "last_seen": "2025-3",
+      "total_count": 2
+    },
+    "예외처리": {
+      "gap": 3,
+      "last_seen": "2025-1",
+      "total_count": 2
+    },
+    "컬렉션": {
+      "gap": 4,
+      "last_seen": "2024-3",
+      "total_count": 1
+    },
+    "ARP": {
+      "gap": 3,
+      "last_seen": "2025-1",
+      "total_count": 1
+    },
+    "SELECT": {
+      "gap": 3,
+      "last_seen": "2025-1",
+      "total_count": 1
+    },
+    "Adapter": {
+      "gap": 3,
+      "last_seen": "2025-1",
+      "total_count": 1
+    },
+    "인터페이스": {
+      "gap": 1,
+      "last_seen": "2025-3",
+      "total_count": 2
+    },
+    "TCP": {
+      "gap": 2,
+      "last_seen": "2025-2",
+      "total_count": 1
+    },
+    "INDEX": {
+      "gap": 2,
+      "last_seen": "2025-2",
+      "total_count": 1
+    },
+    "딕셔너리": {
+      "gap": 1,
+      "last_seen": "2025-3",
+      "total_count": 1
+    },
+    "제약조건": {
+      "gap": 0,
+      "last_seen": "2026-1",
+      "total_count": 1
+    },
+    "슬라이싱": {
+      "gap": 0,
+      "last_seen": "2026-1",
+      "total_count": 1
+    },
+    "통합테스트": {
+      "gap": 0,
+      "last_seen": "2026-1",
+      "total_count": 1
+    }
+  },
+  "buckets": {
+    "1회": [
+      "Cardinality",
+      "ICMP",
+      "딕셔너리",
+      "인증",
+      "인터페이스",
+      "증감연산"
+    ],
+    "2회": [
+      "INDEX",
+      "TCP"
+    ],
+    "3회": [
+      "ARP",
+      "Adapter",
+      "SELECT",
+      "결합도",
+      "무결성",
+      "예외처리"
+    ],
+    "4회": [
+      "커버리지",
+      "컬렉션"
+    ],
+    "5회 이상": [
+      "DML",
+      "Factory",
+      "Range",
+      "TCP/IP",
+      "라우팅",
+      "정규화"
+    ]
+  }
+}

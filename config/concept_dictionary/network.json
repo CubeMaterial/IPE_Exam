@@ -1,0 +1,17 @@
+{
+  "OSI": ["osi", "OSI 7계층"],
+  "TCP": ["tcp"],
+  "UDP": ["udp"],
+  "TCP/IP": ["tcp/ip"],
+  "IPv4": ["ipv4"],
+  "IPv6": ["ipv6"],
+  "HTTP": ["http"],
+  "HTTPS": ["https"],
+  "DNS": ["dns"],
+  "DHCP": ["dhcp"],
+  "ARP": ["arp"],
+  "ICMP": ["icmp"],
+  "NAT": ["nat"],
+  "라우팅": ["routing", "라우팅"],
+  "3-way Handshake": ["3-way", "three-way", "handshake"]
+}

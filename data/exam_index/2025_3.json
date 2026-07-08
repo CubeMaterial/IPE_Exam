@@ -1,0 +1,609 @@
+[
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 1,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "UML",
+    "difficulty": "",
+    "concepts": [],
+    "intent": [],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 UML (    ) 다이어그램이다. 아래 내용을 보고 다이어그램의 관계를 확인하여 명칭을 작성하시오.\n\n(   ) 다이어그램이란\n\n시스템을 폴더 모양의 (   ) 단위로 구분하여 구성 요소 간의 관계를 표현하는 UML 구조 다이어그램이다.\n\n하나의 (   ) 안에는 여러 클래스나 하위 (   ) 가 포함될 수 있으며,\n\n(   ) 간에는 «import», «access», «merge» 등의 관계를 통해 의존성(Dependency)을 표현한다.\n\n이 다이어그램은 코드의 실제 구조(폴더 구조)와 비슷하게 표현되기 때문에 소프트웨어의 모듈화, 재사용성, 의존 관계를 시각적으로 설계할 때 자주 사용된다.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 2,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "difficulty": "",
+    "concepts": [
+      "프로세스",
+      "커버리지"
+    ],
+    "intent": [
+      "프로세스 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 소프트웨어 테스트 기법 중 하나에 대한 설명이다.\n\n소프트웨어 테스트의 구조 기반(화이트박스) 기법 중 하나로, 결정 포인트(Decision Point) 내에 존재하는 모든 개별 조건식(Atomic Condition)을 대상으로 하는 커버리지 기준이 있다.\n\n하나의 결정문(예: `if (A && B)` 또는 `if (X > 10 || Y == 0)`) 안에는 여러 개의 조건식이 포함될 수 있는데 이 커버리지는 각각의 조건식이 True와 False 두 가지 경우를 모두 한 번 이상 만족하도록 테스트 케이스를 설계해야 한다.\n\n즉, 모든 개별 조건이 두 방향의 결과를 거쳐야 “커버되었다”고 판단하지만 그렇다고 해서 전체 결정식(Decision Expression)의 결과(True/False)가 모두 수행된다고 보장하지는 않는다.\n\n### 보기\n\n- ㄱ. 경로(Path)\n- ㄴ. 결정(Decision)\n- ㄷ. 조건/결정(Condition/Decision)\n- ㄹ. 변경 조건/결정(Modified Condition/Decision, MC/DC)\n- ㅁ. 다중 조건(Multiple Condition)\n- ㅂ. 문장(Statement)\n- ㅅ. 분기(Branch)\n- ㅇ. 조건(Condition)\n- ㅈ. 루프(Loop)\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 3,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "프로세스"
+    ],
+    "intent": [
+      "프로세스 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 유닉스(Unix) 또는 리눅스(Linux) 환경에서 자주 사용하는 기본 명령어에 대한 설명이다.\n\n각 설명에 맞는 명령어를 보기에서 골라 연결하시오.\n\n1. 현재 작업 중인 디렉터리의 경로를 출력한다. ( )\n2. 디렉터리의 내용(파일 및 하위 디렉터리)을 목록으로 표시한다. ( )\n3. 다른 디렉터리로 이동한다. ( )\n4. 파일을 복사한다. ( )\n\n### 보기\n\n`ls`, `cd`, `cp`, `pwd`\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 4,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "네트워크",
+    "subcategory": "ICMP",
+    "primary": "ICMP",
+    "secondary": [],
+    "question_type": "빈칸",
+    "difficulty": "",
+    "concepts": [
+      "ICMP"
+    ],
+    "intent": [
+      "ICMP 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 오류검출 방식을 설명하는 내용이다. 설명의 빈칸 (①)~(⑤)에 들어갈 알맞은 용어를 <보기>에서 고르시오.\n\n(①) 코드는 전송 데이터에 여러 개의 검사 비트를 추가하여 오류를 검출하고 수정까지 가능한 방법이다.\n\n이 코드는 재전송 없이 수신 측에서 자체 수정하는 (②) 방식에 속한다.\n\n이에 반해 오류 발생 시 송신 측에 재전송을 요구하는 방식은 (③)이라 하며, 여기에 포함되는 대표적 검출 기법으로 (④) 검사와 (⑤) 검사가 있다.\n\n(④) 검사는 데이터 블록 끝에 1비트 검사 비트를 추가하여 오류를 검출한다.\n\n(⑤) 검사는 송신측과 수신측이 동일한 특정 다항식을 사용하여 오류를 검출한다.\n\n### 보기\n\n㉠ CRC ㉡ FEC ㉢ BEC ㉣ NAK ㉤ Parity ㉥ MD5 ㉦ BCD ㉧ Hamming\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 5,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "배열",
+      "문자열",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "포인터",
+      "증감연산",
+      "배열",
+      "문자열",
+      "구조체"
+    ],
+    "intent": [
+      "포인터 증가 이해",
+      "배열 주소 계산"
+    ],
+    "mistakes": [
+      "*p++",
+      "(*p)++",
+      "주소 증가와 값 증가 혼동"
+    ],
+    "language": "C",
+    "body": "다음은 C 코드에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n\nstruct Test {\n    int i;\n    const char *g;\n};\n\nint main() {\n    struct Test test[] = {{1, \"AB\"}, {2, \"DC\"}, {3, \"EB\"}};\n    struct Test *p = &test[1];\n\n    printf(\"%s\", p->g + (p->i - 1));\n\n    return 0;\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 6,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "증감연산",
+    "primary": "증감연산",
+    "secondary": [
+      "배열",
+      "반복문",
+      "문자열"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "증감연산",
+      "배열",
+      "반복문",
+      "문자열"
+    ],
+    "intent": [
+      "증감연산 핵심 개념 이해"
+    ],
+    "mistakes": [
+      "break 위치",
+      "continue 위치",
+      "증감식 실행 순서"
+    ],
+    "language": "C",
+    "body": "다음은 C 코드에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n\nint main(void) {\n    char str[] = \"REPUBLICOFKOREA\";\n    int a = 0;\n\n    while (str[a] != '\\0')\n        ++a;\n\n    putchar(str[a - 2]);\n\n    return 0;\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 7,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "반복문",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "포인터",
+      "증감연산",
+      "반복문",
+      "구조체"
+    ],
+    "intent": [
+      "포인터 증가 이해",
+      "배열 주소 계산"
+    ],
+    "mistakes": [
+      "*p++",
+      "(*p)++",
+      "주소 증가와 값 증가 혼동"
+    ],
+    "language": "C",
+    "body": "다음은 C 코드에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n\nstruct Node {\n    struct Node* next;\n    unsigned int x;\n};\n\nint main() {\n    struct Node t1 = { 0, 5u };\n    struct Node t2 = { 0, 7u };\n    struct Node t3 = { 0, 11u };\n\n    t3.next = &t2;\n    t2.next = &t1;\n\n    struct Node* curr = &t3;\n    int sum = 0;\n\n    while (curr) {\n        sum = sum * 3 + curr->x;\n        curr = curr->next;\n    }\n\n    sum = (sum ^ 42u) + 100u;\n    printf(\"%u\\n\", sum);\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 8,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "인터페이스",
+    "primary": "인터페이스",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "인터페이스",
+      "static",
+      "클래스"
+    ],
+    "intent": [
+      "객체지향 문법 이해",
+      "인터페이스 이해"
+    ],
+    "mistakes": [
+      "오버라이딩 대상 메서드",
+      "동적 바인딩",
+      "상속 호출 순서"
+    ],
+    "language": "Java",
+    "body": "아래 코드는 `Machine`이라는 인터페이스를 정의하고 `WashingMachine` 클래스에서 해당 인터페이스를 사용하고자 한다. 빈칸에 들어갈 올바른 키워드를 작성하시오.\n\n```java\ninterface Machine {\n    void run();\n}\n\nclass WashingMachine (____빈칸____) Machine {\n    private String name;\n\n    public WashingMachine() {\n        this.name = \"LG Washer\";\n    }\n\n    public void run() {\n        System.out.println(\"Washing machine running\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        WashingMachine wm = new WashingMachine();\n        wm.run();\n    }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 9,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Python",
+    "subcategory": "딕셔너리",
+    "primary": "딕셔너리",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "딕셔너리",
+      "반복문",
+      "리스트"
+    ],
+    "intent": [
+      "Python 자료구조 이해",
+      "딕셔너리 이해"
+    ],
+    "mistakes": [],
+    "language": "Python",
+    "body": "다음은 파이썬에 대한 문제이다. 아래 코드를 확인하여 출력값에 알맞은 값을 작성하시오.\n\n```python\ndata = [\n    [3, 5, 2, 4, 1],\n    [4, 5, 1],\n    [4, 4, 1, 5, 4],\n    [4, 5]\n]\n\nresult = {}\n\nfor index, lis in enumerate(data):\n    list_sum = sum(lis)\n    list_len = len(lis)\n    result[index] = (list_sum, list_len)\n\nprint(result)\n```\n\n### 출력값\n\n```text\n{0: (①, ②), 1: (③, ④), 2: (⑤, ⑥), 3: (⑦, ⑧)}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 10,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "JOIN",
+    "primary": "JOIN",
+    "secondary": [
+      "집계함수",
+      "SELECT"
+    ],
+    "question_type": "SQL 결과",
+    "difficulty": "",
+    "concepts": [
+      "JOIN",
+      "집계함수",
+      "SELECT"
+    ],
+    "intent": [
+      "JOIN 이해",
+      "SQL 실행 결과 해석"
+    ],
+    "mistakes": [
+      "JOIN 조건",
+      "GROUP BY 기준",
+      "NULL 처리",
+      "집계 함수 적용 순서"
+    ],
+    "language": "SQL",
+    "body": "다음은 테이블에서 조건값을 실행한 화면이다. 이에 대한 알맞은 결과값을 작성하시오.\n\n### T1\n\n| CODE | NAME |\n|---:|---|\n| 3258 | smith |\n| 4324 | allen |\n| 5432 | scott |\n\n### T2\n\n| NO | RULE |\n|---:|---|\n| 12 | S% |\n| 32 | %t% |\n\n### 실행값\n\n```sql\nSELECT COUNT(*) CNT\nFROM T1 A\nCROSS JOIN T2 B\nWHERE A.NAME LIKE B.RULE;\n```\n\n### 결과\n\n| 결과 |\n|---|\n|  |\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 11,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "보안 공격기법",
+    "difficulty": "",
+    "concepts": [
+      "인증",
+      "보안"
+    ],
+    "intent": [
+      "공격 기법 특징 구분"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음 설명에 해당하는 인증 기술을 쓰시오.\n\n한 번 사용하면 즉시 폐기되어 재사용이 불가능하다.\n\n서버와 토큰(또는 앱)은 시간 동기화나 카운터 기반 방식으로 매번 새로운 값을 생성하고, 내부 검증은 해시 함수를 이용한 방식으로 서버에 평문을 저장하지 않고도 유효성을 확인할 수 있다.\n\n이 특성 때문에 은행 인증 등 고보안 영역에서 널리 사용되며 재전송 공격 방지와 사용자 편의성을 동시에 만족한다.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 12,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "상속",
+    "primary": "상속",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "상속",
+      "static",
+      "클래스"
+    ],
+    "intent": [
+      "객체지향 문법 이해",
+      "상속 이해"
+    ],
+    "mistakes": [
+      "오버라이딩 대상 메서드",
+      "동적 바인딩",
+      "상속 호출 순서"
+    ],
+    "language": "Java",
+    "body": "다음은 Java의 상속과 생성자 호출에 관한 코드이다. 밑줄에 알맞은 단어를 작성하시오.\n\n```java\nclass Rectangle {\n    int width, height;\n\n    Rectangle(int width, int height) {\n        this.width = width;\n        this.height = height;\n    }\n}\n\nclass Square extends Rectangle {\n    Square(int a) {\n        ____(a, a);\n    }\n\n    int getSquareArea() {\n        return width * height;\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Square sq = new Square(10);\n        System.out.println(sq.getSquareArea());\n    }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 13,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "difficulty": "",
+    "concepts": [
+      "인증"
+    ],
+    "intent": [
+      "인증 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 인증 및 자원 접근 방식에 대한 설명이다. 알맞은 단어를 작성하시오.\n\n사용자가 새로운 사이트에 가입하지 않고 평소에 이용하던 서비스의 계정으로 로그인할 수 있게 해주는 기술이다.\n\n사용자의 비밀번호는 절대 전달되지 않으며 사용자가 승인한 범위에 대해서만 접근 권한이 위임된다.\n\n이 방식은 직접 인증(Authentication)을 수행하지 않고 \"인가(Authorization)\" 절차를 통해 접근 권한을 제3자에게 부여한다.\n\n인증 완료 후, 서비스 제공자는 Access Token을 발급하며 애플리케이션은 이 토큰을 이용해 API를 호출하여 필요한 정보에 접근한다.\n\n대표적인 예는 소셜 로그인이며 SSO(Single Sign-On)와 달리 동일 시스템 내 인증이 아니라 서로 다른 서비스 간의 권한 위임에 초점이 맞춰져 있다.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 14,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "SQL 결과",
+    "difficulty": "",
+    "concepts": [],
+    "intent": [],
+    "mistakes": [],
+    "language": "SQL",
+    "body": "다음 아래의 테이블을 확인하여 `R % S`의 결과를 테이블 형태로 기재하시오.\n\n### R 테이블\n\n| A | B |\n|---|---|\n| a1 | b1 |\n| a2 | b2 |\n| a1 | b3 |\n\n### S 테이블\n\n| B |\n|---|\n| b1 |\n| b3 |\n\n### 결과\n\n| A |\n|---|\n|  |\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 15,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "포인터",
+      "증감연산"
+    ],
+    "intent": [
+      "포인터 증가 이해",
+      "배열 주소 계산"
+    ],
+    "mistakes": [
+      "*p++",
+      "(*p)++",
+      "주소 증가와 값 증가 혼동"
+    ],
+    "language": "C",
+    "body": "다음은 C 코드에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n\nint main() {\n    int x = 7, y = 4, z;\n\n    z = y % 3 < 3 ? 2 : 1;\n    z = z & z >> 1;\n    z = x > 5 && z <= 3 ? z * x : z / x;\n\n    printf(\"%d\", z);\n\n    return 0;\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 16,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "Cardinality",
+    "primary": "Cardinality",
+    "secondary": [
+      "Degree"
+    ],
+    "question_type": "SQL 결과",
+    "difficulty": "",
+    "concepts": [
+      "Cardinality",
+      "Degree"
+    ],
+    "intent": [
+      "Cardinality 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "SQL",
+    "body": "관계형 데이터베이스 개념에 대한 설명이다. 빈칸에 들어갈 용어를 <보기>에서 골라 순서대로 쓰시오.\n\nㄱ. 테이블에서 한 행(Row)을 의미하며, 하나의 레코드를 구성하는 요소\n\nㄴ. 실제 데이터가 저장되어 있는 테이블의 내용 전체를 의미하며, 데이터의 상태를 나타낸다.\n\nㄷ. 테이블에 저장된 행(Row)의 총 개수를 의미한다.\n\n### 보기\n\n스키마(Structure) 속성(Attribute) 튜플(Tuple)  \n차수(Degree) 인스턴스(Instance) 카디널리티(Cardinality)\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 17,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "static",
+    "primary": "static",
+    "secondary": [
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "static",
+      "클래스"
+    ],
+    "intent": [
+      "객체지향 문법 이해",
+      "static 이해"
+    ],
+    "mistakes": [
+      "오버라이딩 대상 메서드",
+      "동적 바인딩",
+      "상속 호출 순서"
+    ],
+    "language": "Java",
+    "body": "다음은 Java에 대한 코드이다. 알맞은 출력값을 작성하시오.\n\n```java\nenum Tri {\n    A(\"A\"), B(\"AB\"), C(\"ABC\");\n\n    private String code;\n\n    Tri(String code) {\n        this.code = code;\n    }\n\n    public String code() {\n        return code;\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Tri t = Tri.values()[Tri.A.name().length()];\n        System.out.print(t.code());\n    }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 18,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "primary": "인증",
+    "secondary": [
+      "접근통제"
+    ],
+    "question_type": "개념 서술",
+    "difficulty": "",
+    "concepts": [
+      "인증",
+      "접근통제",
+      "보안"
+    ],
+    "intent": [
+      "인증 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 정보보안에서 사용하는 접근통제(Access Control) 방식에 대한 설명이다.",
+    "answer": "",
+    "explanation": "에 해당하는 접근통제 모델을 <보기>에서 골라 빈칸에 작성하시오.\n\nㄱ. 중앙에서 보안 정책을 일괄적으로 설정하며, 주체(사용자)가 임의로 수정하거나 변경할 수 없다. 주로 군사 기밀, 국가 보안과 같은 높은 보안 수준이 요구되는 환경에서 사용된다. 보안 등급(Top Secret / Secret / Confidential 등)에 따라 접근 여부가 결정된다.\n\nㄴ. 조직 내에서 부여된 직무나 역할(Role)에 따라 접근 권한을 부여하는 방식이다. 개별 사용자에게 직접 권한을 설정하지 않고, 역할에 권한을 묶어 부여하기 때문에 관리가 용이하며 직무 변경 시 역할만 변경하면 된다.\n\nㄷ. 자원의 소유자(Owner)가 해당 자원에 대한 접근 권한을 자유롭게 부여하거나 회수할 수 있는 방식이다. 파일이나 폴더의 소유자가 읽기/쓰기/실행 권한을 설정하는 것이 대표적인 예로 사용자의 임의 설정이 가능해 보안성이 상대적으로 낮다.\n\n### 보기\n\n`DAC` `MAC` `RBAC`\n\n---",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 19,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "빈칸",
+    "difficulty": "",
+    "concepts": [],
+    "intent": [],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 테스트케이스의 구성요소에 대한 설명이다. 괄호 ( ) 안에 들어갈 알맞은 보기를 고르시오.\n\n| 식별자 ID | 테스트 항목 | ( ) | ( ) | ( ) |\n|---|---|---|---|---|\n| DS-45S-21 | 로그인 기능 | 사용자 초기 화면 | 사용자 아이디(Test11)<br>비밀번호(test@#@!#) | 로그인 성공 |\n| DS-45S-25 | 로그인 기능 | 사용자 초기 화면 | 사용자 아이디(Test11)<br>비밀번호(\"\") | 로그인 실패 |\n\n### 보기\n\n- ㄱ. 테스트 조건\n- ㄴ. 테스트 환경\n- ㄷ. 테스트 유형\n- ㄹ. 테스트 데이터\n- ㅁ. 예상 결과\n- ㅂ. 수행 단계\n- ㅅ. 성공/실패 기준\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 20,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "집계함수",
+    "primary": "집계함수",
+    "secondary": [
+      "SELECT"
+    ],
+    "question_type": "SQL 결과",
+    "difficulty": "",
+    "concepts": [
+      "집계함수",
+      "SELECT"
+    ],
+    "intent": [
+      "집계함수 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "SQL",
+    "body": "다음은 SQL에 관한 문제이다. 아래 A 테이블을 참고하여 쿼리의 결과를 작성하시오.\n\n### A 테이블\n\n| col1 | col2 |\n|---:|---:|\n| 2 | null |\n| 3 | 6 |\n| 2 | 3 |\n| null | 3 |\n| 4 | 5 |\n\n### SQL\n\n```sql\nSELECT count(col2)\nFROM A\nWHERE col1 IN (2, 3) OR col2 IN (3, 5);\n```",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  }
+]

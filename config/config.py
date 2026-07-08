@@ -51,6 +51,7 @@ class AppConfig:
     past_exam_dir: Path = BASE_DIR / "data" / "past_exams"
     past_exam_index_dir: Path = BASE_DIR / "data" / "past_exams" / "index"
     past_exam_index_file: Path = BASE_DIR / "data" / "past_exams" / "index" / "past_exam_index.json"
+    exam_index_dir: Path = BASE_DIR / "data" / "exam_index"
     chroma_dir: Path = _get_path("CHROMA_DB_PATH", BASE_DIR / "database" / "chroma")
     collection_name: str = "studyrag_documents"
     chunk_size: int = _get_int("CHUNK_SIZE", 900)
@@ -62,7 +63,7 @@ class AppConfig:
     embedding_model: str = os.getenv("OLLAMA_EMBEDDING_MODEL", "nomic-embed-text")
     ocr_enabled: bool = _get_bool("OCR_ENABLED", True)
     ocr_languages: tuple[str, ...] = ("ko", "en")
-    supported_extensions: tuple[str, ...] = (".pdf", ".txt", ".png", ".jpg", ".jpeg", ".zip") + CODE_EXTENSIONS
+    supported_extensions: tuple[str, ...] = (".pdf", ".txt", ".md", ".png", ".jpg", ".jpeg", ".zip") + CODE_EXTENSIONS
 
 
 CONFIG = AppConfig()
@@ -77,6 +78,7 @@ def ensure_directories(config: AppConfig = CONFIG) -> None:
         config.temp_data_dir,
         config.past_exam_dir,
         config.past_exam_index_dir,
+        config.exam_index_dir,
         config.chroma_dir,
     ):
         directory.mkdir(parents=True, exist_ok=True)

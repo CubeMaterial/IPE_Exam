@@ -1,0 +1,20 @@
+{
+  "SELECT": ["select", "조회"],
+  "INSERT": ["insert", "삽입"],
+  "UPDATE": ["update", "수정"],
+  "DELETE": ["delete", "삭제"],
+  "JOIN": ["join", "조인"],
+  "INNER JOIN": ["inner join"],
+  "OUTER JOIN": ["outer join", "left join", "right join"],
+  "GROUP BY": ["group by", "그룹"],
+  "HAVING": ["having"],
+  "SUBQUERY": ["subquery", "서브쿼리"],
+  "VIEW": ["view", "뷰"],
+  "INDEX": ["index", "인덱스"],
+  "DDL": ["create", "alter", "drop", "ddl"],
+  "DML": ["insert", "update", "delete", "dml"],
+  "DCL": ["grant", "revoke", "dcl"],
+  "TCL": ["commit", "rollback", "tcl"],
+  "제약조건": ["constraint", "primary key", "foreign key", "제약조건", "외래키"],
+  "집계함수": ["count", "sum", "avg", "max", "min", "집계"]
+}

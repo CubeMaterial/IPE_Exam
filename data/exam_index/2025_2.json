@@ -1,0 +1,616 @@
+[
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 1,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "빈칸",
+    "difficulty": "",
+    "concepts": [
+      "인증",
+      "포인터"
+    ],
+    "intent": [
+      "인증 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 파일 구조와 관련된 설명이다. 설명을 읽고 괄호 안에 들어갈 가장 알맞은 용어를 작성하시오.\n\n데이터베이스의 물리 설계 시, 레코드에 접근하는 방법은 순차 접근 방법, `[ ]` 방법, 해싱 방법 등이 있다.\n\n이 중 `[ ]` 방법은 레코드의 키 값과 포인터를 쌍으로 묶어 저장하며 검색 시 키 값을 기준으로 빠르게 탐색할 수 있도록 설계되어 있다.\n\n이 방식은 검색 속도가 빠르며 `<키 값, 포인터>` 쌍으로 구성된 자료 구조를 사용하여 해당 키가 가리키는 주소를 통해 원하는 레코드를 직접 찾을 수 있다.\n\n| 접근 방법 | 설명 |\n|---|---|\n| 순차 접근 | 레코드를 처음부터 하나씩 검사 |\n| `[        ]` 접근 | 키-값 쌍으로 구성되어 빠르게 검색 |\n| 해싱 접근 | 해시 함수를 이용해 직접 주소 계산 후 접근 |\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 2,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "Cardinality",
+    "primary": "Cardinality",
+    "secondary": [
+      "Degree"
+    ],
+    "question_type": "개념 서술",
+    "difficulty": "",
+    "concepts": [
+      "Cardinality",
+      "Degree"
+    ],
+    "intent": [
+      "Cardinality 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 데이터베이스 릴레이션의 구성 요소 중 하나에 대한 설명이다. 설명을 읽고 보기에서 알맞은 기호를 골라 작성하시오.\n\n릴레이션(Relation)에서 열(Column)을 의미하며 데이터 항목의 속성(Attribute) 또는 특성을 나타낸다.\n\n각 열은 고유한 이름을 가지며 특정 도메인(Domain)에서 정의된 값을 갖는다.\n\n예를 들어 \"학생\" 릴레이션에서 학번, 이름, 전공 등은 각각 하나의 열이며 이 열들은 학생의 고유한 속성을 나타낸다.\n\n이 개념은 파일 구조에서의 필드(Field)에 해당하며 릴레이션에서 행(Row, Tuple)의 구성 요소가 된다.\n\n[보기]\n\n```text\nㄱ. Cardinality\nㄴ. Domain\nㄷ. Attribute\nㅁ. Degree\nㅂ. Schema\nㅅ. Tuple\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 3,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "보안 공격기법",
+    "difficulty": "",
+    "concepts": [
+      "인증",
+      "암호화",
+      "보안"
+    ],
+    "intent": [
+      "공격 기법 특징 구분"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 정보보안 관련 문제이다. 아래 내용을 보고 알맞는 단어를 작성하시오.\n\n원격 접속과 관련된 보안 프로토콜이며 암호화된 통신을 제공하는 보안 접속용 프로토콜이다.\n\n공개키 기반의 인증 방식을 사용하며 암호화된 데이터 전송을 지원한다.\n\n주로 원격 서버에 안전하게 접속할 때 사용되며 기본 포트 번호는 22번이다.\n\nTelnet의 보안 취약점을 보완한 대안으로 널리 사용된다.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 4,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "운영체제",
+    "difficulty": "",
+    "concepts": [
+      "프로세스"
+    ],
+    "intent": [
+      "프로세스 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "기타",
+    "body": "스케줄링 알고리즘에 관한 다음 설명을 읽고 (1)과 (2)에 알맞은 스케줄링 알고리즘의 명칭을 각각 쓰시오.\n\n(1) CPU burst 시간이 짧은 프로세스를 우선적으로 처리하는 스케줄링 방식이다. \"Shortest Next CPU Burst\"라고도 불리며 선점형 또는 비선점형으로 구현될 수 있다.\n\n(2) 위의 스케줄링 방식을 선점형으로 구현한 형태로 실행 중인 프로세스보다 더 짧은 burst 시간을 가진 프로세스가 도착하면 현재 CPU를 선점한다.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 5,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "static",
+    "primary": "static",
+    "secondary": [
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "static",
+      "클래스"
+    ],
+    "intent": [
+      "객체지향 문법 이해",
+      "static 이해"
+    ],
+    "mistakes": [
+      "오버라이딩 대상 메서드",
+      "동적 바인딩",
+      "상속 호출 순서"
+    ],
+    "language": "Java",
+    "body": "다음은 Java의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.\n\n```java\npublic class Main {\n    public static void change(String[] data, String s) {\n        data[0] = s;\n        s = \"Z\";\n    }\n\n    public static void main(String[] args) {\n        String data[] = { \"A\" };\n        String s = \"B\";\n        change(data, s);\n        System.out.print(data[0] + s);\n    }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 6,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "빈칸",
+    "difficulty": "",
+    "concepts": [],
+    "intent": [],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 IP 주소와 서브넷 마스크에 관한 문제이다. 주어진 정보를 참고하여 괄호 안에 들어갈 알맞은 값을 쓰시오.\n\n호스트의 IP 주소가 `223.13.234.132`이고 서브넷 마스크가 `255.255.255.192`일 때 다음 물음에 답하시오.\n\n이 호스트가 속한 네트워크 주소는 `223.13.234.( ① )`이다.\n\n이 네트워크에서 사용 가능한 호스트 수는 `( ② )`개이다.\n\n단, 네트워크 주소와 브로드캐스트 주소는 제외한다.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 7,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "운영체제",
+    "difficulty": "",
+    "concepts": [
+      "인증",
+      "디자인 패턴"
+    ],
+    "intent": [
+      "인증 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 디자인 패턴에 관한 문제이다. 아래 내용을 보고 알맞는 단어를 작성하시오.\n\n어떤 객체에 대한 접근을 제어하거나 추가적인 기능을 부여하기 위해 해당 객체의 대리 객체를 사용하는 방식의 디자인 패턴이다.\n\n실제 객체에 대한 접근 전에 필요한 작업을 수행할 수 있으며 실제 객체의 생성을 지연시켜 메모리와 자원을 절약할 수 있다.\n\n또한, 실제 객체를 감추어 정보은닉을 강화할 수 있다는 장점이 있다.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 8,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "빈칸",
+    "difficulty": "",
+    "concepts": [],
+    "intent": [],
+    "mistakes": [],
+    "language": "기타",
+    "body": "다음은 웹 데이터 교환 방식에 관한 문제이다. 아래 설명을 읽고 괄호 안에 들어갈 알맞은 용어를 작성하시오.\n\n`( )`은/는 웹 페이지 전체를 다시 불러오지 않고 JavaScript와 XML 또는 JSON을 이용하여 일부 콘텐츠만 비동기적으로 갱신할 수 있는 기술이다.\n\n`( )`은/는 HTML만으로는 구현하기 어려운 동적인 기능들을 가능하게 하여 사용자가 웹 페이지와 보다 자유롭게 상호작용할 수 있도록 해주는 웹 개발 기법이다.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 9,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "인터페이스",
+    "primary": "인터페이스",
+    "secondary": [
+      "예외처리",
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "인터페이스",
+      "예외처리",
+      "static",
+      "클래스"
+    ],
+    "intent": [
+      "객체지향 문법 이해",
+      "인터페이스 이해"
+    ],
+    "mistakes": [
+      "오버라이딩 대상 메서드",
+      "동적 바인딩",
+      "상속 호출 순서"
+    ],
+    "language": "Java",
+    "body": "다음은 Java 언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.\n\n```java\npublic class Main {\n    static interface F {\n        int apply(int x) throws Exception;\n    }\n\n    public static int run(F f) {\n        try {\n            return f.apply(3);\n        } catch (Exception e) {\n            return 7;\n        }\n    }\n\n    public static void main(String[] args) {\n        F f = (x) -> {\n            if (x > 2) {\n                throw new Exception();\n            }\n            return x * 2;\n        };\n        System.out.print(run(f) + run((int n) -> n + 9));\n    }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 10,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "상속",
+    "primary": "상속",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "상속",
+      "static",
+      "클래스"
+    ],
+    "intent": [
+      "객체지향 문법 이해",
+      "상속 이해"
+    ],
+    "mistakes": [
+      "오버라이딩 대상 메서드",
+      "동적 바인딩",
+      "상속 호출 순서"
+    ],
+    "language": "Java",
+    "body": "다음은 Java 언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.\n\n```java\npublic class Main {\n    public static class Parent {\n        public int x(int i) { return i + 2; }\n        public static String id() { return \"P\"; }\n    }\n\n    public static class Child extends Parent {\n        public int x(int i) { return i + 3; }\n        public String x(String s) { return s + \"R\"; }\n        public static String id() { return \"C\"; }\n    }\n\n    public static void main(String[] args) {\n        Parent ref = new Child();\n        System.out.println(ref.x(2) + ref.id());\n    }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 11,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "증감연산",
+    "primary": "증감연산",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "difficulty": "",
+    "concepts": [
+      "증감연산",
+      "커버리지"
+    ],
+    "intent": [
+      "증감연산 핵심 개념 이해"
+    ],
+    "mistakes": [
+      "break 위치",
+      "continue 위치",
+      "증감식 실행 순서"
+    ],
+    "language": "C",
+    "body": "다음 아래 제어 흐름 그래프가 분기 커버리지를 만족하기 위한 테스팅 순서를 쓰시오.\n\n```mermaid\nflowchart TD\n    A[1] --> B{2}\n    B --> C[3]\n    B --> D[4]\n    C --> D\n    D --> E{5}\n    E --> F[6]\n    E --> G[7]\n    F --> A\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 12,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "포인터",
+      "증감연산",
+      "구조체"
+    ],
+    "intent": [
+      "포인터 증가 이해",
+      "배열 주소 계산"
+    ],
+    "mistakes": [
+      "*p++",
+      "(*p)++",
+      "주소 증가와 값 증가 혼동"
+    ],
+    "language": "C",
+    "body": "다음은 C 언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n#define SIZE 3\n\ntypedef struct {\n    int a[SIZE];\n    int front;\n    int rear;\n} Queue;\n\nvoid enq(Queue* q, int val) {\n    q->a[q->rear] = val;\n    q->rear = (q->rear + 1) % SIZE;\n}\n\nint deq(Queue* q) {\n    int val = q->a[q->front];\n    q->front = (q->front + 1) % SIZE;\n    return val;\n}\n\nint main() {\n    Queue q = {{0}, 0, 0};\n    enq(&q, 1);\n    enq(&q, 2);\n    deq(&q);\n    enq(&q, 3);\n\n    int first = deq(&q);\n    int second = deq(&q);\n\n    printf(\"%d 그리고 %d\", first, second);\n    return 0;\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 13,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "운영체제",
+    "difficulty": "",
+    "concepts": [
+      "프로세스"
+    ],
+    "intent": [
+      "프로세스 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "라운드로빈(RR) 방식을 이용하고 아래 내용을 참고하여 평균 대기 시간을 구하시오.\n\n운영체제에서 라운드로빈(Round Robin, RR) 스케줄링은 각 프로세스에 동일한 시간 할당량, 즉 타임 퀀텀을 순차적으로 부여하며 CPU를 할당하는 방식이다.\n\n다음은 4개의 프로세스가 서로 다른 시간에 도착하며 각기 다른 실행 시간을 가지는 상황이다. 이때 시간 할당량은 `4ms`이고 컨텍스트 스위칭 시간은 무시한다고 가정한다.\n\n아래 정보를 바탕으로 라운드로빈(RR) 방식으로 CPU 스케줄링을 수행할 경우 모든 프로세스의 평균 대기 시간(Average Waiting Time)은 얼마인가?\n\n| 프로세스 | 도착 시간(ms) | 실행 시간(ms) |\n|---|---:|---:|\n| P1 | 0 | 8 |\n| P2 | 1 | 4 |\n| P3 | 2 | 9 |\n| P4 | 3 | 5 |\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 14,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "배열",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "포인터",
+      "증감연산",
+      "배열",
+      "구조체"
+    ],
+    "intent": [
+      "포인터 증가 이해",
+      "배열 주소 계산"
+    ],
+    "mistakes": [
+      "*p++",
+      "(*p)++",
+      "주소 증가와 값 증가 혼동"
+    ],
+    "language": "C",
+    "body": "다음은 C 언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n\nstruct dat {\n    int x;\n    int y;\n};\n\nint main() {\n    struct dat a[] = {{1, 2}, {3, 4}, {5, 6}};\n    struct dat* ptr = a;\n    struct dat** pptr = &ptr;\n\n    (*pptr)[1] = (*pptr)[2];\n\n    printf(\"%d 그리고 %d\", a[1].x, a[1].y);\n    return 0;\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 15,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "static",
+    "primary": "static",
+    "secondary": [
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "static",
+      "클래스"
+    ],
+    "intent": [
+      "객체지향 문법 이해",
+      "static 이해"
+    ],
+    "mistakes": [
+      "오버라이딩 대상 메서드",
+      "동적 바인딩",
+      "상속 호출 순서"
+    ],
+    "language": "Java",
+    "body": "다음은 Java 언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.\n\n```java\npublic class Main {\n    public static class BO {\n        public int v;\n\n        public BO(int v) {\n            this.v = v;\n        }\n    }\n\n    public static void main(String[] args) {\n        BO a = new BO(1);\n        BO b = new BO(2);\n        BO c = new BO(3);\n        BO[] arr = {a, b, c};\n\n        BO t = arr[0];\n        arr[0] = arr[2];\n        arr[2] = t;\n        arr[1].v = arr[0].v;\n\n        System.out.println(a.v + \"a\" + b.v + \"b\" + c.v);\n    }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 16,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "포인터",
+      "증감연산",
+      "구조체"
+    ],
+    "intent": [
+      "포인터 증가 이해",
+      "배열 주소 계산"
+    ],
+    "mistakes": [
+      "*p++",
+      "(*p)++",
+      "주소 증가와 값 증가 혼동"
+    ],
+    "language": "C",
+    "body": "다음은 C 언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n#include <stdlib.h>\n\nstruct node {\n    int p;\n    struct node* n;\n};\n\nint main() {\n    struct node a = {1, NULL};\n    struct node b = {2, NULL};\n    struct node c = {3, NULL};\n\n    a.n = &b;\n    b.n = &c;\n    c.n = NULL;\n\n    c.n = &a;\n    a.n = &b;\n    b.n = NULL;\n\n    struct node* head = &c;\n    printf(\"%d %d %d\", head->p, head->n->p, head->n->n->p);\n    return 0;\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 17,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "프로세스",
+      "반복문"
+    ],
+    "intent": [
+      "프로세스 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "Python",
+    "body": "다음은 Python 언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.\n\n```python\nlst = [1, 2, 3]\ndst = {i: i * 2 for i in lst}\ns = set(dst.values())\nlst[0] = 99\ndst[2] = 7\ns.add(99)\nprint(len(s & set(dst.values())))\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 18,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "반복문",
+      "문자열",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "포인터",
+      "증감연산",
+      "반복문",
+      "문자열",
+      "구조체"
+    ],
+    "intent": [
+      "포인터 증가 이해",
+      "배열 주소 계산"
+    ],
+    "mistakes": [
+      "*p++",
+      "(*p)++",
+      "주소 증가와 값 증가 혼동"
+    ],
+    "language": "C",
+    "body": "다음은 C 언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n#include <stdlib.h>\n\nstruct node {\n    char c;\n    struct node* p;\n};\n\nstruct node* func(char* s) {\n    struct node* h = NULL, *n;\n\n    while (*s) {\n        n = malloc(sizeof(struct node));\n        n->c = *s++;\n        n->p = h;\n        h = n;\n    }\n\n    return h;\n}\n\nint main() {\n    struct node* n = func(\"BEST\");\n\n    while (n) {\n        putchar(n->c);\n        struct node* t = n;\n        n = n->p;\n        free(t);\n    }\n\n    return 0;\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 19,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "네트워크",
+    "subcategory": "TCP",
+    "primary": "TCP",
+    "secondary": [
+      "3-way Handshake"
+    ],
+    "question_type": "보안 공격기법",
+    "difficulty": "",
+    "concepts": [
+      "TCP",
+      "3-way Handshake",
+      "TCP/IP",
+      "보안"
+    ],
+    "intent": [
+      "공격 기법 특징 구분"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 TCP 통신 과정에서 발생할 수 있는 보안 취약점에 대한 설명이다. 이를 이용한 공격 기법으로 옳은 것은?\n\nTCP는 연결을 수립하기 위해 클라이언트가 서버에 SYN 패킷을 보내고 서버는 SYN-ACK 패킷으로 응답한 후 클라이언트가 다시 ACK 패킷을 보내는 3-way-handshake 과정을 거친다.\n\n이때 공격자는 클라이언트 역할로 수많은 SYN 패킷을 서버에 전송한 뒤 마지막 ACK를 고의로 보내지 않아 서버가 연결 대기 상태를 계속 유지하게 만든다.\n\n이로 인해 서버의 연결 대기 큐가 가득 차면서 정상적인 접속 요청을 처리하지 못하게 되어 서비스 거부 상태가 발생한다.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 20,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "INDEX",
+    "primary": "INDEX",
+    "secondary": [],
+    "question_type": "SQL 결과",
+    "difficulty": "",
+    "concepts": [
+      "INDEX"
+    ],
+    "intent": [
+      "INDEX 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "SQL",
+    "body": "다음 테이블에서 `πTTL(employee)`에 대한 연산 결과 값을 작성하시오.\n\n[employee 테이블]\n\n| Index | AGE | TTL |\n|---:|---:|---|\n| 1 | 55 | 부장 |\n| 2 | 35 | 대리 |\n| 3 | 42 | 과장 |\n| 4 | 45 | 차장 |",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  }
+]

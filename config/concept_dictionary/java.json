@@ -1,0 +1,10 @@
+{
+  "클래스": ["class", "클래스"],
+  "상속": ["extends", "inheritance", "상속"],
+  "오버라이딩": ["override", "오버라이딩"],
+  "인터페이스": ["interface", "인터페이스"],
+  "추상클래스": ["abstract", "추상"],
+  "컬렉션": ["collection", "ArrayList", "HashMap", "컬렉션"],
+  "예외처리": ["exception", "try", "catch", "예외"],
+  "static": ["static", "정적"]
+}

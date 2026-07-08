@@ -1,0 +1,592 @@
+[
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 1,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "프로세스",
+      "반복문"
+    ],
+    "intent": [
+      "프로세스 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "Java",
+    "body": "다음은 Java 코드에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```java\npublic class Main {\n  static String[] s = new String[3];\n\n  static void func(String[] s, int size) {\n    for (int i = 1; i < size; i++) {\n      if (s[i - 1].equals(s[i])) {\n        System.out.print(\"O\");\n      } else {\n        System.out.print(\"N\");\n      }\n    }\n\n    for (String m : s) {\n      System.out.print(m);\n    }\n  }\n\n  public static void main(String[] args) {\n    s[0] = \"A\";\n    s[1] = \"A\";\n    s[2] = new String(\"A\");\n    func(s, 3);\n  }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 2,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "프로세스",
+      "반복문",
+      "슬라이싱"
+    ],
+    "intent": [
+      "프로세스 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "Python",
+    "body": "다음은 파이썬에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```python\ndef func(lst):\n    for i in range(len(lst) // 2):\n        lst[i], lst[-i-1] = lst[-i-1], lst[i]\n\nlst = [1, 2, 3, 4, 5, 6]\nfunc(lst)\nprint(sum(lst[::2]) - sum(lst[1::2]))\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 3,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "JOIN",
+    "primary": "JOIN",
+    "secondary": [
+      "GROUP BY",
+      "HAVING",
+      "집계함수",
+      "SELECT"
+    ],
+    "question_type": "SQL 결과",
+    "difficulty": "",
+    "concepts": [
+      "JOIN",
+      "GROUP BY",
+      "HAVING",
+      "집계함수",
+      "SELECT"
+    ],
+    "intent": [
+      "JOIN 이해",
+      "SQL 실행 결과 해석"
+    ],
+    "mistakes": [
+      "JOIN 조건",
+      "GROUP BY 기준",
+      "NULL 처리",
+      "집계 함수 적용 순서"
+    ],
+    "language": "SQL",
+    "body": "아래의 `employee` 테이블과 `project` 테이블을 참고하여 보기의 SQL 명령어에 알맞은 출력 값을 작성하시오.\n\n> 원문 이미지의 `employee`, `project` 테이블 참고\n\n### 보기\n\n```sql\nSELECT\n    count(*)\nFROM employee AS e\nJOIN project AS p ON e.project_id = p.project_id\nWHERE p.name IN (\n    SELECT name\n    FROM project p\n    WHERE p.project_id IN (\n        SELECT project_id\n        FROM employee\n        GROUP BY project_id\n        HAVING count(*) < 2\n    )\n);\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 4,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "운영체제",
+    "difficulty": "",
+    "concepts": [],
+    "intent": [],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 운영체제 페이지 순서를 참고하여 할당된 프레임의 수가 3개일 때 LRU 알고리즘의 페이지 부재 횟수를 작성하시오.\n\n```text\n페이지 참조 순서: 7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 5,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "네트워크",
+    "subcategory": "ICMP",
+    "primary": "ICMP",
+    "secondary": [],
+    "question_type": "보안 공격기법",
+    "difficulty": "",
+    "concepts": [
+      "ICMP",
+      "TCP/IP",
+      "보안",
+      "네트워크"
+    ],
+    "intent": [
+      "공격 기법 특징 구분"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 네트워크 취약점에 대한 문제이다. 아래 내용을 보고 알맞은 용어를 작성하시오.\n\n- IP나 ICMP의 특성을 악용하여 엄청난 양의 데이터를 한 사이트에 집중적으로 보냄으로써 네트워크의 일부를 불능 상태로 만드는 공격이다.\n- 여러 호스트가 특정 대상에게 다량의 ICMP Echo Reply를 보내게 하여 서비스 거부(DoS)를 유발시키는 보안 공격이다.\n- 공격 대상 호스트는 다량으로 유입되는 패킷으로 인해 서비스 불능 상태에 빠진다.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 6,
+    "subject": "서버 프로그램 구현",
+    "category": "소프트웨어설계",
+    "subcategory": "결합도",
+    "primary": "결합도",
+    "secondary": [
+      "GoF"
+    ],
+    "question_type": "빈칸",
+    "difficulty": "",
+    "concepts": [
+      "결합도",
+      "GoF",
+      "디자인 패턴"
+    ],
+    "intent": [
+      "결합도 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "기타",
+    "body": "다음은 GoF 디자인 패턴과 관련된 문제이다. 괄호 안에 알맞은 용어를 작성하시오.\n\n```text\n(        ) 패턴은 클래스나 객체들이 서로 상호작용하는 방법이나 책임 분배 방법을 정의하는 패턴이다.\n(        ) 패턴은 객체들 간의 통신 방법을 정의하고 알고리즘을 캡슐화하여 객체 간의 결합도를 낮춘다.\n(        ) 패턴은 Chain of Responsibility나 Command 또는 Observer 패턴이 있다.\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 7,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "증감연산",
+    "primary": "증감연산",
+    "secondary": [
+      "반복문"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "증감연산",
+      "반복문"
+    ],
+    "intent": [
+      "증감연산 핵심 개념 이해"
+    ],
+    "mistakes": [
+      "break 위치",
+      "continue 위치",
+      "증감식 실행 순서"
+    ],
+    "language": "C",
+    "body": "다음은 C언어에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n\nint func() {\n  static int x = 0;\n  x += 2;\n  return x;\n}\n\nint main() {\n  int x = 1;\n  int sum = 0;\n\n  for (int i = 0; i < 4; i++) {\n    x++;\n    sum += func();\n  }\n\n  printf(\"%d\", sum);\n  return 0;\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 8,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "무결성",
+    "primary": "무결성",
+    "secondary": [],
+    "question_type": "SQL 작성",
+    "difficulty": "",
+    "concepts": [
+      "무결성"
+    ],
+    "intent": [
+      "무결성 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "SQL",
+    "body": "다음은 무결성 제약조건에 대한 문제이다. 아래 표에서 어떠한 `(        )` 무결성을 위반하였는지 작성하시오.\n\n> 원문 이미지의 테이블 참고\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 9,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "네트워크",
+    "difficulty": "",
+    "concepts": [
+      "인증"
+    ],
+    "intent": [
+      "네트워크 계층/프로토콜 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 URL 구조에 관한 문제이다. 아래 보기의 순서대로 URL에 해당하는 번호를 작성하시오.\n\n> 원문 이미지의 URL 구조 참고\n\n### 보기\n\n```text\nquery     : 서버에 전달할 추가 데이터\npath      : 서버 내의 특정 자원을 가리키는 경로\nscheme    : 리소스에 접근하는 방법이나 프로토콜\nauthority : 사용자 정보, 호스트명, 포트 번호\nfragment  : 특정 문서 내의 위치\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 10,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "프로세스"
+    ],
+    "intent": [
+      "프로세스 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "Python",
+    "body": "다음은 파이썬에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```python\ndef func(value):\n    if type(value) == type(100):\n        return 100\n    elif type(value) == type(\"\"):\n        return len(value)\n    else:\n        return 20\n\na = '100.0'\nb = 100.0\nc = (100, 200)\n\nprint(func(a) + func(b) + func(c))\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 11,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "상속",
+    "primary": "상속",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "상속",
+      "static",
+      "클래스"
+    ],
+    "intent": [
+      "객체지향 문법 이해",
+      "상속 이해"
+    ],
+    "mistakes": [
+      "오버라이딩 대상 메서드",
+      "동적 바인딩",
+      "상속 호출 순서"
+    ],
+    "language": "Java",
+    "body": "다음은 Java 코드에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```java\npublic class Main {\n  public static void main(String[] args) {\n    Base a = new Derivate();\n    Derivate b = new Derivate();\n    System.out.print(a.getX() + a.x + b.getX() + b.x);\n  }\n}\n\nclass Base {\n  int x = 3;\n\n  int getX() {\n    return x * 2;\n  }\n}\n\nclass Derivate extends Base {\n  int x = 7;\n\n  int getX() {\n    return x * 3;\n  }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 12,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "반복문",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "포인터",
+      "증감연산",
+      "반복문",
+      "구조체"
+    ],
+    "intent": [
+      "포인터 증가 이해",
+      "배열 주소 계산"
+    ],
+    "mistakes": [
+      "*p++",
+      "(*p)++",
+      "주소 증가와 값 증가 혼동"
+    ],
+    "language": "C",
+    "body": "다음은 C언어에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n\nstruct Node {\n  int value;\n  struct Node* next;\n};\n\nvoid func(struct Node* node) {\n  while (node != NULL && node->next != NULL) {\n    int t = node->value;\n    node->value = node->next->value;\n    node->next->value = t;\n    node = node->next->next;\n  }\n}\n\nint main() {\n  struct Node n1 = {1, NULL};\n  struct Node n2 = {2, NULL};\n  struct Node n3 = {3, NULL};\n\n  n1.next = &n3;\n  n3.next = &n2;\n\n  func(&n1);\n\n  struct Node* current = &n1;\n\n  while (current != NULL) {\n    printf(\"%d\", current->value);\n    current = current->next;\n  }\n\n  return 0;\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 13,
+    "subject": "애플리케이션 테스트 관리",
+    "category": "테스트",
+    "subcategory": "커버리지",
+    "primary": "커버리지",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "difficulty": "",
+    "concepts": [
+      "커버리지"
+    ],
+    "intent": [
+      "커버리지 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 테스트 커버리지에 대한 문제이다. 아래 내용에 알맞은 답을 보기에서 골라 작성하시오.\n\n1. 테스트를 통해 프로그램의 모든 문장을 최소한 한 번씩 실행했는지를 측정\n2. 프로그램 내의 모든 분기, 조건문의 각 분기를 최소한 한 번씩 실행했는지를 측정\n3. 복합 조건 내의 각 개별 조건이 참과 거짓으로 평가되는 경우를 모두 테스트했는지를 측정\n\n### 보기\n\n```text\nㄱ. 조건\nㄴ. 경로\nㄷ. 결정\nㄹ. 분기\nㅁ. 함수\nㅂ. 문장\nㅅ. 루프\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 14,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "UML",
+    "difficulty": "",
+    "concepts": [],
+    "intent": [],
+    "mistakes": [],
+    "language": "",
+    "body": "아래는 UML 클래스의 관계에 관한 문제이다. 보기를 보고 알맞은 관계를 선택하여 작성하시오.\n\n> 원문 이미지의 UML 관계 그림 참고\n\n### 보기\n\n```text\nㄱ. 의존\nㄴ. 연관\nㄷ. 일반화\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 15,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "무결성",
+    "primary": "무결성",
+    "secondary": [],
+    "question_type": "SQL 작성",
+    "difficulty": "",
+    "concepts": [
+      "무결성"
+    ],
+    "intent": [
+      "무결성 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "SQL",
+    "body": "다음은 데이터베이스에 관한 문제이다. 아래 내용을 읽고 알맞은 답을 보기에서 찾아 골라 작성하시오.\n\n1. 다른 테이블, 릴레이션의 기본 키를 참조하는 속성 또는 속성들의 집합\n2. 테이블에서 각 행을 유일하게 식별할 수 있는 최소한의 속성들의 집합\n3. 후보 키 중에서 선정된 기본 키를 제외한 나머지 후보 키\n4. 테이블에서 각 행을 유일하게 식별할 수 있는 속성들의 집합\n\n### 보기\n\n```text\nㄱ. 슈퍼키\nㄴ. 외래키\nㄷ. 대체키\nㄹ. 후보키\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 16,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "배열",
+      "반복문"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "포인터",
+      "증감연산",
+      "배열",
+      "반복문"
+    ],
+    "intent": [
+      "포인터 증가 이해",
+      "배열 주소 계산"
+    ],
+    "mistakes": [
+      "*p++",
+      "(*p)++",
+      "주소 증가와 값 증가 혼동"
+    ],
+    "language": "C",
+    "body": "다음은 C언어에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n\nvoid func(int** arr, int size) {\n  for (int i = 0; i < size; i++) {\n    *(*arr + i) = (*(*arr + i) + i) % size;\n  }\n}\n\nint main() {\n  int arr[] = {3, 1, 4, 1, 5};\n  int* p = arr;\n  int** pp = &p;\n  int num = 6;\n\n  func(pp, 5);\n\n  num = arr[2];\n  printf(\"%d\", num);\n\n  return 0;\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 17,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "네트워크",
+    "difficulty": "",
+    "concepts": [],
+    "intent": [],
+    "mistakes": [],
+    "language": "",
+    "body": "다음 아래 내용을 보고 알맞은 용어를 작성하시오.  \n단, 3글자로 작성하시오.\n\n- 공용 네트워크를 통해 사설 네트워크를 확장하는 기술이다.\n- 사용자의 IP 주소를 숨기고, 사용자가 어디에서 접속하는지를 추적하기 어렵게 만든다.\n- 종류로는 IPsec 또는 SSL, L2TP 등이 있다.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 18,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "예외처리",
+    "primary": "예외처리",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "예외처리",
+      "static",
+      "클래스"
+    ],
+    "intent": [
+      "객체지향 문법 이해",
+      "예외처리 이해"
+    ],
+    "mistakes": [
+      "오버라이딩 대상 메서드",
+      "동적 바인딩",
+      "상속 호출 순서"
+    ],
+    "language": "Java",
+    "body": "다음은 Java 코드에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```java\npublic class ExceptionHandling {\n  public static void main(String[] args) {\n    int sum = 0;\n\n    try {\n      func();\n    } catch (NullPointerException e) {\n      sum = sum + 1;\n    } catch (Exception e) {\n      sum = sum + 10;\n    } finally {\n      sum = sum + 100;\n    }\n\n    System.out.print(sum);\n  }\n\n  static void func() throws Exception {\n    throw new NullPointerException();\n  }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 19,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "컬렉션",
+    "primary": "컬렉션",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "컬렉션",
+      "static",
+      "클래스"
+    ],
+    "intent": [
+      "객체지향 문법 이해",
+      "컬렉션 이해"
+    ],
+    "mistakes": [
+      "오버라이딩 대상 메서드",
+      "동적 바인딩",
+      "상속 호출 순서"
+    ],
+    "language": "Java",
+    "body": "다음은 Java 코드에 대한 문제이다. 아래 코드를 확인하여 알맞은 출력값을 작성하시오.\n\n```java\nclass Main {\n  public static class Collection<T> {\n    T value;\n\n    public Collection(T t) {\n      value = t;\n    }\n\n    public void print() {\n      new Printer().print(value);\n    }\n\n    class Printer {\n      void print(Integer a) {\n        System.out.print(\"A\" + a);\n      }\n\n      void print(Object a) {\n        System.out.print(\"B\" + a);\n      }\n\n      void print(Number a) {\n        System.out.print(\"C\" + a);\n      }\n    }\n  }\n\n  public static void main(String[] args) {\n    new Collection<>(0).print();\n  }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 20,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "네트워크",
+    "difficulty": "",
+    "concepts": [],
+    "intent": [],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 네트워크에 대한 문제이다. 아래 내용을 보고 알맞은 용어를 작성하시오.\n\n- 중앙 관리나 고정된 인프라 없이 임시로 구성되는 네트워크이다.\n- 일반적으로 무선 통신을 통해 노드들이 직접 연결되어 데이터를 주고받는다.\n- 긴급 구조, 긴급 회의, 군사적인 상황 등에서 유용하게 활용될 수 있다.\n\n### 보기\n\n```text\nㄱ. Infrastructure Network\nㄴ. Firmware Network\nㄷ. Peer-to-Peer Network\nㄹ. Ad-hoc Network\nㅁ. Mesh Network\nㅂ. Sensor Network\nㅅ. Virtual Private Network\n```",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  }
+]

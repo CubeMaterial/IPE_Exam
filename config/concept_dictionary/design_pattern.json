@@ -1,0 +1,9 @@
+{
+  "Singleton": ["singleton", "싱글톤"],
+  "Factory": ["factory", "팩토리"],
+  "Observer": ["observer", "옵저버"],
+  "Strategy": ["strategy", "전략"],
+  "Builder": ["builder", "빌더"],
+  "Adapter": ["adapter", "어댑터"],
+  "MVC": ["mvc"]
+}

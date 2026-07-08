@@ -58,7 +58,7 @@ class CodeCollectAndChunkTest(TestCase):
             nested.mkdir(parents=True)
             java_path = nested / "Main.java"
             py_path = root / "solve.py"
-            ignored_path = nested / "README.md"
+            ignored_path = nested / "README.tmp"
             java_path.write_text("class Main {}\n", encoding="utf-8")
             py_path.write_text("print('ok')\n", encoding="utf-8")
             ignored_path.write_text("ignore", encoding="utf-8")

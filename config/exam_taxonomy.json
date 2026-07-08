@@ -1,0 +1,35 @@
+{
+  "프로그래밍 언어 활용": {
+    "C": ["포인터", "배열", "문자열", "함수", "구조체", "증감연산", "반복문", "재귀", "형변환"],
+    "Java": ["클래스", "상속", "오버라이딩", "인터페이스", "예외처리", "static", "컬렉션", "추상클래스"],
+    "Python": ["리스트", "슬라이싱", "딕셔너리", "튜플", "Set", "Range", "Class", "Lambda"]
+  },
+  "SQL 응용": {
+    "SQL": ["SELECT", "JOIN", "INNER JOIN", "OUTER JOIN", "GROUP BY", "HAVING", "집계함수", "DML", "DDL", "DCL", "TCL", "INDEX", "제약조건", "SUBQUERY", "VIEW", "INSERT", "UPDATE", "DELETE"]
+  },
+  "데이터 입출력 구현": {
+    "DB": ["정규화", "Cardinality", "Degree", "무결성", "ERD", "트랜잭션"]
+  },
+  "응용 SW 기초 기술 활용": {
+    "운영체제": ["프로세스", "스레드", "PCB", "교착상태", "스케줄링", "메모리관리", "세마포어", "뮤텍스", "페이지교체"],
+    "네트워크": ["TCP/IP", "TCP", "UDP", "IP", "IPv4", "IPv6", "OSI", "HTTP", "HTTPS", "DNS", "ARP", "ICMP", "DHCP", "NAT", "라우팅", "3-way Handshake"],
+    "알고리즘": ["정렬", "탐색", "시간복잡도", "재귀"]
+  },
+  "서버 프로그램 구현": {
+    "소프트웨어설계": ["응집도", "결합도", "모듈화", "GoF", "MVC", "설계원칙", "SOLID"],
+    "디자인패턴": ["Singleton", "Factory", "Adapter", "Observer", "Strategy", "Builder", "MVC"]
+  },
+  "소프트웨어 개발 보안 구축": {
+    "보안": ["SQL Injection", "XSS", "CSRF", "AES", "RSA", "SHA", "ISMS", "인증", "접근통제", "악성코드", "스케어웨어", "랜섬웨어"],
+    "네트워크": ["TCP/IP", "TCP", "ICMP"]
+  },
+  "애플리케이션 테스트 관리": {
+    "테스트": ["화이트박스", "블랙박스", "커버리지", "테스트 커버리지", "단위테스트", "통합테스트"]
+  },
+  "화면 설계": {
+    "UML": ["관계", "UseCase", "Class Diagram", "Sequence Diagram", "Activity Diagram"]
+  },
+  "인터페이스 구현": {
+    "인터페이스": ["REST", "JSON", "XML", "AJAX", "OpenAPI", "API", "EAI", "ESB"]
+  }
+}

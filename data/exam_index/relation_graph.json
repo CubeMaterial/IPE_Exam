@@ -1,0 +1,3306 @@
+{
+  "nodes": [
+    {
+      "id": "포인터 계열",
+      "type": "group",
+      "count": 22
+    },
+    {
+      "id": "포인터",
+      "type": "subcategory",
+      "count": 16
+    },
+    {
+      "id": "증감연산",
+      "type": "subcategory",
+      "count": 3
+    },
+    {
+      "id": "결합도",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "인증",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "슬라이싱",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "SQL 집계/조인 계열",
+      "type": "group",
+      "count": 10
+    },
+    {
+      "id": "집계함수",
+      "type": "subcategory",
+      "count": 3
+    },
+    {
+      "id": "DML",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "JOIN",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "SELECT",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "제약조건",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "운영체제 계열",
+      "type": "group",
+      "count": 18
+    },
+    {
+      "id": "프로세스",
+      "type": "subcategory",
+      "count": 18
+    },
+    {
+      "id": "네트워크 계열",
+      "type": "group",
+      "count": 8
+    },
+    {
+      "id": "라우팅",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "인증",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "TCP/IP",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "ICMP",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "ARP",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "TCP",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "악성코드",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "Java 객체지향 계열",
+      "type": "group",
+      "count": 20
+    },
+    {
+      "id": "static",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "상속",
+      "type": "subcategory",
+      "count": 7
+    },
+    {
+      "id": "예외처리",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "컬렉션",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "인터페이스",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "Python 자료구조 계열",
+      "type": "group",
+      "count": 5
+    },
+    {
+      "id": "프로세스",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "딕셔너리",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "JOIN",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "슬라이싱",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "Java 연관",
+      "type": "group",
+      "count": 208
+    },
+    {
+      "id": "static",
+      "type": "subcategory",
+      "count": 40
+    },
+    {
+      "id": "클래스",
+      "type": "subcategory",
+      "count": 40
+    },
+    {
+      "id": "객체지향 문법 이해",
+      "type": "subcategory",
+      "count": 20
+    },
+    {
+      "id": "static 이해",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "오버라이딩 대상 메서드",
+      "type": "subcategory",
+      "count": 20
+    },
+    {
+      "id": "동적 바인딩",
+      "type": "subcategory",
+      "count": 20
+    },
+    {
+      "id": "상속 호출 순서",
+      "type": "subcategory",
+      "count": 20
+    },
+    {
+      "id": "상속",
+      "type": "subcategory",
+      "count": 14
+    },
+    {
+      "id": "상속 이해",
+      "type": "subcategory",
+      "count": 7
+    },
+    {
+      "id": "예외처리",
+      "type": "subcategory",
+      "count": 6
+    },
+    {
+      "id": "예외처리 이해",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "컬렉션",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "컬렉션 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "오버라이딩",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "인터페이스",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "인터페이스 이해",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "운영체제 연관",
+      "type": "group",
+      "count": 65
+    },
+    {
+      "id": "프로세스",
+      "type": "subcategory",
+      "count": 36
+    },
+    {
+      "id": "프로세스 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 18
+    },
+    {
+      "id": "반복문",
+      "type": "subcategory",
+      "count": 7
+    },
+    {
+      "id": "슬라이싱",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "커버리지",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "리스트",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "소프트웨어설계 연관",
+      "type": "group",
+      "count": 19
+    },
+    {
+      "id": "응집도",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "응집도 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "결합도",
+      "type": "subcategory",
+      "count": 6
+    },
+    {
+      "id": "결합도 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 3
+    },
+    {
+      "id": "GoF",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "디자인 패턴",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "배열",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "DB 연관",
+      "type": "group",
+      "count": 40
+    },
+    {
+      "id": "정규화",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "정규화 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "무결성",
+      "type": "subcategory",
+      "count": 12
+    },
+    {
+      "id": "무결성 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 5
+    },
+    {
+      "id": "Cardinality",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "Degree",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "Cardinality 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "네트워크 연관",
+      "type": "group",
+      "count": 28
+    },
+    {
+      "id": "라우팅",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "네트워크",
+      "type": "subcategory",
+      "count": 3
+    },
+    {
+      "id": "라우팅 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "TCP/IP",
+      "type": "subcategory",
+      "count": 5
+    },
+    {
+      "id": "TCP/IP 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "ICMP",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "보안",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "공격 기법 특징 구분",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "ARP",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "네트워크 계층/프로토콜 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "TCP",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "3-way Handshake",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "ICMP 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "C 연관",
+      "type": "group",
+      "count": 268
+    },
+    {
+      "id": "증감연산",
+      "type": "subcategory",
+      "count": 48
+    },
+    {
+      "id": "증감연산 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "break 위치",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "continue 위치",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "증감식 실행 순서",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "포인터",
+      "type": "subcategory",
+      "count": 32
+    },
+    {
+      "id": "배열",
+      "type": "subcategory",
+      "count": 16
+    },
+    {
+      "id": "포인터 증가 이해",
+      "type": "subcategory",
+      "count": 16
+    },
+    {
+      "id": "배열 주소 계산",
+      "type": "subcategory",
+      "count": 16
+    },
+    {
+      "id": "*p++",
+      "type": "subcategory",
+      "count": 16
+    },
+    {
+      "id": "(*p)++",
+      "type": "subcategory",
+      "count": 16
+    },
+    {
+      "id": "주소 증가와 값 증가 혼동",
+      "type": "subcategory",
+      "count": 16
+    },
+    {
+      "id": "반복문",
+      "type": "subcategory",
+      "count": 24
+    },
+    {
+      "id": "문자열",
+      "type": "subcategory",
+      "count": 12
+    },
+    {
+      "id": "구조체",
+      "type": "subcategory",
+      "count": 22
+    },
+    {
+      "id": "커버리지",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "테스트 연관",
+      "type": "group",
+      "count": 9
+    },
+    {
+      "id": "커버리지",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "커버리지 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "통합테스트",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "통합테스트 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "보안 연관",
+      "type": "group",
+      "count": 60
+    },
+    {
+      "id": "악성코드",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "공격 기법 특징 구분",
+      "type": "subcategory",
+      "count": 5
+    },
+    {
+      "id": "보안",
+      "type": "subcategory",
+      "count": 7
+    },
+    {
+      "id": "인증",
+      "type": "subcategory",
+      "count": 20
+    },
+    {
+      "id": "TCP/IP",
+      "type": "subcategory",
+      "count": 3
+    },
+    {
+      "id": "암호화",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "네트워크 계층/프로토콜 이해",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "디자인 패턴",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "인증 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 6
+    },
+    {
+      "id": "네트워크",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "악성코드 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "포인터",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "접근통제",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "SQL 연관",
+      "type": "group",
+      "count": 100
+    },
+    {
+      "id": "집계함수",
+      "type": "subcategory",
+      "count": 12
+    },
+    {
+      "id": "SELECT",
+      "type": "subcategory",
+      "count": 16
+    },
+    {
+      "id": "집계함수 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 3
+    },
+    {
+      "id": "DML",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "INSERT",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "UPDATE",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "DML 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "SQL 실행 결과 해석",
+      "type": "subcategory",
+      "count": 7
+    },
+    {
+      "id": "JOIN 조건",
+      "type": "subcategory",
+      "count": 7
+    },
+    {
+      "id": "GROUP BY 기준",
+      "type": "subcategory",
+      "count": 7
+    },
+    {
+      "id": "NULL 처리",
+      "type": "subcategory",
+      "count": 7
+    },
+    {
+      "id": "집계 함수 적용 순서",
+      "type": "subcategory",
+      "count": 7
+    },
+    {
+      "id": "JOIN",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "GROUP BY",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "HAVING",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "JOIN 이해",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "SELECT 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "INDEX",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "INDEX 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "반복문",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "슬라이싱",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "제약조건",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "DDL",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "제약조건 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "디자인패턴 연관",
+      "type": "group",
+      "count": 8
+    },
+    {
+      "id": "Factory",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "디자인 패턴",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "Factory 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "Adapter",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "Adapter 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "Python 연관",
+      "type": "group",
+      "count": 21
+    },
+    {
+      "id": "Range",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "반복문",
+      "type": "subcategory",
+      "count": 3
+    },
+    {
+      "id": "Python 자료구조 이해",
+      "type": "subcategory",
+      "count": 3
+    },
+    {
+      "id": "Range 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "딕셔너리",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "리스트",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "딕셔너리 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "슬라이싱",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "슬라이싱 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "슬라이싱 끝 인덱스",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "역순 슬라이싱",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "문자열 join 결과",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "static 연관",
+      "type": "group",
+      "count": 56
+    },
+    {
+      "id": "클래스",
+      "type": "subcategory",
+      "count": 16
+    },
+    {
+      "id": "객체지향 문법 이해",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "static 이해",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "오버라이딩 대상 메서드",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "동적 바인딩",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "상속 호출 순서",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "프로세스 연관",
+      "type": "group",
+      "count": 29
+    },
+    {
+      "id": "프로세스 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 18
+    },
+    {
+      "id": "반복문",
+      "type": "subcategory",
+      "count": 7
+    },
+    {
+      "id": "슬라이싱",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "커버리지",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "리스트",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "응집도 연관",
+      "type": "group",
+      "count": 2
+    },
+    {
+      "id": "응집도 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "정규화 연관",
+      "type": "group",
+      "count": 1
+    },
+    {
+      "id": "정규화 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "라우팅 연관",
+      "type": "group",
+      "count": 2
+    },
+    {
+      "id": "네트워크",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "라우팅 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "무결성 연관",
+      "type": "group",
+      "count": 5
+    },
+    {
+      "id": "무결성 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 5
+    },
+    {
+      "id": "상속 연관",
+      "type": "group",
+      "count": 65
+    },
+    {
+      "id": "static",
+      "type": "subcategory",
+      "count": 14
+    },
+    {
+      "id": "클래스",
+      "type": "subcategory",
+      "count": 14
+    },
+    {
+      "id": "객체지향 문법 이해",
+      "type": "subcategory",
+      "count": 7
+    },
+    {
+      "id": "상속 이해",
+      "type": "subcategory",
+      "count": 7
+    },
+    {
+      "id": "오버라이딩 대상 메서드",
+      "type": "subcategory",
+      "count": 7
+    },
+    {
+      "id": "동적 바인딩",
+      "type": "subcategory",
+      "count": 7
+    },
+    {
+      "id": "상속 호출 순서",
+      "type": "subcategory",
+      "count": 7
+    },
+    {
+      "id": "오버라이딩",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "증감연산 연관",
+      "type": "group",
+      "count": 50
+    },
+    {
+      "id": "증감연산 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "break 위치",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "continue 위치",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "증감식 실행 순서",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "반복문",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "문자열",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "배열",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "커버리지",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "커버리지 연관",
+      "type": "group",
+      "count": 2
+    },
+    {
+      "id": "커버리지 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "악성코드 연관",
+      "type": "group",
+      "count": 7
+    },
+    {
+      "id": "공격 기법 특징 구분",
+      "type": "subcategory",
+      "count": 3
+    },
+    {
+      "id": "보안",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "악성코드 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "TCP/IP",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "집계함수 연관",
+      "type": "group",
+      "count": 9
+    },
+    {
+      "id": "SELECT",
+      "type": "subcategory",
+      "count": 6
+    },
+    {
+      "id": "집계함수 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 3
+    },
+    {
+      "id": "Factory 연관",
+      "type": "group",
+      "count": 2
+    },
+    {
+      "id": "디자인 패턴",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "Factory 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "DML 연관",
+      "type": "group",
+      "count": 12
+    },
+    {
+      "id": "INSERT",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "UPDATE",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "SELECT",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "DML 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "SQL 실행 결과 해석",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "JOIN 조건",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "GROUP BY 기준",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "NULL 처리",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "집계 함수 적용 순서",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "Cardinality 연관",
+      "type": "group",
+      "count": 14
+    },
+    {
+      "id": "Degree",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "Cardinality 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "무결성",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "인증 연관",
+      "type": "group",
+      "count": 25
+    },
+    {
+      "id": "TCP/IP",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "암호화",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "보안",
+      "type": "subcategory",
+      "count": 5
+    },
+    {
+      "id": "네트워크 계층/프로토콜 이해",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "디자인 패턴",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "인증 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 6
+    },
+    {
+      "id": "네트워크",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "포인터",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "공격 기법 특징 구분",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "접근통제",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "Range 연관",
+      "type": "group",
+      "count": 3
+    },
+    {
+      "id": "반복문",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "Python 자료구조 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "Range 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "TCP/IP 연관",
+      "type": "group",
+      "count": 1
+    },
+    {
+      "id": "TCP/IP 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "포인터 연관",
+      "type": "group",
+      "count": 170
+    },
+    {
+      "id": "증감연산",
+      "type": "subcategory",
+      "count": 32
+    },
+    {
+      "id": "배열",
+      "type": "subcategory",
+      "count": 12
+    },
+    {
+      "id": "포인터 증가 이해",
+      "type": "subcategory",
+      "count": 16
+    },
+    {
+      "id": "배열 주소 계산",
+      "type": "subcategory",
+      "count": 16
+    },
+    {
+      "id": "*p++",
+      "type": "subcategory",
+      "count": 16
+    },
+    {
+      "id": "(*p)++",
+      "type": "subcategory",
+      "count": 16
+    },
+    {
+      "id": "주소 증가와 값 증가 혼동",
+      "type": "subcategory",
+      "count": 16
+    },
+    {
+      "id": "반복문",
+      "type": "subcategory",
+      "count": 16
+    },
+    {
+      "id": "문자열",
+      "type": "subcategory",
+      "count": 8
+    },
+    {
+      "id": "구조체",
+      "type": "subcategory",
+      "count": 22
+    },
+    {
+      "id": "결합도 연관",
+      "type": "group",
+      "count": 7
+    },
+    {
+      "id": "결합도 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 3
+    },
+    {
+      "id": "GoF",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "디자인 패턴",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "배열",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "JOIN 연관",
+      "type": "group",
+      "count": 42
+    },
+    {
+      "id": "GROUP BY",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "HAVING",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "집계함수",
+      "type": "subcategory",
+      "count": 6
+    },
+    {
+      "id": "SELECT",
+      "type": "subcategory",
+      "count": 6
+    },
+    {
+      "id": "JOIN 이해",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "SQL 실행 결과 해석",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "JOIN 조건",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "GROUP BY 기준",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "NULL 처리",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "집계 함수 적용 순서",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "반복문",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "슬라이싱",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "ICMP 연관",
+      "type": "group",
+      "count": 5
+    },
+    {
+      "id": "TCP/IP",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "보안",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "네트워크",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "공격 기법 특징 구분",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "ICMP 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "예외처리 연관",
+      "type": "group",
+      "count": 18
+    },
+    {
+      "id": "static",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "클래스",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "객체지향 문법 이해",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "예외처리 이해",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "오버라이딩 대상 메서드",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "동적 바인딩",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "상속 호출 순서",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "컬렉션 연관",
+      "type": "group",
+      "count": 9
+    },
+    {
+      "id": "static",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "클래스",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "객체지향 문법 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "컬렉션 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "오버라이딩 대상 메서드",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "동적 바인딩",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "상속 호출 순서",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "ARP 연관",
+      "type": "group",
+      "count": 3
+    },
+    {
+      "id": "TCP/IP",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "네트워크",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "네트워크 계층/프로토콜 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "SELECT 연관",
+      "type": "group",
+      "count": 6
+    },
+    {
+      "id": "SELECT 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "SQL 실행 결과 해석",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "JOIN 조건",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "GROUP BY 기준",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "NULL 처리",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "집계 함수 적용 순서",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "Adapter 연관",
+      "type": "group",
+      "count": 2
+    },
+    {
+      "id": "디자인 패턴",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "Adapter 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "인터페이스 연관",
+      "type": "group",
+      "count": 20
+    },
+    {
+      "id": "예외처리",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "static",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "클래스",
+      "type": "subcategory",
+      "count": 4
+    },
+    {
+      "id": "객체지향 문법 이해",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "인터페이스 이해",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "오버라이딩 대상 메서드",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "동적 바인딩",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "상속 호출 순서",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "TCP 연관",
+      "type": "group",
+      "count": 5
+    },
+    {
+      "id": "3-way Handshake",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "TCP/IP",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "보안",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "공격 기법 특징 구분",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "INDEX 연관",
+      "type": "group",
+      "count": 1
+    },
+    {
+      "id": "INDEX 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "딕셔너리 연관",
+      "type": "group",
+      "count": 4
+    },
+    {
+      "id": "반복문",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "리스트",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "Python 자료구조 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "딕셔너리 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "제약조건 연관",
+      "type": "group",
+      "count": 8
+    },
+    {
+      "id": "DDL",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "제약조건 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "SQL 실행 결과 해석",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "JOIN 조건",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "GROUP BY 기준",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "NULL 처리",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "집계 함수 적용 순서",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "슬라이싱 연관",
+      "type": "group",
+      "count": 8
+    },
+    {
+      "id": "Range",
+      "type": "subcategory",
+      "count": 2
+    },
+    {
+      "id": "반복문",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "Python 자료구조 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "슬라이싱 이해",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "슬라이싱 끝 인덱스",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "역순 슬라이싱",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "문자열 join 결과",
+      "type": "subcategory",
+      "count": 1
+    },
+    {
+      "id": "통합테스트 연관",
+      "type": "group",
+      "count": 1
+    },
+    {
+      "id": "통합테스트 핵심 개념 이해",
+      "type": "subcategory",
+      "count": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "포인터 계열",
+      "target": "포인터",
+      "weight": 16
+    },
+    {
+      "source": "포인터 계열",
+      "target": "증감연산",
+      "weight": 3
+    },
+    {
+      "source": "포인터 계열",
+      "target": "결합도",
+      "weight": 1
+    },
+    {
+      "source": "포인터 계열",
+      "target": "인증",
+      "weight": 1
+    },
+    {
+      "source": "포인터 계열",
+      "target": "슬라이싱",
+      "weight": 1
+    },
+    {
+      "source": "SQL 집계/조인 계열",
+      "target": "집계함수",
+      "weight": 3
+    },
+    {
+      "source": "SQL 집계/조인 계열",
+      "target": "DML",
+      "weight": 1
+    },
+    {
+      "source": "SQL 집계/조인 계열",
+      "target": "JOIN",
+      "weight": 4
+    },
+    {
+      "source": "SQL 집계/조인 계열",
+      "target": "SELECT",
+      "weight": 1
+    },
+    {
+      "source": "SQL 집계/조인 계열",
+      "target": "제약조건",
+      "weight": 1
+    },
+    {
+      "source": "운영체제 계열",
+      "target": "프로세스",
+      "weight": 18
+    },
+    {
+      "source": "네트워크 계열",
+      "target": "라우팅",
+      "weight": 1
+    },
+    {
+      "source": "네트워크 계열",
+      "target": "인증",
+      "weight": 2
+    },
+    {
+      "source": "네트워크 계열",
+      "target": "TCP/IP",
+      "weight": 1
+    },
+    {
+      "source": "네트워크 계열",
+      "target": "ICMP",
+      "weight": 1
+    },
+    {
+      "source": "네트워크 계열",
+      "target": "ARP",
+      "weight": 1
+    },
+    {
+      "source": "네트워크 계열",
+      "target": "TCP",
+      "weight": 1
+    },
+    {
+      "source": "네트워크 계열",
+      "target": "악성코드",
+      "weight": 1
+    },
+    {
+      "source": "Java 객체지향 계열",
+      "target": "static",
+      "weight": 8
+    },
+    {
+      "source": "Java 객체지향 계열",
+      "target": "상속",
+      "weight": 7
+    },
+    {
+      "source": "Java 객체지향 계열",
+      "target": "예외처리",
+      "weight": 2
+    },
+    {
+      "source": "Java 객체지향 계열",
+      "target": "컬렉션",
+      "weight": 1
+    },
+    {
+      "source": "Java 객체지향 계열",
+      "target": "인터페이스",
+      "weight": 2
+    },
+    {
+      "source": "Python 자료구조 계열",
+      "target": "프로세스",
+      "weight": 2
+    },
+    {
+      "source": "Python 자료구조 계열",
+      "target": "딕셔너리",
+      "weight": 1
+    },
+    {
+      "source": "Python 자료구조 계열",
+      "target": "JOIN",
+      "weight": 1
+    },
+    {
+      "source": "Python 자료구조 계열",
+      "target": "슬라이싱",
+      "weight": 1
+    },
+    {
+      "source": "Java 연관",
+      "target": "static",
+      "weight": 40
+    },
+    {
+      "source": "Java 연관",
+      "target": "클래스",
+      "weight": 40
+    },
+    {
+      "source": "Java 연관",
+      "target": "객체지향 문법 이해",
+      "weight": 20
+    },
+    {
+      "source": "Java 연관",
+      "target": "static 이해",
+      "weight": 8
+    },
+    {
+      "source": "Java 연관",
+      "target": "오버라이딩 대상 메서드",
+      "weight": 20
+    },
+    {
+      "source": "Java 연관",
+      "target": "동적 바인딩",
+      "weight": 20
+    },
+    {
+      "source": "Java 연관",
+      "target": "상속 호출 순서",
+      "weight": 20
+    },
+    {
+      "source": "Java 연관",
+      "target": "상속",
+      "weight": 14
+    },
+    {
+      "source": "Java 연관",
+      "target": "상속 이해",
+      "weight": 7
+    },
+    {
+      "source": "Java 연관",
+      "target": "예외처리",
+      "weight": 6
+    },
+    {
+      "source": "Java 연관",
+      "target": "예외처리 이해",
+      "weight": 2
+    },
+    {
+      "source": "Java 연관",
+      "target": "컬렉션",
+      "weight": 2
+    },
+    {
+      "source": "Java 연관",
+      "target": "컬렉션 이해",
+      "weight": 1
+    },
+    {
+      "source": "Java 연관",
+      "target": "오버라이딩",
+      "weight": 2
+    },
+    {
+      "source": "Java 연관",
+      "target": "인터페이스",
+      "weight": 4
+    },
+    {
+      "source": "Java 연관",
+      "target": "인터페이스 이해",
+      "weight": 2
+    },
+    {
+      "source": "운영체제 연관",
+      "target": "프로세스",
+      "weight": 36
+    },
+    {
+      "source": "운영체제 연관",
+      "target": "프로세스 핵심 개념 이해",
+      "weight": 18
+    },
+    {
+      "source": "운영체제 연관",
+      "target": "반복문",
+      "weight": 7
+    },
+    {
+      "source": "운영체제 연관",
+      "target": "슬라이싱",
+      "weight": 2
+    },
+    {
+      "source": "운영체제 연관",
+      "target": "커버리지",
+      "weight": 1
+    },
+    {
+      "source": "운영체제 연관",
+      "target": "리스트",
+      "weight": 1
+    },
+    {
+      "source": "소프트웨어설계 연관",
+      "target": "응집도",
+      "weight": 4
+    },
+    {
+      "source": "소프트웨어설계 연관",
+      "target": "응집도 핵심 개념 이해",
+      "weight": 2
+    },
+    {
+      "source": "소프트웨어설계 연관",
+      "target": "결합도",
+      "weight": 6
+    },
+    {
+      "source": "소프트웨어설계 연관",
+      "target": "결합도 핵심 개념 이해",
+      "weight": 3
+    },
+    {
+      "source": "소프트웨어설계 연관",
+      "target": "GoF",
+      "weight": 2
+    },
+    {
+      "source": "소프트웨어설계 연관",
+      "target": "디자인 패턴",
+      "weight": 1
+    },
+    {
+      "source": "소프트웨어설계 연관",
+      "target": "배열",
+      "weight": 1
+    },
+    {
+      "source": "DB 연관",
+      "target": "정규화",
+      "weight": 2
+    },
+    {
+      "source": "DB 연관",
+      "target": "정규화 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "DB 연관",
+      "target": "무결성",
+      "weight": 12
+    },
+    {
+      "source": "DB 연관",
+      "target": "무결성 핵심 개념 이해",
+      "weight": 5
+    },
+    {
+      "source": "DB 연관",
+      "target": "Cardinality",
+      "weight": 8
+    },
+    {
+      "source": "DB 연관",
+      "target": "Degree",
+      "weight": 8
+    },
+    {
+      "source": "DB 연관",
+      "target": "Cardinality 핵심 개념 이해",
+      "weight": 4
+    },
+    {
+      "source": "네트워크 연관",
+      "target": "라우팅",
+      "weight": 2
+    },
+    {
+      "source": "네트워크 연관",
+      "target": "네트워크",
+      "weight": 3
+    },
+    {
+      "source": "네트워크 연관",
+      "target": "라우팅 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "네트워크 연관",
+      "target": "TCP/IP",
+      "weight": 5
+    },
+    {
+      "source": "네트워크 연관",
+      "target": "TCP/IP 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "네트워크 연관",
+      "target": "ICMP",
+      "weight": 4
+    },
+    {
+      "source": "네트워크 연관",
+      "target": "보안",
+      "weight": 2
+    },
+    {
+      "source": "네트워크 연관",
+      "target": "공격 기법 특징 구분",
+      "weight": 2
+    },
+    {
+      "source": "네트워크 연관",
+      "target": "ARP",
+      "weight": 2
+    },
+    {
+      "source": "네트워크 연관",
+      "target": "네트워크 계층/프로토콜 이해",
+      "weight": 1
+    },
+    {
+      "source": "네트워크 연관",
+      "target": "TCP",
+      "weight": 2
+    },
+    {
+      "source": "네트워크 연관",
+      "target": "3-way Handshake",
+      "weight": 2
+    },
+    {
+      "source": "네트워크 연관",
+      "target": "ICMP 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "C 연관",
+      "target": "증감연산",
+      "weight": 48
+    },
+    {
+      "source": "C 연관",
+      "target": "증감연산 핵심 개념 이해",
+      "weight": 8
+    },
+    {
+      "source": "C 연관",
+      "target": "break 위치",
+      "weight": 8
+    },
+    {
+      "source": "C 연관",
+      "target": "continue 위치",
+      "weight": 8
+    },
+    {
+      "source": "C 연관",
+      "target": "증감식 실행 순서",
+      "weight": 8
+    },
+    {
+      "source": "C 연관",
+      "target": "포인터",
+      "weight": 32
+    },
+    {
+      "source": "C 연관",
+      "target": "배열",
+      "weight": 16
+    },
+    {
+      "source": "C 연관",
+      "target": "포인터 증가 이해",
+      "weight": 16
+    },
+    {
+      "source": "C 연관",
+      "target": "배열 주소 계산",
+      "weight": 16
+    },
+    {
+      "source": "C 연관",
+      "target": "*p++",
+      "weight": 16
+    },
+    {
+      "source": "C 연관",
+      "target": "(*p)++",
+      "weight": 16
+    },
+    {
+      "source": "C 연관",
+      "target": "주소 증가와 값 증가 혼동",
+      "weight": 16
+    },
+    {
+      "source": "C 연관",
+      "target": "반복문",
+      "weight": 24
+    },
+    {
+      "source": "C 연관",
+      "target": "문자열",
+      "weight": 12
+    },
+    {
+      "source": "C 연관",
+      "target": "구조체",
+      "weight": 22
+    },
+    {
+      "source": "C 연관",
+      "target": "커버리지",
+      "weight": 2
+    },
+    {
+      "source": "테스트 연관",
+      "target": "커버리지",
+      "weight": 4
+    },
+    {
+      "source": "테스트 연관",
+      "target": "커버리지 핵심 개념 이해",
+      "weight": 2
+    },
+    {
+      "source": "테스트 연관",
+      "target": "통합테스트",
+      "weight": 2
+    },
+    {
+      "source": "테스트 연관",
+      "target": "통합테스트 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "보안 연관",
+      "target": "악성코드",
+      "weight": 8
+    },
+    {
+      "source": "보안 연관",
+      "target": "공격 기법 특징 구분",
+      "weight": 5
+    },
+    {
+      "source": "보안 연관",
+      "target": "보안",
+      "weight": 7
+    },
+    {
+      "source": "보안 연관",
+      "target": "인증",
+      "weight": 20
+    },
+    {
+      "source": "보안 연관",
+      "target": "TCP/IP",
+      "weight": 3
+    },
+    {
+      "source": "보안 연관",
+      "target": "암호화",
+      "weight": 2
+    },
+    {
+      "source": "보안 연관",
+      "target": "네트워크 계층/프로토콜 이해",
+      "weight": 2
+    },
+    {
+      "source": "보안 연관",
+      "target": "디자인 패턴",
+      "weight": 2
+    },
+    {
+      "source": "보안 연관",
+      "target": "인증 핵심 개념 이해",
+      "weight": 6
+    },
+    {
+      "source": "보안 연관",
+      "target": "네트워크",
+      "weight": 1
+    },
+    {
+      "source": "보안 연관",
+      "target": "악성코드 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "보안 연관",
+      "target": "포인터",
+      "weight": 1
+    },
+    {
+      "source": "보안 연관",
+      "target": "접근통제",
+      "weight": 2
+    },
+    {
+      "source": "SQL 연관",
+      "target": "집계함수",
+      "weight": 12
+    },
+    {
+      "source": "SQL 연관",
+      "target": "SELECT",
+      "weight": 16
+    },
+    {
+      "source": "SQL 연관",
+      "target": "집계함수 핵심 개념 이해",
+      "weight": 3
+    },
+    {
+      "source": "SQL 연관",
+      "target": "DML",
+      "weight": 2
+    },
+    {
+      "source": "SQL 연관",
+      "target": "INSERT",
+      "weight": 2
+    },
+    {
+      "source": "SQL 연관",
+      "target": "UPDATE",
+      "weight": 2
+    },
+    {
+      "source": "SQL 연관",
+      "target": "DML 이해",
+      "weight": 1
+    },
+    {
+      "source": "SQL 연관",
+      "target": "SQL 실행 결과 해석",
+      "weight": 7
+    },
+    {
+      "source": "SQL 연관",
+      "target": "JOIN 조건",
+      "weight": 7
+    },
+    {
+      "source": "SQL 연관",
+      "target": "GROUP BY 기준",
+      "weight": 7
+    },
+    {
+      "source": "SQL 연관",
+      "target": "NULL 처리",
+      "weight": 7
+    },
+    {
+      "source": "SQL 연관",
+      "target": "집계 함수 적용 순서",
+      "weight": 7
+    },
+    {
+      "source": "SQL 연관",
+      "target": "JOIN",
+      "weight": 8
+    },
+    {
+      "source": "SQL 연관",
+      "target": "GROUP BY",
+      "weight": 2
+    },
+    {
+      "source": "SQL 연관",
+      "target": "HAVING",
+      "weight": 2
+    },
+    {
+      "source": "SQL 연관",
+      "target": "JOIN 이해",
+      "weight": 4
+    },
+    {
+      "source": "SQL 연관",
+      "target": "SELECT 이해",
+      "weight": 1
+    },
+    {
+      "source": "SQL 연관",
+      "target": "INDEX",
+      "weight": 2
+    },
+    {
+      "source": "SQL 연관",
+      "target": "INDEX 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "SQL 연관",
+      "target": "반복문",
+      "weight": 1
+    },
+    {
+      "source": "SQL 연관",
+      "target": "슬라이싱",
+      "weight": 1
+    },
+    {
+      "source": "SQL 연관",
+      "target": "제약조건",
+      "weight": 2
+    },
+    {
+      "source": "SQL 연관",
+      "target": "DDL",
+      "weight": 2
+    },
+    {
+      "source": "SQL 연관",
+      "target": "제약조건 이해",
+      "weight": 1
+    },
+    {
+      "source": "디자인패턴 연관",
+      "target": "Factory",
+      "weight": 2
+    },
+    {
+      "source": "디자인패턴 연관",
+      "target": "디자인 패턴",
+      "weight": 2
+    },
+    {
+      "source": "디자인패턴 연관",
+      "target": "Factory 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "디자인패턴 연관",
+      "target": "Adapter",
+      "weight": 2
+    },
+    {
+      "source": "디자인패턴 연관",
+      "target": "Adapter 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "Python 연관",
+      "target": "Range",
+      "weight": 4
+    },
+    {
+      "source": "Python 연관",
+      "target": "반복문",
+      "weight": 3
+    },
+    {
+      "source": "Python 연관",
+      "target": "Python 자료구조 이해",
+      "weight": 3
+    },
+    {
+      "source": "Python 연관",
+      "target": "Range 이해",
+      "weight": 1
+    },
+    {
+      "source": "Python 연관",
+      "target": "딕셔너리",
+      "weight": 2
+    },
+    {
+      "source": "Python 연관",
+      "target": "리스트",
+      "weight": 1
+    },
+    {
+      "source": "Python 연관",
+      "target": "딕셔너리 이해",
+      "weight": 1
+    },
+    {
+      "source": "Python 연관",
+      "target": "슬라이싱",
+      "weight": 2
+    },
+    {
+      "source": "Python 연관",
+      "target": "슬라이싱 이해",
+      "weight": 1
+    },
+    {
+      "source": "Python 연관",
+      "target": "슬라이싱 끝 인덱스",
+      "weight": 1
+    },
+    {
+      "source": "Python 연관",
+      "target": "역순 슬라이싱",
+      "weight": 1
+    },
+    {
+      "source": "Python 연관",
+      "target": "문자열 join 결과",
+      "weight": 1
+    },
+    {
+      "source": "static 연관",
+      "target": "클래스",
+      "weight": 16
+    },
+    {
+      "source": "static 연관",
+      "target": "객체지향 문법 이해",
+      "weight": 8
+    },
+    {
+      "source": "static 연관",
+      "target": "static 이해",
+      "weight": 8
+    },
+    {
+      "source": "static 연관",
+      "target": "오버라이딩 대상 메서드",
+      "weight": 8
+    },
+    {
+      "source": "static 연관",
+      "target": "동적 바인딩",
+      "weight": 8
+    },
+    {
+      "source": "static 연관",
+      "target": "상속 호출 순서",
+      "weight": 8
+    },
+    {
+      "source": "프로세스 연관",
+      "target": "프로세스 핵심 개념 이해",
+      "weight": 18
+    },
+    {
+      "source": "프로세스 연관",
+      "target": "반복문",
+      "weight": 7
+    },
+    {
+      "source": "프로세스 연관",
+      "target": "슬라이싱",
+      "weight": 2
+    },
+    {
+      "source": "프로세스 연관",
+      "target": "커버리지",
+      "weight": 1
+    },
+    {
+      "source": "프로세스 연관",
+      "target": "리스트",
+      "weight": 1
+    },
+    {
+      "source": "응집도 연관",
+      "target": "응집도 핵심 개념 이해",
+      "weight": 2
+    },
+    {
+      "source": "정규화 연관",
+      "target": "정규화 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "라우팅 연관",
+      "target": "네트워크",
+      "weight": 1
+    },
+    {
+      "source": "라우팅 연관",
+      "target": "라우팅 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "무결성 연관",
+      "target": "무결성 핵심 개념 이해",
+      "weight": 5
+    },
+    {
+      "source": "상속 연관",
+      "target": "static",
+      "weight": 14
+    },
+    {
+      "source": "상속 연관",
+      "target": "클래스",
+      "weight": 14
+    },
+    {
+      "source": "상속 연관",
+      "target": "객체지향 문법 이해",
+      "weight": 7
+    },
+    {
+      "source": "상속 연관",
+      "target": "상속 이해",
+      "weight": 7
+    },
+    {
+      "source": "상속 연관",
+      "target": "오버라이딩 대상 메서드",
+      "weight": 7
+    },
+    {
+      "source": "상속 연관",
+      "target": "동적 바인딩",
+      "weight": 7
+    },
+    {
+      "source": "상속 연관",
+      "target": "상속 호출 순서",
+      "weight": 7
+    },
+    {
+      "source": "상속 연관",
+      "target": "오버라이딩",
+      "weight": 2
+    },
+    {
+      "source": "증감연산 연관",
+      "target": "증감연산 핵심 개념 이해",
+      "weight": 8
+    },
+    {
+      "source": "증감연산 연관",
+      "target": "break 위치",
+      "weight": 8
+    },
+    {
+      "source": "증감연산 연관",
+      "target": "continue 위치",
+      "weight": 8
+    },
+    {
+      "source": "증감연산 연관",
+      "target": "증감식 실행 순서",
+      "weight": 8
+    },
+    {
+      "source": "증감연산 연관",
+      "target": "반복문",
+      "weight": 8
+    },
+    {
+      "source": "증감연산 연관",
+      "target": "문자열",
+      "weight": 4
+    },
+    {
+      "source": "증감연산 연관",
+      "target": "배열",
+      "weight": 4
+    },
+    {
+      "source": "증감연산 연관",
+      "target": "커버리지",
+      "weight": 2
+    },
+    {
+      "source": "커버리지 연관",
+      "target": "커버리지 핵심 개념 이해",
+      "weight": 2
+    },
+    {
+      "source": "악성코드 연관",
+      "target": "공격 기법 특징 구분",
+      "weight": 3
+    },
+    {
+      "source": "악성코드 연관",
+      "target": "보안",
+      "weight": 2
+    },
+    {
+      "source": "악성코드 연관",
+      "target": "악성코드 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "악성코드 연관",
+      "target": "TCP/IP",
+      "weight": 1
+    },
+    {
+      "source": "집계함수 연관",
+      "target": "SELECT",
+      "weight": 6
+    },
+    {
+      "source": "집계함수 연관",
+      "target": "집계함수 핵심 개념 이해",
+      "weight": 3
+    },
+    {
+      "source": "Factory 연관",
+      "target": "디자인 패턴",
+      "weight": 1
+    },
+    {
+      "source": "Factory 연관",
+      "target": "Factory 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "DML 연관",
+      "target": "INSERT",
+      "weight": 2
+    },
+    {
+      "source": "DML 연관",
+      "target": "UPDATE",
+      "weight": 2
+    },
+    {
+      "source": "DML 연관",
+      "target": "SELECT",
+      "weight": 2
+    },
+    {
+      "source": "DML 연관",
+      "target": "DML 이해",
+      "weight": 1
+    },
+    {
+      "source": "DML 연관",
+      "target": "SQL 실행 결과 해석",
+      "weight": 1
+    },
+    {
+      "source": "DML 연관",
+      "target": "JOIN 조건",
+      "weight": 1
+    },
+    {
+      "source": "DML 연관",
+      "target": "GROUP BY 기준",
+      "weight": 1
+    },
+    {
+      "source": "DML 연관",
+      "target": "NULL 처리",
+      "weight": 1
+    },
+    {
+      "source": "DML 연관",
+      "target": "집계 함수 적용 순서",
+      "weight": 1
+    },
+    {
+      "source": "Cardinality 연관",
+      "target": "Degree",
+      "weight": 8
+    },
+    {
+      "source": "Cardinality 연관",
+      "target": "Cardinality 핵심 개념 이해",
+      "weight": 4
+    },
+    {
+      "source": "Cardinality 연관",
+      "target": "무결성",
+      "weight": 2
+    },
+    {
+      "source": "인증 연관",
+      "target": "TCP/IP",
+      "weight": 2
+    },
+    {
+      "source": "인증 연관",
+      "target": "암호화",
+      "weight": 2
+    },
+    {
+      "source": "인증 연관",
+      "target": "보안",
+      "weight": 5
+    },
+    {
+      "source": "인증 연관",
+      "target": "네트워크 계층/프로토콜 이해",
+      "weight": 2
+    },
+    {
+      "source": "인증 연관",
+      "target": "디자인 패턴",
+      "weight": 2
+    },
+    {
+      "source": "인증 연관",
+      "target": "인증 핵심 개념 이해",
+      "weight": 6
+    },
+    {
+      "source": "인증 연관",
+      "target": "네트워크",
+      "weight": 1
+    },
+    {
+      "source": "인증 연관",
+      "target": "포인터",
+      "weight": 1
+    },
+    {
+      "source": "인증 연관",
+      "target": "공격 기법 특징 구분",
+      "weight": 2
+    },
+    {
+      "source": "인증 연관",
+      "target": "접근통제",
+      "weight": 2
+    },
+    {
+      "source": "Range 연관",
+      "target": "반복문",
+      "weight": 1
+    },
+    {
+      "source": "Range 연관",
+      "target": "Python 자료구조 이해",
+      "weight": 1
+    },
+    {
+      "source": "Range 연관",
+      "target": "Range 이해",
+      "weight": 1
+    },
+    {
+      "source": "TCP/IP 연관",
+      "target": "TCP/IP 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "포인터 연관",
+      "target": "증감연산",
+      "weight": 32
+    },
+    {
+      "source": "포인터 연관",
+      "target": "배열",
+      "weight": 12
+    },
+    {
+      "source": "포인터 연관",
+      "target": "포인터 증가 이해",
+      "weight": 16
+    },
+    {
+      "source": "포인터 연관",
+      "target": "배열 주소 계산",
+      "weight": 16
+    },
+    {
+      "source": "포인터 연관",
+      "target": "*p++",
+      "weight": 16
+    },
+    {
+      "source": "포인터 연관",
+      "target": "(*p)++",
+      "weight": 16
+    },
+    {
+      "source": "포인터 연관",
+      "target": "주소 증가와 값 증가 혼동",
+      "weight": 16
+    },
+    {
+      "source": "포인터 연관",
+      "target": "반복문",
+      "weight": 16
+    },
+    {
+      "source": "포인터 연관",
+      "target": "문자열",
+      "weight": 8
+    },
+    {
+      "source": "포인터 연관",
+      "target": "구조체",
+      "weight": 22
+    },
+    {
+      "source": "결합도 연관",
+      "target": "결합도 핵심 개념 이해",
+      "weight": 3
+    },
+    {
+      "source": "결합도 연관",
+      "target": "GoF",
+      "weight": 2
+    },
+    {
+      "source": "결합도 연관",
+      "target": "디자인 패턴",
+      "weight": 1
+    },
+    {
+      "source": "결합도 연관",
+      "target": "배열",
+      "weight": 1
+    },
+    {
+      "source": "JOIN 연관",
+      "target": "GROUP BY",
+      "weight": 2
+    },
+    {
+      "source": "JOIN 연관",
+      "target": "HAVING",
+      "weight": 2
+    },
+    {
+      "source": "JOIN 연관",
+      "target": "집계함수",
+      "weight": 6
+    },
+    {
+      "source": "JOIN 연관",
+      "target": "SELECT",
+      "weight": 6
+    },
+    {
+      "source": "JOIN 연관",
+      "target": "JOIN 이해",
+      "weight": 4
+    },
+    {
+      "source": "JOIN 연관",
+      "target": "SQL 실행 결과 해석",
+      "weight": 4
+    },
+    {
+      "source": "JOIN 연관",
+      "target": "JOIN 조건",
+      "weight": 4
+    },
+    {
+      "source": "JOIN 연관",
+      "target": "GROUP BY 기준",
+      "weight": 4
+    },
+    {
+      "source": "JOIN 연관",
+      "target": "NULL 처리",
+      "weight": 4
+    },
+    {
+      "source": "JOIN 연관",
+      "target": "집계 함수 적용 순서",
+      "weight": 4
+    },
+    {
+      "source": "JOIN 연관",
+      "target": "반복문",
+      "weight": 1
+    },
+    {
+      "source": "JOIN 연관",
+      "target": "슬라이싱",
+      "weight": 1
+    },
+    {
+      "source": "ICMP 연관",
+      "target": "TCP/IP",
+      "weight": 1
+    },
+    {
+      "source": "ICMP 연관",
+      "target": "보안",
+      "weight": 1
+    },
+    {
+      "source": "ICMP 연관",
+      "target": "네트워크",
+      "weight": 1
+    },
+    {
+      "source": "ICMP 연관",
+      "target": "공격 기법 특징 구분",
+      "weight": 1
+    },
+    {
+      "source": "ICMP 연관",
+      "target": "ICMP 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "예외처리 연관",
+      "target": "static",
+      "weight": 4
+    },
+    {
+      "source": "예외처리 연관",
+      "target": "클래스",
+      "weight": 4
+    },
+    {
+      "source": "예외처리 연관",
+      "target": "객체지향 문법 이해",
+      "weight": 2
+    },
+    {
+      "source": "예외처리 연관",
+      "target": "예외처리 이해",
+      "weight": 2
+    },
+    {
+      "source": "예외처리 연관",
+      "target": "오버라이딩 대상 메서드",
+      "weight": 2
+    },
+    {
+      "source": "예외처리 연관",
+      "target": "동적 바인딩",
+      "weight": 2
+    },
+    {
+      "source": "예외처리 연관",
+      "target": "상속 호출 순서",
+      "weight": 2
+    },
+    {
+      "source": "컬렉션 연관",
+      "target": "static",
+      "weight": 2
+    },
+    {
+      "source": "컬렉션 연관",
+      "target": "클래스",
+      "weight": 2
+    },
+    {
+      "source": "컬렉션 연관",
+      "target": "객체지향 문법 이해",
+      "weight": 1
+    },
+    {
+      "source": "컬렉션 연관",
+      "target": "컬렉션 이해",
+      "weight": 1
+    },
+    {
+      "source": "컬렉션 연관",
+      "target": "오버라이딩 대상 메서드",
+      "weight": 1
+    },
+    {
+      "source": "컬렉션 연관",
+      "target": "동적 바인딩",
+      "weight": 1
+    },
+    {
+      "source": "컬렉션 연관",
+      "target": "상속 호출 순서",
+      "weight": 1
+    },
+    {
+      "source": "ARP 연관",
+      "target": "TCP/IP",
+      "weight": 1
+    },
+    {
+      "source": "ARP 연관",
+      "target": "네트워크",
+      "weight": 1
+    },
+    {
+      "source": "ARP 연관",
+      "target": "네트워크 계층/프로토콜 이해",
+      "weight": 1
+    },
+    {
+      "source": "SELECT 연관",
+      "target": "SELECT 이해",
+      "weight": 1
+    },
+    {
+      "source": "SELECT 연관",
+      "target": "SQL 실행 결과 해석",
+      "weight": 1
+    },
+    {
+      "source": "SELECT 연관",
+      "target": "JOIN 조건",
+      "weight": 1
+    },
+    {
+      "source": "SELECT 연관",
+      "target": "GROUP BY 기준",
+      "weight": 1
+    },
+    {
+      "source": "SELECT 연관",
+      "target": "NULL 처리",
+      "weight": 1
+    },
+    {
+      "source": "SELECT 연관",
+      "target": "집계 함수 적용 순서",
+      "weight": 1
+    },
+    {
+      "source": "Adapter 연관",
+      "target": "디자인 패턴",
+      "weight": 1
+    },
+    {
+      "source": "Adapter 연관",
+      "target": "Adapter 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "인터페이스 연관",
+      "target": "예외처리",
+      "weight": 2
+    },
+    {
+      "source": "인터페이스 연관",
+      "target": "static",
+      "weight": 4
+    },
+    {
+      "source": "인터페이스 연관",
+      "target": "클래스",
+      "weight": 4
+    },
+    {
+      "source": "인터페이스 연관",
+      "target": "객체지향 문법 이해",
+      "weight": 2
+    },
+    {
+      "source": "인터페이스 연관",
+      "target": "인터페이스 이해",
+      "weight": 2
+    },
+    {
+      "source": "인터페이스 연관",
+      "target": "오버라이딩 대상 메서드",
+      "weight": 2
+    },
+    {
+      "source": "인터페이스 연관",
+      "target": "동적 바인딩",
+      "weight": 2
+    },
+    {
+      "source": "인터페이스 연관",
+      "target": "상속 호출 순서",
+      "weight": 2
+    },
+    {
+      "source": "TCP 연관",
+      "target": "3-way Handshake",
+      "weight": 2
+    },
+    {
+      "source": "TCP 연관",
+      "target": "TCP/IP",
+      "weight": 1
+    },
+    {
+      "source": "TCP 연관",
+      "target": "보안",
+      "weight": 1
+    },
+    {
+      "source": "TCP 연관",
+      "target": "공격 기법 특징 구분",
+      "weight": 1
+    },
+    {
+      "source": "INDEX 연관",
+      "target": "INDEX 핵심 개념 이해",
+      "weight": 1
+    },
+    {
+      "source": "딕셔너리 연관",
+      "target": "반복문",
+      "weight": 1
+    },
+    {
+      "source": "딕셔너리 연관",
+      "target": "리스트",
+      "weight": 1
+    },
+    {
+      "source": "딕셔너리 연관",
+      "target": "Python 자료구조 이해",
+      "weight": 1
+    },
+    {
+      "source": "딕셔너리 연관",
+      "target": "딕셔너리 이해",
+      "weight": 1
+    },
+    {
+      "source": "제약조건 연관",
+      "target": "DDL",
+      "weight": 2
+    },
+    {
+      "source": "제약조건 연관",
+      "target": "제약조건 이해",
+      "weight": 1
+    },
+    {
+      "source": "제약조건 연관",
+      "target": "SQL 실행 결과 해석",
+      "weight": 1
+    },
+    {
+      "source": "제약조건 연관",
+      "target": "JOIN 조건",
+      "weight": 1
+    },
+    {
+      "source": "제약조건 연관",
+      "target": "GROUP BY 기준",
+      "weight": 1
+    },
+    {
+      "source": "제약조건 연관",
+      "target": "NULL 처리",
+      "weight": 1
+    },
+    {
+      "source": "제약조건 연관",
+      "target": "집계 함수 적용 순서",
+      "weight": 1
+    },
+    {
+      "source": "슬라이싱 연관",
+      "target": "Range",
+      "weight": 2
+    },
+    {
+      "source": "슬라이싱 연관",
+      "target": "반복문",
+      "weight": 1
+    },
+    {
+      "source": "슬라이싱 연관",
+      "target": "Python 자료구조 이해",
+      "weight": 1
+    },
+    {
+      "source": "슬라이싱 연관",
+      "target": "슬라이싱 이해",
+      "weight": 1
+    },
+    {
+      "source": "슬라이싱 연관",
+      "target": "슬라이싱 끝 인덱스",
+      "weight": 1
+    },
+    {
+      "source": "슬라이싱 연관",
+      "target": "역순 슬라이싱",
+      "weight": 1
+    },
+    {
+      "source": "슬라이싱 연관",
+      "target": "문자열 join 결과",
+      "weight": 1
+    },
+    {
+      "source": "통합테스트 연관",
+      "target": "통합테스트 핵심 개념 이해",
+      "weight": 1
+    }
+  ]
+}

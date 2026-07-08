@@ -5,6 +5,9 @@ from __future__ import annotations
 from typing import Any
 
 from src.analyzer.frequency_analyzer import FrequencyAnalyzer
+from src.analyzer.relation_analyzer import RelationAnalyzer
+from src.analyzer.statistics_engine import StatisticsEngine
+from src.analyzer.trend_analyzer import TrendAnalyzer
 from src.llm.ollama_client import OllamaClient
 
 
@@ -38,11 +41,26 @@ class ExamStrategyAnalyzer:
 
     def generate_strategy(self, records: list[dict[str, Any]]) -> str:
         """기출 인덱스 레코드를 바탕으로 전략 보고서를 생성합니다."""
-        analysis = self.frequency_analyzer.analyze(records)
-        report = self.frequency_analyzer.format_report(analysis)
+        if records and "subject" in records[0]:
+            stats_engine = StatisticsEngine()
+            stats = stats_engine.analyze(records)
+            trend = TrendAnalyzer().analyze(records)
+            relations = RelationAnalyzer().analyze(records)
+            report = "\n\n".join(
+                [
+                    stats_engine.format_report(stats),
+                    TrendAnalyzer().format_report(trend),
+                    RelationAnalyzer().format_report(relations),
+                ]
+            )
+        else:
+            analysis = self.frequency_analyzer.analyze(records)
+            report = self.frequency_analyzer.format_report(analysis)
         try:
             return self.llm.generate(STRATEGY_PROMPT, f"기출 빈도 분석 데이터:\n{report}")
         except Exception:
+            if records and "subject" in records[0]:
+                return "과거 기출 기반의 가능성 분석입니다.\n\n" + report
             return self._fallback_strategy(analysis)
 
     def _fallback_strategy(self, analysis: dict[str, Any]) -> str:

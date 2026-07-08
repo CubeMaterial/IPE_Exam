@@ -97,18 +97,18 @@ class QuestionAnalyzeTab(QWidget):
         layout.addWidget(self.output)
 
     def _load_question_file(self) -> None:
-        """TXT 또는 PDF 파일에서 문제 텍스트를 불러옵니다."""
+        """TXT, Markdown, PDF, 코드 파일에서 문제 텍스트를 불러옵니다."""
         file, _ = QFileDialog.getOpenFileName(
             self,
             "문제 파일 선택",
             "",
-            "Question/Code Files (*.txt *.pdf *.c *.h *.cpp *.hpp *.java *.py *.dart *.js *.ts *.kt *.swift *.go *.rs *.cs)",
+            "Question/Code Files (*.txt *.md *.pdf *.c *.h *.cpp *.hpp *.java *.py *.dart *.js *.ts *.kt *.swift *.go *.rs *.cs)",
         )
         if not file:
             return
         try:
             path = Path(file)
-            if path.suffix.lower() == ".txt":
+            if path.suffix.lower() in {".txt", ".md"}:
                 text = TxtLoader().load(path)
             elif is_code_file(path):
                 metadata = CodeLoader().metadata(path)

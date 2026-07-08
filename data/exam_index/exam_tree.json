@@ -1,0 +1,1108 @@
+{
+  "프로그래밍 언어 활용": {
+    "count": 47,
+    "categories": {
+      "Java": {
+        "count": 20,
+        "subcategories": {
+          "static": {
+            "count": 8,
+            "years": [
+              2024,
+              2025,
+              2026
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 1
+              },
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 20
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 16
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 20
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 5
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 15
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 17
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 17
+              }
+            ]
+          },
+          "상속": {
+            "count": 7,
+            "years": [
+              2024,
+              2025,
+              2026
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 10
+              },
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 16
+              },
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 11
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 13
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 10
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 12
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 7
+              }
+            ]
+          },
+          "예외처리": {
+            "count": 2,
+            "years": [
+              2024,
+              2025
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 18
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 5
+              }
+            ]
+          },
+          "컬렉션": {
+            "count": 1,
+            "years": [
+              2024
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 19
+              }
+            ]
+          },
+          "인터페이스": {
+            "count": 2,
+            "years": [
+              2025
+            ],
+            "questions": [
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 9
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 8
+              }
+            ]
+          }
+        }
+      },
+      "C": {
+        "count": 24,
+        "subcategories": {
+          "증감연산": {
+            "count": 8,
+            "years": [
+              2024,
+              2025
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 13
+              },
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 12
+              },
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 18
+              },
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 7
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 10
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 15
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 11
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 6
+              }
+            ]
+          },
+          "포인터": {
+            "count": 16,
+            "years": [
+              2024,
+              2025,
+              2026
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 13
+              },
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 15
+              },
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 19
+              },
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 12
+              },
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 16
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 18
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 19
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 12
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 14
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 16
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 18
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 5
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 7
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 15
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 1
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 12
+              }
+            ]
+          }
+        }
+      },
+      "Python": {
+        "count": 3,
+        "subcategories": {
+          "Range": {
+            "count": 1,
+            "years": [
+              2024
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 6
+              }
+            ]
+          },
+          "딕셔너리": {
+            "count": 1,
+            "years": [
+              2025
+            ],
+            "questions": [
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 9
+              }
+            ]
+          },
+          "슬라이싱": {
+            "count": 1,
+            "years": [
+              2026
+            ],
+            "questions": [
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 14
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "응용 SW 기초 기술 활용": {
+    "count": 24,
+    "categories": {
+      "운영체제": {
+        "count": 18,
+        "subcategories": {
+          "프로세스": {
+            "count": 18,
+            "years": [
+              2024,
+              2025,
+              2026
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 2
+              },
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 4
+              },
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 11
+              },
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 19
+              },
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 1
+              },
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 14
+              },
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 17
+              },
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 1
+              },
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 2
+              },
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 10
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 11
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 17
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 4
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 13
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 17
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 2
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 3
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 13
+              }
+            ]
+          }
+        }
+      },
+      "네트워크": {
+        "count": 6,
+        "subcategories": {
+          "라우팅": {
+            "count": 1,
+            "years": [
+              2024
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 7
+              }
+            ]
+          },
+          "TCP/IP": {
+            "count": 1,
+            "years": [
+              2024
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 8
+              }
+            ]
+          },
+          "ICMP": {
+            "count": 2,
+            "years": [
+              2024,
+              2025
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 5
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 4
+              }
+            ]
+          },
+          "ARP": {
+            "count": 1,
+            "years": [
+              2025
+            ],
+            "questions": [
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 6
+              }
+            ]
+          },
+          "TCP": {
+            "count": 1,
+            "years": [
+              2025
+            ],
+            "questions": [
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 19
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "서버 프로그램 구현": {
+    "count": 7,
+    "categories": {
+      "소프트웨어설계": {
+        "count": 5,
+        "subcategories": {
+          "응집도": {
+            "count": 2,
+            "years": [
+              2024,
+              2026
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 3
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 20
+              }
+            ]
+          },
+          "결합도": {
+            "count": 3,
+            "years": [
+              2024,
+              2025
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 16
+              },
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 6
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 12
+              }
+            ]
+          }
+        }
+      },
+      "디자인패턴": {
+        "count": 2,
+        "subcategories": {
+          "Factory": {
+            "count": 1,
+            "years": [
+              2024
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 20
+              }
+            ]
+          },
+          "Adapter": {
+            "count": 1,
+            "years": [
+              2025
+            ],
+            "questions": [
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 14
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "미분류": {
+    "count": 26,
+    "categories": {
+      "미분류": {
+        "count": 26,
+        "subcategories": {
+          "미분류": {
+            "count": 26,
+            "years": [
+              2024,
+              2025,
+              2026
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 5
+              },
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 9
+              },
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 12
+              },
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 7
+              },
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 9
+              },
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 11
+              },
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 4
+              },
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 14
+              },
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 17
+              },
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 20
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 3
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 9
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 6
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 8
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 1
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 14
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 19
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 2
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 3
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 4
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 5
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 6
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 11
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 15
+              },
+              {
+                "year": null,
+                "round": null,
+                "question_number": null
+              },
+              {
+                "year": null,
+                "round": null,
+                "question_number": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "데이터 입출력 구현": {
+    "count": 10,
+    "categories": {
+      "DB": {
+        "count": 10,
+        "subcategories": {
+          "정규화": {
+            "count": 1,
+            "years": [
+              2024
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 6
+              }
+            ]
+          },
+          "무결성": {
+            "count": 5,
+            "years": [
+              2024,
+              2025
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 8
+              },
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 2
+              },
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 8
+              },
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 15
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 2
+              }
+            ]
+          },
+          "Cardinality": {
+            "count": 4,
+            "years": [
+              2024,
+              2025
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 4
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 8
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 2
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 16
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "애플리케이션 테스트 관리": {
+    "count": 3,
+    "categories": {
+      "테스트": {
+        "count": 3,
+        "subcategories": {
+          "커버리지": {
+            "count": 2,
+            "years": [
+              2024
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 14
+              },
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 13
+              }
+            ]
+          },
+          "통합테스트": {
+            "count": 1,
+            "years": [
+              2026
+            ],
+            "questions": [
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 19
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "소프트웨어 개발 보안 구축": {
+    "count": 14,
+    "categories": {
+      "보안": {
+        "count": 14,
+        "subcategories": {
+          "악성코드": {
+            "count": 4,
+            "years": [
+              2024,
+              2025,
+              2026
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 15
+              },
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 17
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 4
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 16
+              }
+            ]
+          },
+          "인증": {
+            "count": 10,
+            "years": [
+              2024,
+              2025
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 5
+              },
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 10
+              },
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 9
+              },
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 1
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 1
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 3
+              },
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 7
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 11
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 13
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 18
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "SQL 응용": {
+    "count": 11,
+    "categories": {
+      "SQL": {
+        "count": 11,
+        "subcategories": {
+          "집계함수": {
+            "count": 3,
+            "years": [
+              2024,
+              2025,
+              2026
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 1,
+                "question_number": 18
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 20
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 9
+              }
+            ]
+          },
+          "DML": {
+            "count": 1,
+            "years": [
+              2024
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 2,
+                "question_number": 3
+              }
+            ]
+          },
+          "JOIN": {
+            "count": 4,
+            "years": [
+              2024,
+              2025,
+              2026
+            ],
+            "questions": [
+              {
+                "year": 2024,
+                "round": 3,
+                "question_number": 3
+              },
+              {
+                "year": 2025,
+                "round": 3,
+                "question_number": 10
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 8
+              },
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 18
+              }
+            ]
+          },
+          "SELECT": {
+            "count": 1,
+            "years": [
+              2025
+            ],
+            "questions": [
+              {
+                "year": 2025,
+                "round": 1,
+                "question_number": 7
+              }
+            ]
+          },
+          "INDEX": {
+            "count": 1,
+            "years": [
+              2025
+            ],
+            "questions": [
+              {
+                "year": 2025,
+                "round": 2,
+                "question_number": 20
+              }
+            ]
+          },
+          "제약조건": {
+            "count": 1,
+            "years": [
+              2026
+            ],
+            "questions": [
+              {
+                "year": 2026,
+                "round": 1,
+                "question_number": 10
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

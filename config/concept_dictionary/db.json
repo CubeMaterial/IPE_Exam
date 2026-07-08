@@ -1,0 +1,8 @@
+{
+  "Cardinality": ["cardinality", "카디널리티"],
+  "Degree": ["degree", "차수"],
+  "정규화": ["normalization", "정규화"],
+  "ERD": ["erd", "er diagram"],
+  "무결성": ["integrity", "무결성"],
+  "트랜잭션": ["transaction", "트랜잭션"]
+}

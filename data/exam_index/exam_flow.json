@@ -1,0 +1,871 @@
+{
+  "subcategory_timeline": {
+    "static": [
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 1
+      },
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 20
+      },
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 16
+      },
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 20
+      },
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 5
+      },
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 15
+      },
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 17
+      },
+      {
+        "year": 2026,
+        "round": 1,
+        "question_number": 17
+      }
+    ],
+    "프로세스": [
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 2
+      },
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 4
+      },
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 11
+      },
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 19
+      },
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 1
+      },
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 14
+      },
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 17
+      },
+      {
+        "year": 2024,
+        "round": 3,
+        "question_number": 1
+      },
+      {
+        "year": 2024,
+        "round": 3,
+        "question_number": 2
+      },
+      {
+        "year": 2024,
+        "round": 3,
+        "question_number": 10
+      },
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 11
+      },
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 17
+      },
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 4
+      },
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 13
+      },
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 17
+      },
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 2
+      },
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 3
+      },
+      {
+        "year": 2026,
+        "round": 1,
+        "question_number": 13
+      }
+    ],
+    "응집도": [
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 3
+      },
+      {
+        "year": 2026,
+        "round": 1,
+        "question_number": 20
+      }
+    ],
+    "정규화": [
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 6
+      }
+    ],
+    "라우팅": [
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 7
+      }
+    ],
+    "무결성": [
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 8
+      },
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 2
+      },
+      {
+        "year": 2024,
+        "round": 3,
+        "question_number": 8
+      },
+      {
+        "year": 2024,
+        "round": 3,
+        "question_number": 15
+      },
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 2
+      }
+    ],
+    "상속": [
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 10
+      },
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 16
+      },
+      {
+        "year": 2024,
+        "round": 3,
+        "question_number": 11
+      },
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 13
+      },
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 10
+      },
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 12
+      },
+      {
+        "year": 2026,
+        "round": 1,
+        "question_number": 7
+      }
+    ],
+    "증감연산": [
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 13
+      },
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 12
+      },
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 18
+      },
+      {
+        "year": 2024,
+        "round": 3,
+        "question_number": 7
+      },
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 10
+      },
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 15
+      },
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 11
+      },
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 6
+      }
+    ],
+    "커버리지": [
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 14
+      },
+      {
+        "year": 2024,
+        "round": 3,
+        "question_number": 13
+      }
+    ],
+    "악성코드": [
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 15
+      },
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 17
+      },
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 4
+      },
+      {
+        "year": 2026,
+        "round": 1,
+        "question_number": 16
+      }
+    ],
+    "집계함수": [
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 18
+      },
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 20
+      },
+      {
+        "year": 2026,
+        "round": 1,
+        "question_number": 9
+      }
+    ],
+    "Factory": [
+      {
+        "year": 2024,
+        "round": 1,
+        "question_number": 20
+      }
+    ],
+    "DML": [
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 3
+      }
+    ],
+    "Cardinality": [
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 4
+      },
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 8
+      },
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 2
+      },
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 16
+      }
+    ],
+    "인증": [
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 5
+      },
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 10
+      },
+      {
+        "year": 2024,
+        "round": 3,
+        "question_number": 9
+      },
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 1
+      },
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 1
+      },
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 3
+      },
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 7
+      },
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 11
+      },
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 13
+      },
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 18
+      }
+    ],
+    "Range": [
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 6
+      }
+    ],
+    "TCP/IP": [
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 8
+      }
+    ],
+    "포인터": [
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 13
+      },
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 15
+      },
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 19
+      },
+      {
+        "year": 2024,
+        "round": 3,
+        "question_number": 12
+      },
+      {
+        "year": 2024,
+        "round": 3,
+        "question_number": 16
+      },
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 18
+      },
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 19
+      },
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 12
+      },
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 14
+      },
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 16
+      },
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 18
+      },
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 5
+      },
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 7
+      },
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 15
+      },
+      {
+        "year": 2026,
+        "round": 1,
+        "question_number": 1
+      },
+      {
+        "year": 2026,
+        "round": 1,
+        "question_number": 12
+      }
+    ],
+    "결합도": [
+      {
+        "year": 2024,
+        "round": 2,
+        "question_number": 16
+      },
+      {
+        "year": 2024,
+        "round": 3,
+        "question_number": 6
+      },
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 12
+      }
+    ],
+    "JOIN": [
+      {
+        "year": 2024,
+        "round": 3,
+        "question_number": 3
+      },
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 10
+      },
+      {
+        "year": 2026,
+        "round": 1,
+        "question_number": 8
+      },
+      {
+        "year": 2026,
+        "round": 1,
+        "question_number": 18
+      }
+    ],
+    "ICMP": [
+      {
+        "year": 2024,
+        "round": 3,
+        "question_number": 5
+      },
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 4
+      }
+    ],
+    "예외처리": [
+      {
+        "year": 2024,
+        "round": 3,
+        "question_number": 18
+      },
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 5
+      }
+    ],
+    "컬렉션": [
+      {
+        "year": 2024,
+        "round": 3,
+        "question_number": 19
+      }
+    ],
+    "ARP": [
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 6
+      }
+    ],
+    "SELECT": [
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 7
+      }
+    ],
+    "Adapter": [
+      {
+        "year": 2025,
+        "round": 1,
+        "question_number": 14
+      }
+    ],
+    "인터페이스": [
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 9
+      },
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 8
+      }
+    ],
+    "TCP": [
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 19
+      }
+    ],
+    "INDEX": [
+      {
+        "year": 2025,
+        "round": 2,
+        "question_number": 20
+      }
+    ],
+    "딕셔너리": [
+      {
+        "year": 2025,
+        "round": 3,
+        "question_number": 9
+      }
+    ],
+    "제약조건": [
+      {
+        "year": 2026,
+        "round": 1,
+        "question_number": 10
+      }
+    ],
+    "슬라이싱": [
+      {
+        "year": 2026,
+        "round": 1,
+        "question_number": 14
+      }
+    ],
+    "통합테스트": [
+      {
+        "year": 2026,
+        "round": 1,
+        "question_number": 19
+      }
+    ]
+  },
+  "recent_exam_count": 7,
+  "recent_exam_counts": {
+    "집계함수": 3,
+    "프로세스": 7,
+    "슬라이싱": 1,
+    "JOIN": 3,
+    "포인터": 6,
+    "악성코드": 3,
+    "static": 6,
+    "통합테스트": 1,
+    "응집도": 2,
+    "상속": 6,
+    "제약조건": 1,
+    "인증": 5,
+    "인터페이스": 2,
+    "딕셔너리": 1,
+    "Cardinality": 4,
+    "ICMP": 2,
+    "증감연산": 6,
+    "TCP": 1,
+    "INDEX": 1,
+    "결합도": 3,
+    "ARP": 1,
+    "Adapter": 1,
+    "SELECT": 1,
+    "예외처리": 2,
+    "무결성": 4,
+    "컬렉션": 1,
+    "커버리지": 2,
+    "DML": 1,
+    "Range": 1,
+    "TCP/IP": 1,
+    "Factory": 1,
+    "정규화": 1,
+    "라우팅": 1
+  },
+  "recent_question_counts": {
+    "포인터": 16,
+    "상속": 7,
+    "JOIN": 4,
+    "집계함수": 3,
+    "제약조건": 1,
+    "프로세스": 18,
+    "슬라이싱": 1,
+    "악성코드": 4,
+    "static": 8,
+    "통합테스트": 1,
+    "응집도": 2,
+    "ICMP": 2,
+    "증감연산": 8,
+    "인터페이스": 2,
+    "딕셔너리": 1,
+    "인증": 10,
+    "Cardinality": 4,
+    "TCP": 1,
+    "INDEX": 1,
+    "무결성": 5,
+    "예외처리": 2,
+    "ARP": 1,
+    "SELECT": 1,
+    "결합도": 3,
+    "Adapter": 1,
+    "커버리지": 2,
+    "컬렉션": 1,
+    "DML": 1,
+    "Range": 1,
+    "TCP/IP": 1,
+    "정규화": 1,
+    "라우팅": 1,
+    "Factory": 1
+  },
+  "recent_exam_labels": {
+    "집계함수": [
+      "2026-1",
+      "2025-3",
+      "2024-1"
+    ],
+    "프로세스": [
+      "2026-1",
+      "2025-3",
+      "2025-2",
+      "2025-1",
+      "2024-3",
+      "2024-2",
+      "2024-1"
+    ],
+    "슬라이싱": [
+      "2026-1"
+    ],
+    "JOIN": [
+      "2026-1",
+      "2025-3",
+      "2024-3"
+    ],
+    "포인터": [
+      "2026-1",
+      "2025-3",
+      "2025-2",
+      "2025-1",
+      "2024-3",
+      "2024-2"
+    ],
+    "악성코드": [
+      "2026-1",
+      "2025-1",
+      "2024-1"
+    ],
+    "static": [
+      "2026-1",
+      "2025-3",
+      "2025-2",
+      "2025-1",
+      "2024-2",
+      "2024-1"
+    ],
+    "통합테스트": [
+      "2026-1"
+    ],
+    "응집도": [
+      "2026-1",
+      "2024-1"
+    ],
+    "상속": [
+      "2026-1",
+      "2025-3",
+      "2025-2",
+      "2025-1",
+      "2024-3",
+      "2024-1"
+    ],
+    "제약조건": [
+      "2026-1"
+    ],
+    "인증": [
+      "2025-3",
+      "2025-2",
+      "2025-1",
+      "2024-3",
+      "2024-2"
+    ],
+    "인터페이스": [
+      "2025-3",
+      "2025-2"
+    ],
+    "딕셔너리": [
+      "2025-3"
+    ],
+    "Cardinality": [
+      "2025-3",
+      "2025-2",
+      "2025-1",
+      "2024-2"
+    ],
+    "ICMP": [
+      "2025-3",
+      "2024-3"
+    ],
+    "증감연산": [
+      "2025-3",
+      "2025-2",
+      "2025-1",
+      "2024-3",
+      "2024-2",
+      "2024-1"
+    ],
+    "TCP": [
+      "2025-2"
+    ],
+    "INDEX": [
+      "2025-2"
+    ],
+    "결합도": [
+      "2025-1",
+      "2024-3",
+      "2024-2"
+    ],
+    "ARP": [
+      "2025-1"
+    ],
+    "Adapter": [
+      "2025-1"
+    ],
+    "SELECT": [
+      "2025-1"
+    ],
+    "예외처리": [
+      "2025-1",
+      "2024-3"
+    ],
+    "무결성": [
+      "2025-1",
+      "2024-3",
+      "2024-2",
+      "2024-1"
+    ],
+    "컬렉션": [
+      "2024-3"
+    ],
+    "커버리지": [
+      "2024-3",
+      "2024-1"
+    ],
+    "DML": [
+      "2024-2"
+    ],
+    "Range": [
+      "2024-2"
+    ],
+    "TCP/IP": [
+      "2024-2"
+    ],
+    "Factory": [
+      "2024-1"
+    ],
+    "정규화": [
+      "2024-1"
+    ],
+    "라우팅": [
+      "2024-1"
+    ]
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "cycles": {
+    "static": {
+      "timeline": [
+        "2024-1",
+        "2024-2",
+        "2025-1",
+        "2025-2",
+        "2025-3",
+        "2026-1"
+      ],
+      "intervals": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "average_cycle": 1.2
+    },
+    "프로세스": {
+      "timeline": [
+        "2024-1",
+        "2024-2",
+        "2024-3",
+        "2025-1",
+        "2025-2",
+        "2025-3",
+        "2026-1"
+      ],
+      "intervals": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "average_cycle": 1
+    },
+    "응집도": {
+      "timeline": [
+        "2024-1",
+        "2026-1"
+      ],
+      "intervals": [
+        6
+      ],
+      "average_cycle": 6
+    },
+    "정규화": {
+      "timeline": [
+        "2024-1"
+      ],
+      "intervals": [],
+      "average_cycle": null
+    },
+    "라우팅": {
+      "timeline": [
+        "2024-1"
+      ],
+      "intervals": [],
+      "average_cycle": null
+    },
+    "무결성": {
+      "timeline": [
+        "2024-1",
+        "2024-2",
+        "2024-3",
+        "2025-1"
+      ],
+      "intervals": [
+        1,
+        1,
+        1
+      ],
+      "average_cycle": 1
+    },
+    "상속": {
+      "timeline": [
+        "2024-1",
+        "2024-3",
+        "2025-1",
+        "2025-2",
+        "2025-3",
+        "2026-1"
+      ],
+      "intervals": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "average_cycle": 1.2
+    },
+    "증감연산": {
+      "timeline": [
+        "2024-1",
+        "2024-2",
+        "2024-3",
+        "2025-1",
+        "2025-2",
+        "2025-3"
+      ],
+      "intervals": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "average_cycle": 1
+    },
+    "커버리지": {
+      "timeline": [
+        "2024-1",
+        "2024-3"
+      ],
+      "intervals": [
+        2
+      ],
+      "average_cycle": 2
+    },
+    "악성코드": {
+      "timeline": [
+        "2024-1",
+        "2025-1",
+        "2026-1"
+      ],
+      "intervals": [
+        3,
+        3
+      ],
+      "average_cycle": 3
+    },
+    "집계함수": {
+      "timeline": [
+        "2024-1",
+        "2025-3",
+        "2026-1"
+      ],
+      "intervals": [
+        5,
+        1
+      ],
+      "average_cycle": 3
+    },
+    "Factory": {
+      "timeline": [
+        "2024-1"
+      ],
+      "intervals": [],
+      "average_cycle": null
+    },
+    "DML": {
+      "timeline": [
+        "2024-2"
+      ],
+      "intervals": [],
+      "average_cycle": null
+    },
+    "Cardinality": {
+      "timeline": [
+        "2024-2",
+        "2025-1",
+        "2025-2",
+        "2025-3"
+      ],
+      "intervals": [
+        2,
+        1,
+        1
+      ],
+      "average_cycle": 1.33
+    },
+    "인증": {
+      "timeline": [
+        "2024-2",
+        "2024-3",
+        "2025-1",
+        "2025-2",
+        "2025-3"
+      ],
+      "intervals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "average_cycle": 1
+    },
+    "Range": {
+      "timeline": [
+        "2024-2"
+      ],
+      "intervals": [],
+      "average_cycle": null
+    },
+    "TCP/IP": {
+      "timeline": [
+        "2024-2"
+      ],
+      "intervals": [],
+      "average_cycle": null
+    },
+    "포인터": {
+      "timeline": [
+        "2024-2",
+        "2024-3",
+        "2025-1",
+        "2025-2",
+        "2025-3",
+        "2026-1"
+      ],
+      "intervals": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "average_cycle": 1
+    },
+    "결합도": {
+      "timeline": [
+        "2024-2",
+        "2024-3",
+        "2025-1"
+      ],
+      "intervals": [
+        1,
+        1
+      ],
+      "average_cycle": 1
+    },
+    "JOIN": {
+      "timeline": [
+        "2024-3",
+        "2025-3",
+        "2026-1"
+      ],
+      "intervals": [
+        3,
+        1
+      ],
+      "average_cycle": 2
+    },
+    "ICMP": {
+      "timeline": [
+        "2024-3",
+        "2025-3"
+      ],
+      "intervals": [
+        3
+      ],
+      "average_cycle": 3
+    },
+    "예외처리": {
+      "timeline": [
+        "2024-3",
+        "2025-1"
+      ],
+      "intervals": [
+        1
+      ],
+      "average_cycle": 1
+    },
+    "컬렉션": {
+      "timeline": [
+        "2024-3"
+      ],
+      "intervals": [],
+      "average_cycle": null
+    },
+    "ARP": {
+      "timeline": [
+        "2025-1"
+      ],
+      "intervals": [],
+      "average_cycle": null
+    },
+    "SELECT": {
+      "timeline": [
+        "2025-1"
+      ],
+      "intervals": [],
+      "average_cycle": null
+    },
+    "Adapter": {
+      "timeline": [
+        "2025-1"
+      ],
+      "intervals": [],
+      "average_cycle": null
+    },
+    "인터페이스": {
+      "timeline": [
+        "2025-2",
+        "2025-3"
+      ],
+      "intervals": [
+        1
+      ],
+      "average_cycle": 1
+    },
+    "TCP": {
+      "timeline": [
+        "2025-2"
+      ],
+      "intervals": [],
+      "average_cycle": null
+    },
+    "INDEX": {
+      "timeline": [
+        "2025-2"
+      ],
+      "intervals": [],
+      "average_cycle": null
+    },
+    "딕셔너리": {
+      "timeline": [
+        "2025-3"
+      ],
+      "intervals": [],
+      "average_cycle": null
+    },
+    "제약조건": {
+      "timeline": [
+        "2026-1"
+      ],
+      "intervals": [],
+      "average_cycle": null
+    },
+    "슬라이싱": {
+      "timeline": [
+        "2026-1"
+      ],
+      "intervals": [],
+      "average_cycle": null
+    },
+    "통합테스트": {
+      "timeline": [
+        "2026-1"
+      ],
+      "intervals": [],
+      "average_cycle": null
+    }
+  }
+}

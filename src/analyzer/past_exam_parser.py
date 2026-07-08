@@ -10,6 +10,10 @@ from src.models import PastExamQuestion
 class PastExamParser:
     """기출문제 텍스트에서 문제 번호, 본문, 정답, 해설을 추출합니다."""
 
+    _MARKDOWN_HEADING_QUESTION_PATTERN = re.compile(
+        r"(?m)^\s*#{1,6}\s*(?:\[?\s*문제\s*)?(\d{1,2})(?:\s*번)?(?:\s*\]|\s*[.)]|\s+)",
+        re.IGNORECASE,
+    )
     _QUESTION_PATTERN = re.compile(
         r"(?m)^\s*(?:\[?\s*문제\s*)?(\d{1,2})(?:\s*\]|\s*[.)]|(?:\s+))|^\s*Q\s*(\d{1,2})\b",
         re.IGNORECASE,
@@ -19,7 +23,7 @@ class PastExamParser:
 
     def parse_questions(self, text: str) -> list[PastExamQuestion]:
         """텍스트를 문제 단위로 분리합니다."""
-        matches = list(self._QUESTION_PATTERN.finditer(text))
+        matches = self._question_matches(text)
         if not matches:
             cleaned = text.strip()
             return [PastExamQuestion(question_number=1, body=cleaned)] if cleaned else []
@@ -45,7 +49,14 @@ class PastExamParser:
 
     def has_question_markers(self, text: str) -> bool:
         """문제 번호 패턴이 텍스트에 존재하는지 확인합니다."""
-        return self._QUESTION_PATTERN.search(text) is not None
+        return bool(self._question_matches(text))
+
+    def _question_matches(self, text: str) -> list[re.Match[str]]:
+        """Markdown 문제 제목을 우선하고, 없을 때 일반 번호 패턴을 사용합니다."""
+        markdown_matches = list(self._MARKDOWN_HEADING_QUESTION_PATTERN.finditer(text))
+        if markdown_matches:
+            return markdown_matches
+        return list(self._QUESTION_PATTERN.finditer(text))
 
     def _split_answer_and_explanation(self, block: str) -> tuple[str, str, str]:
         """문제 블록에서 정답과 해설 영역을 분리합니다."""

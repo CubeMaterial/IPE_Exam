@@ -1,0 +1,2801 @@
+[
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 1,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "static",
+    "sub_category": "static",
+    "primary": "static",
+    "secondary": [
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "static",
+      "클래스"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 2,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "프로세스"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 3,
+    "subject": "서버 프로그램 구현",
+    "category": "소프트웨어설계",
+    "subcategory": "응집도",
+    "sub_category": "응집도",
+    "primary": "응집도",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "응집도"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 4,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "프로세스"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 5,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "네트워크",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 6,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "정규화",
+    "sub_category": "정규화",
+    "primary": "정규화",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "정규화"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 7,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "네트워크",
+    "subcategory": "라우팅",
+    "sub_category": "라우팅",
+    "primary": "라우팅",
+    "secondary": [],
+    "question_type": "계산",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "라우팅",
+      "네트워크"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 8,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "무결성",
+    "sub_category": "무결성",
+    "primary": "무결성",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "무결성"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 9,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "운영체제",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 10,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "상속",
+    "sub_category": "상속",
+    "primary": "상속",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "상속",
+      "static",
+      "클래스"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 11,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "프로세스"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 12,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "Python",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 13,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "증감연산",
+    "sub_category": "증감연산",
+    "primary": "증감연산",
+    "secondary": [],
+    "question_type": "SQL 결과",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "증감연산"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 14,
+    "subject": "애플리케이션 테스트 관리",
+    "category": "테스트",
+    "subcategory": "커버리지",
+    "sub_category": "커버리지",
+    "primary": "커버리지",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "커버리지"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 15,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "악성코드",
+    "sub_category": "악성코드",
+    "primary": "악성코드",
+    "secondary": [],
+    "question_type": "보안 공격기법",
+    "language": "기타",
+    "difficulty": "",
+    "keywords": [
+      "악성코드"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 16,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "상속",
+    "sub_category": "상속",
+    "primary": "상속",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "상속",
+      "static",
+      "클래스"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 17,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "악성코드",
+    "sub_category": "악성코드",
+    "primary": "악성코드",
+    "secondary": [],
+    "question_type": "보안 공격기법",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "악성코드",
+      "보안"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 18,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "집계함수",
+    "sub_category": "집계함수",
+    "primary": "집계함수",
+    "secondary": [
+      "SELECT"
+    ],
+    "question_type": "SQL 결과",
+    "language": "SQL",
+    "difficulty": "",
+    "keywords": [
+      "집계함수",
+      "SELECT"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 19,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "프로세스"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 1,
+    "question_number": 20,
+    "subject": "서버 프로그램 구현",
+    "category": "디자인패턴",
+    "subcategory": "Factory",
+    "sub_category": "Factory",
+    "primary": "Factory",
+    "secondary": [],
+    "question_type": "용어",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "Factory",
+      "디자인 패턴"
+    ],
+    "source_file": "206cb1ae9b224409a5c19f829b4a0f58_2024년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 1,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "프로세스"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 2,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "무결성",
+    "sub_category": "무결성",
+    "primary": "무결성",
+    "secondary": [],
+    "question_type": "SQL 작성",
+    "language": "SQL",
+    "difficulty": "",
+    "keywords": [
+      "무결성"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 3,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "DML",
+    "sub_category": "DML",
+    "primary": "DML",
+    "secondary": [
+      "INSERT",
+      "UPDATE",
+      "SELECT"
+    ],
+    "question_type": "SQL 결과",
+    "language": "SQL",
+    "difficulty": "",
+    "keywords": [
+      "DML",
+      "INSERT",
+      "UPDATE",
+      "SELECT"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 4,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "Cardinality",
+    "sub_category": "Cardinality",
+    "primary": "Cardinality",
+    "secondary": [
+      "Degree"
+    ],
+    "question_type": "개념 서술",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "Cardinality",
+      "Degree"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 5,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "sub_category": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "네트워크",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "인증",
+      "TCP/IP",
+      "암호화",
+      "보안"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 6,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Python",
+    "subcategory": "Range",
+    "sub_category": "Range",
+    "primary": "Range",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "Python",
+    "difficulty": "",
+    "keywords": [
+      "Range",
+      "반복문"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 7,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "증감연산"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 8,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "네트워크",
+    "subcategory": "TCP/IP",
+    "sub_category": "TCP/IP",
+    "primary": "TCP/IP",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "TCP/IP"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 9,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 10,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "sub_category": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "운영체제",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "인증",
+      "디자인 패턴"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 11,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "계산",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 12,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "증감연산",
+    "sub_category": "증감연산",
+    "primary": "증감연산",
+    "secondary": [],
+    "question_type": "계산",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "증감연산"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 13,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "sub_category": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "배열"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "포인터",
+      "증감연산",
+      "배열"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 14,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "프로세스",
+      "반복문"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 15,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "sub_category": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "반복문",
+      "문자열"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "포인터",
+      "증감연산",
+      "반복문",
+      "문자열"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 16,
+    "subject": "서버 프로그램 구현",
+    "category": "소프트웨어설계",
+    "subcategory": "결합도",
+    "sub_category": "결합도",
+    "primary": "결합도",
+    "secondary": [],
+    "question_type": "빈칸",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "결합도"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 17,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "프로세스"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 18,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "증감연산",
+    "sub_category": "증감연산",
+    "primary": "증감연산",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "증감연산"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 19,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "sub_category": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "포인터",
+      "증감연산",
+      "구조체"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 20,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "static",
+    "sub_category": "static",
+    "primary": "static",
+    "secondary": [
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "static",
+      "클래스"
+    ],
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 1,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "프로세스",
+      "반복문"
+    ],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 2,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "Python",
+    "difficulty": "",
+    "keywords": [
+      "프로세스",
+      "반복문",
+      "슬라이싱"
+    ],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 3,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "JOIN",
+    "sub_category": "JOIN",
+    "primary": "JOIN",
+    "secondary": [
+      "GROUP BY",
+      "HAVING",
+      "집계함수",
+      "SELECT"
+    ],
+    "question_type": "SQL 결과",
+    "language": "SQL",
+    "difficulty": "",
+    "keywords": [
+      "JOIN",
+      "GROUP BY",
+      "HAVING",
+      "집계함수",
+      "SELECT"
+    ],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 4,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "운영체제",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 5,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "네트워크",
+    "subcategory": "ICMP",
+    "sub_category": "ICMP",
+    "primary": "ICMP",
+    "secondary": [],
+    "question_type": "보안 공격기법",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "ICMP",
+      "TCP/IP",
+      "보안",
+      "네트워크"
+    ],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 6,
+    "subject": "서버 프로그램 구현",
+    "category": "소프트웨어설계",
+    "subcategory": "결합도",
+    "sub_category": "결합도",
+    "primary": "결합도",
+    "secondary": [
+      "GoF"
+    ],
+    "question_type": "빈칸",
+    "language": "기타",
+    "difficulty": "",
+    "keywords": [
+      "결합도",
+      "GoF",
+      "디자인 패턴"
+    ],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 7,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "증감연산",
+    "sub_category": "증감연산",
+    "primary": "증감연산",
+    "secondary": [
+      "반복문"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "증감연산",
+      "반복문"
+    ],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 8,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "무결성",
+    "sub_category": "무결성",
+    "primary": "무결성",
+    "secondary": [],
+    "question_type": "SQL 작성",
+    "language": "SQL",
+    "difficulty": "",
+    "keywords": [
+      "무결성"
+    ],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 9,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "sub_category": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "네트워크",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "인증"
+    ],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 10,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "Python",
+    "difficulty": "",
+    "keywords": [
+      "프로세스"
+    ],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 11,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "상속",
+    "sub_category": "상속",
+    "primary": "상속",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "상속",
+      "static",
+      "클래스"
+    ],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 12,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "sub_category": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "반복문",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "포인터",
+      "증감연산",
+      "반복문",
+      "구조체"
+    ],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 13,
+    "subject": "애플리케이션 테스트 관리",
+    "category": "테스트",
+    "subcategory": "커버리지",
+    "sub_category": "커버리지",
+    "primary": "커버리지",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "커버리지"
+    ],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 14,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "UML",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 15,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "무결성",
+    "sub_category": "무결성",
+    "primary": "무결성",
+    "secondary": [],
+    "question_type": "SQL 작성",
+    "language": "SQL",
+    "difficulty": "",
+    "keywords": [
+      "무결성"
+    ],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 16,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "sub_category": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "배열",
+      "반복문"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "포인터",
+      "증감연산",
+      "배열",
+      "반복문"
+    ],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 17,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "네트워크",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 18,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "예외처리",
+    "sub_category": "예외처리",
+    "primary": "예외처리",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "예외처리",
+      "static",
+      "클래스"
+    ],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 19,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "컬렉션",
+    "sub_category": "컬렉션",
+    "primary": "컬렉션",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "컬렉션",
+      "static",
+      "클래스"
+    ],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 3,
+    "question_number": 20,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "네트워크",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "995537db0345433491141017699c209c_2024년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 1,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "sub_category": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "빈칸",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "인증",
+      "TCP/IP",
+      "보안",
+      "네트워크"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 2,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "무결성",
+    "sub_category": "무결성",
+    "primary": "무결성",
+    "secondary": [],
+    "question_type": "빈칸",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "무결성"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 3,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "빈칸",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 4,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "악성코드",
+    "sub_category": "악성코드",
+    "primary": "악성코드",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "악성코드"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 5,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "예외처리",
+    "sub_category": "예외처리",
+    "primary": "예외처리",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "예외처리",
+      "static",
+      "클래스"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 6,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "네트워크",
+    "subcategory": "ARP",
+    "sub_category": "ARP",
+    "primary": "ARP",
+    "secondary": [],
+    "question_type": "네트워크",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "ARP",
+      "TCP/IP",
+      "네트워크"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 7,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "SELECT",
+    "sub_category": "SELECT",
+    "primary": "SELECT",
+    "secondary": [],
+    "question_type": "SQL 결과",
+    "language": "SQL",
+    "difficulty": "",
+    "keywords": [
+      "SELECT"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 8,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "Cardinality",
+    "sub_category": "Cardinality",
+    "primary": "Cardinality",
+    "secondary": [
+      "Degree",
+      "무결성"
+    ],
+    "question_type": "빈칸",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "Cardinality",
+      "Degree",
+      "무결성"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 9,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "네트워크",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 10,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "증감연산",
+    "sub_category": "증감연산",
+    "primary": "증감연산",
+    "secondary": [
+      "반복문",
+      "문자열"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "증감연산",
+      "반복문",
+      "문자열"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 11,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "프로세스",
+      "반복문"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 12,
+    "subject": "서버 프로그램 구현",
+    "category": "소프트웨어설계",
+    "subcategory": "결합도",
+    "sub_category": "결합도",
+    "primary": "결합도",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "결합도",
+      "배열"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 13,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "상속",
+    "sub_category": "상속",
+    "primary": "상속",
+    "secondary": [
+      "오버라이딩",
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "상속",
+      "오버라이딩",
+      "static",
+      "클래스"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 14,
+    "subject": "서버 프로그램 구현",
+    "category": "디자인패턴",
+    "subcategory": "Adapter",
+    "sub_category": "Adapter",
+    "primary": "Adapter",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "Adapter",
+      "디자인 패턴"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 15,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "증감연산",
+    "sub_category": "증감연산",
+    "primary": "증감연산",
+    "secondary": [
+      "배열",
+      "반복문"
+    ],
+    "question_type": "빈칸",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "증감연산",
+      "배열",
+      "반복문",
+      "커버리지"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 16,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "static",
+    "sub_category": "static",
+    "primary": "static",
+    "secondary": [
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "static",
+      "클래스"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 17,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "Python",
+    "difficulty": "",
+    "keywords": [
+      "프로세스",
+      "반복문"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 18,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "sub_category": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "반복문",
+      "구조체"
+    ],
+    "question_type": "SQL 결과",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "포인터",
+      "증감연산",
+      "반복문",
+      "구조체"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 19,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "sub_category": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "반복문",
+      "문자열",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "포인터",
+      "증감연산",
+      "반복문",
+      "문자열",
+      "구조체"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 1,
+    "question_number": 20,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "static",
+    "sub_category": "static",
+    "primary": "static",
+    "secondary": [
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "static",
+      "클래스"
+    ],
+    "source_file": "e2b82b5e9e2c40898e43e7cfdb0bfad0_2025년_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 1,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "sub_category": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "빈칸",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "인증",
+      "포인터"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 2,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "Cardinality",
+    "sub_category": "Cardinality",
+    "primary": "Cardinality",
+    "secondary": [
+      "Degree"
+    ],
+    "question_type": "개념 서술",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "Cardinality",
+      "Degree"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 3,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "sub_category": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "보안 공격기법",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "인증",
+      "암호화",
+      "보안"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 4,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "운영체제",
+    "language": "기타",
+    "difficulty": "",
+    "keywords": [
+      "프로세스"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 5,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "static",
+    "sub_category": "static",
+    "primary": "static",
+    "secondary": [
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "static",
+      "클래스"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 6,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "빈칸",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 7,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "sub_category": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "운영체제",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "인증",
+      "디자인 패턴"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 8,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "빈칸",
+    "language": "기타",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 9,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "인터페이스",
+    "sub_category": "인터페이스",
+    "primary": "인터페이스",
+    "secondary": [
+      "예외처리",
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "인터페이스",
+      "예외처리",
+      "static",
+      "클래스"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 10,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "상속",
+    "sub_category": "상속",
+    "primary": "상속",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "상속",
+      "static",
+      "클래스"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 11,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "증감연산",
+    "sub_category": "증감연산",
+    "primary": "증감연산",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "증감연산",
+      "커버리지"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 12,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "sub_category": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "포인터",
+      "증감연산",
+      "구조체"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 13,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "운영체제",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "프로세스"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 14,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "sub_category": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "배열",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "포인터",
+      "증감연산",
+      "배열",
+      "구조체"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 15,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "static",
+    "sub_category": "static",
+    "primary": "static",
+    "secondary": [
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "static",
+      "클래스"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 16,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "sub_category": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "포인터",
+      "증감연산",
+      "구조체"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 17,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "Python",
+    "difficulty": "",
+    "keywords": [
+      "프로세스",
+      "반복문"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 18,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "sub_category": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "반복문",
+      "문자열",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "포인터",
+      "증감연산",
+      "반복문",
+      "문자열",
+      "구조체"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 19,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "네트워크",
+    "subcategory": "TCP",
+    "sub_category": "TCP",
+    "primary": "TCP",
+    "secondary": [
+      "3-way Handshake"
+    ],
+    "question_type": "보안 공격기법",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "TCP",
+      "3-way Handshake",
+      "TCP/IP",
+      "보안"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 2,
+    "question_number": 20,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "INDEX",
+    "sub_category": "INDEX",
+    "primary": "INDEX",
+    "secondary": [],
+    "question_type": "SQL 결과",
+    "language": "SQL",
+    "difficulty": "",
+    "keywords": [
+      "INDEX"
+    ],
+    "source_file": "226d4d0cff8a4f80b4c37ad9077d6347_2025년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 1,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "UML",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 2,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "프로세스",
+      "커버리지"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 3,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "프로세스"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 4,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "네트워크",
+    "subcategory": "ICMP",
+    "sub_category": "ICMP",
+    "primary": "ICMP",
+    "secondary": [],
+    "question_type": "빈칸",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "ICMP"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 5,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "sub_category": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "배열",
+      "문자열",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "포인터",
+      "증감연산",
+      "배열",
+      "문자열",
+      "구조체"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 6,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "증감연산",
+    "sub_category": "증감연산",
+    "primary": "증감연산",
+    "secondary": [
+      "배열",
+      "반복문",
+      "문자열"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "증감연산",
+      "배열",
+      "반복문",
+      "문자열"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 7,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "sub_category": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "반복문",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "포인터",
+      "증감연산",
+      "반복문",
+      "구조체"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 8,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "인터페이스",
+    "sub_category": "인터페이스",
+    "primary": "인터페이스",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "인터페이스",
+      "static",
+      "클래스"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 9,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Python",
+    "subcategory": "딕셔너리",
+    "sub_category": "딕셔너리",
+    "primary": "딕셔너리",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "Python",
+    "difficulty": "",
+    "keywords": [
+      "딕셔너리",
+      "반복문",
+      "리스트"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 10,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "JOIN",
+    "sub_category": "JOIN",
+    "primary": "JOIN",
+    "secondary": [
+      "집계함수",
+      "SELECT"
+    ],
+    "question_type": "SQL 결과",
+    "language": "SQL",
+    "difficulty": "",
+    "keywords": [
+      "JOIN",
+      "집계함수",
+      "SELECT"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 11,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "sub_category": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "보안 공격기법",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "인증",
+      "보안"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 12,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "상속",
+    "sub_category": "상속",
+    "primary": "상속",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "상속",
+      "static",
+      "클래스"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 13,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "sub_category": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "인증"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 14,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "SQL 결과",
+    "language": "SQL",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 15,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "sub_category": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "포인터",
+      "증감연산"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 16,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "Cardinality",
+    "sub_category": "Cardinality",
+    "primary": "Cardinality",
+    "secondary": [
+      "Degree"
+    ],
+    "question_type": "SQL 결과",
+    "language": "SQL",
+    "difficulty": "",
+    "keywords": [
+      "Cardinality",
+      "Degree"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 17,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "static",
+    "sub_category": "static",
+    "primary": "static",
+    "secondary": [
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "static",
+      "클래스"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 18,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "sub_category": "인증",
+    "primary": "인증",
+    "secondary": [
+      "접근통제"
+    ],
+    "question_type": "개념 서술",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "인증",
+      "접근통제",
+      "보안"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 19,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "빈칸",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2025,
+    "round": 3,
+    "question_number": 20,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "집계함수",
+    "sub_category": "집계함수",
+    "primary": "집계함수",
+    "secondary": [
+      "SELECT"
+    ],
+    "question_type": "SQL 결과",
+    "language": "SQL",
+    "difficulty": "",
+    "keywords": [
+      "집계함수",
+      "SELECT"
+    ],
+    "source_file": "da347c98cfdb45ea8edbdb04869cfc11_2025년_3회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 1,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "sub_category": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "배열",
+      "반복문"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "포인터",
+      "증감연산",
+      "배열",
+      "반복문"
+    ],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 2,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "빈칸",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 3,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "빈칸",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 4,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "운영체제",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 5,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "용어",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 6,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "네트워크",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 7,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "상속",
+    "sub_category": "상속",
+    "primary": "상속",
+    "secondary": [
+      "static",
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "상속",
+      "static",
+      "클래스"
+    ],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 8,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "JOIN",
+    "sub_category": "JOIN",
+    "primary": "JOIN",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "Python",
+    "difficulty": "",
+    "keywords": [
+      "JOIN",
+      "반복문",
+      "슬라이싱"
+    ],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 9,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "집계함수",
+    "sub_category": "집계함수",
+    "primary": "집계함수",
+    "secondary": [
+      "SELECT"
+    ],
+    "question_type": "SQL 결과",
+    "language": "SQL",
+    "difficulty": "",
+    "keywords": [
+      "집계함수",
+      "SELECT"
+    ],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 10,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "제약조건",
+    "sub_category": "제약조건",
+    "primary": "제약조건",
+    "secondary": [
+      "DDL"
+    ],
+    "question_type": "SQL 결과",
+    "language": "SQL",
+    "difficulty": "",
+    "keywords": [
+      "제약조건",
+      "DDL"
+    ],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 11,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "네트워크",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 12,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "sub_category": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "배열",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "language": "C",
+    "difficulty": "",
+    "keywords": [
+      "포인터",
+      "증감연산",
+      "배열",
+      "구조체"
+    ],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 13,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "sub_category": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "Python",
+    "difficulty": "",
+    "keywords": [
+      "프로세스",
+      "반복문",
+      "리스트",
+      "슬라이싱"
+    ],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 14,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Python",
+    "subcategory": "슬라이싱",
+    "sub_category": "슬라이싱",
+    "primary": "슬라이싱",
+    "secondary": [
+      "Range"
+    ],
+    "question_type": "코드 출력",
+    "language": "Python",
+    "difficulty": "",
+    "keywords": [
+      "슬라이싱",
+      "Range",
+      "반복문"
+    ],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 15,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "sub_category": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "보안 공격기법",
+    "language": "",
+    "difficulty": "",
+    "keywords": [],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 16,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "악성코드",
+    "sub_category": "악성코드",
+    "primary": "악성코드",
+    "secondary": [],
+    "question_type": "보안 공격기법",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "악성코드",
+      "TCP/IP",
+      "보안"
+    ],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 17,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "static",
+    "sub_category": "static",
+    "primary": "static",
+    "secondary": [
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "language": "Java",
+    "difficulty": "",
+    "keywords": [
+      "static",
+      "클래스"
+    ],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 18,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "JOIN",
+    "sub_category": "JOIN",
+    "primary": "JOIN",
+    "secondary": [
+      "집계함수",
+      "SELECT"
+    ],
+    "question_type": "SQL 결과",
+    "language": "SQL",
+    "difficulty": "",
+    "keywords": [
+      "JOIN",
+      "집계함수",
+      "SELECT"
+    ],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 19,
+    "subject": "애플리케이션 테스트 관리",
+    "category": "테스트",
+    "subcategory": "통합테스트",
+    "sub_category": "통합테스트",
+    "primary": "통합테스트",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "통합테스트"
+    ],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "question_number": 20,
+    "subject": "서버 프로그램 구현",
+    "category": "소프트웨어설계",
+    "subcategory": "응집도",
+    "sub_category": "응집도",
+    "primary": "응집도",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "language": "",
+    "difficulty": "",
+    "keywords": [
+      "응집도"
+    ],
+    "source_file": "6a1b6d670fa84ee491f55a1b18da81ad_2026_1회_정보처리기사_실기_복원문제_문제만.md"
+  }
+]

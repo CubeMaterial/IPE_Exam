@@ -22,8 +22,8 @@ from src.ui.worker import Worker
 
 
 SUPPORTED_FILE_FILTER = (
-    "PDF/Text/Image/ZIP/Code Files "
-    "(*.pdf *.txt *.png *.jpg *.jpeg *.zip "
+    "PDF/Text/Markdown/Image/ZIP/Code Files "
+    "(*.pdf *.txt *.md *.png *.jpg *.jpeg *.zip "
     "*.c *.h *.cpp *.hpp *.java *.py *.dart *.js *.ts *.kt *.swift *.go *.rs *.cs)"
 )
 

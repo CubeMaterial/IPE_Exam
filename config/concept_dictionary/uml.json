@@ -1,0 +1,6 @@
+{
+  "UseCase": ["usecase", "use case", "유스케이스"],
+  "Class Diagram": ["class diagram", "클래스 다이어그램"],
+  "Sequence Diagram": ["sequence diagram", "시퀀스"],
+  "Activity Diagram": ["activity diagram", "액티비티"]
+}

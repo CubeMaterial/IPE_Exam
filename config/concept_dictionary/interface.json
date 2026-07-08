@@ -1,0 +1,7 @@
+{
+  "REST": ["rest", "restful"],
+  "JSON": ["json"],
+  "XML": ["xml"],
+  "AJAX": ["ajax"],
+  "OpenAPI": ["openapi", "swagger"]
+}

@@ -1,0 +1,589 @@
+[
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 1,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "프로세스"
+    ],
+    "intent": [
+      "프로세스 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "Java",
+    "body": "다음은 Java 코드에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력값을 작성하시오.\n\n```java\nclass Main {\n    public static void main(String[] args) {\n        int[] a = new int[]{1, 2, 3, 4};\n        int[] b = new int[]{1, 2, 3, 4};\n        int[] c = new int[]{1, 2, 3};\n        check(a, b);\n        check(a, c);\n        check(b, c);\n    }\n\n    public static void check(int[] a, int[] b) {\n        if (a == b) {\n            System.out.print(\"O\");\n        } else {\n            System.out.print(\"N\");\n        }\n    }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 2,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "무결성",
+    "primary": "무결성",
+    "secondary": [],
+    "question_type": "SQL 작성",
+    "difficulty": "",
+    "concepts": [
+      "무결성"
+    ],
+    "intent": [
+      "무결성 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "SQL",
+    "body": "다음 문제에서 설명하는 용어를 작성하시오.\n\n데이터를 중복시켜 성능을 향상시키기 위한 기법으로 데이터를 중복 저장하거나 테이블을 합치는 등으로 성능을 향상시키지만 데이터 무결성이 저하될 수 있는 기법.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 3,
+    "subject": "SQL 응용",
+    "category": "SQL",
+    "subcategory": "DML",
+    "primary": "DML",
+    "secondary": [
+      "INSERT",
+      "UPDATE",
+      "SELECT"
+    ],
+    "question_type": "SQL 결과",
+    "difficulty": "",
+    "concepts": [
+      "DML",
+      "INSERT",
+      "UPDATE",
+      "SELECT"
+    ],
+    "intent": [
+      "DML 이해",
+      "SQL 실행 결과 해석"
+    ],
+    "mistakes": [
+      "JOIN 조건",
+      "GROUP BY 기준",
+      "NULL 처리",
+      "집계 함수 적용 순서"
+    ],
+    "language": "SQL",
+    "body": "다음은 SQL에 관한 문제이다. 아래 SQL 구문의 빈칸을 작성하시오.\n\n테이블\n\n```text\n사원 [사원번호(PK), 이름, 나이, 부서]\n부서 [사원번호(PK), 이름, 주소, 나이]\n```\n\n신입 사원이 들어와서 사원 테이블에 추가한다.\n\n```sql\nINSERT INTO 사원 (사원번호, 이름, 주소, 부서) [ ① ] (32431, '정실기', '서울', '영업');\n```\n\n위의 신입사원을 검색하면서 부서 테이블에 추가한다.\n\n```sql\nINSERT INTO 부서 (사원번호, 이름, 나이, 부서)\n[ ② ] 사원번호, 이름, 나이, 23 FROM 사원 WHERE 이름 = '정실기';\n```\n\n전체 사원 테이블을 조회한다.\n\n```sql\nSELECT * [ ③ ] 사원;\n```\n\n퇴사로 인해 부서에 해당하는 값을 `퇴사`로 변경한다.\n\n```sql\nUPDATE 사원 [ ④ ] 부서 = '퇴사' WHERE 사원번호 = 32431;\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 4,
+    "subject": "데이터 입출력 구현",
+    "category": "DB",
+    "subcategory": "Cardinality",
+    "primary": "Cardinality",
+    "secondary": [
+      "Degree"
+    ],
+    "question_type": "개념 서술",
+    "difficulty": "",
+    "concepts": [
+      "Cardinality",
+      "Degree"
+    ],
+    "intent": [
+      "Cardinality 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음 릴레이션의 Cardinality와 Degree를 작성하시오.\n\n> 원문은 릴레이션 표 이미지로 제시됨.\n\n```text\nCardinality : ( ① )\nDegree      : ( ② )\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 5,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "네트워크",
+    "difficulty": "",
+    "concepts": [
+      "인증",
+      "TCP/IP",
+      "암호화",
+      "보안"
+    ],
+    "intent": [
+      "네트워크 계층/프로토콜 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "다음은 프로토콜에 대한 내용이다. 아래 내용을 읽고 알맞은 답을 작성하시오.\n\n- Network layer에서 IP 패킷을 암호화하고 인증하는 등의 보안을 위한 표준이다.\n- 기업에서 사설 인터넷망으로 사용할 수 있는 VPN을 구현하는 데 사용되는 프로토콜이다.\n- AH(Authentication Header)와 ESP(Encapsulating Security Payload)라는 두 가지 보안 프로토콜을 사용한다.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 6,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Python",
+    "subcategory": "Range",
+    "primary": "Range",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "Range",
+      "반복문"
+    ],
+    "intent": [
+      "Python 자료구조 이해",
+      "Range 이해"
+    ],
+    "mistakes": [],
+    "language": "Python",
+    "body": "다음은 Python에 대한 문제이다. 아래 코드를 읽고 알맞는 출력 값을 작성하시오.\n\n```python\ndef fnCalculation(x, y):\n    result = 0\n    for i in range(len(x)):\n        temp = x[i:i+len(y)]\n        if temp == y:\n            result += 1\n    return result\n\n\na = \"abdcabcabca\"\np1 = \"ab\"\np2 = \"ca\"\nout = f\"ab{fnCalculation(a, p1)}ca{fnCalculation(a, p2)}\"\nprint(out)\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 7,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "difficulty": "",
+    "concepts": [
+      "증감연산"
+    ],
+    "intent": [
+      "증감연산 핵심 개념 이해"
+    ],
+    "mistakes": [
+      "break 위치",
+      "continue 위치",
+      "증감식 실행 순서"
+    ],
+    "language": "",
+    "body": "아래 설명하는 내용을 확인하여 알맞는 알고리즘을 작성하시오.\n\n- 대칭키 알고리즘으로 1997년 NIST(미국 국립기술표준원)에서 DES를 대체하기 위해 생성되었다.\n- 128비트, 192비트 또는 256비트의 가변 키 크기와 128비트의 고정 블록 크기를 사용한다.\n- 높은 안전성과 효율성, 속도 등으로 인해 DES 대신 전 세계적으로 많이 사용되고 있다.\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 8,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "네트워크",
+    "subcategory": "TCP/IP",
+    "primary": "TCP/IP",
+    "secondary": [],
+    "question_type": "개념 서술",
+    "difficulty": "",
+    "concepts": [
+      "TCP/IP"
+    ],
+    "intent": [
+      "TCP/IP 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "패킷 교환 방식 중에 연결형과 비연결형에 해당하는 방식을 작성하시오.\n\n```text\n① 연결형 교환 방식\n② 비연결형 교환 방식\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 9,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [],
+    "intent": [],
+    "mistakes": [],
+    "language": "",
+    "body": "아래 내용을 확인하고 보기에서 알맞는 답을 고르시오.\n\n실행 순서가 밀접한 관계를 갖는 기능을 모아 모듈로 구성한다. 한 모듈 내부의 한 기능 요소에 의한 출력 자료가 다음 기능 원소의 입력 자료로서 제공되는 형태이다.\n\n### 보기\n\n```text\nㄱ. 기능적(functional)\nㄴ. 우연적(Coincidental)\nㄷ. 통신적(Communication)\nㄹ. 절차적(Procedural)\nㅁ. 시간적(Temporal)\nㅂ. 순차적(sequential)\nㅅ. 논리적(Logical)\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 10,
+    "subject": "소프트웨어 개발 보안 구축",
+    "category": "보안",
+    "subcategory": "인증",
+    "primary": "인증",
+    "secondary": [],
+    "question_type": "운영체제",
+    "difficulty": "",
+    "concepts": [
+      "인증",
+      "디자인 패턴"
+    ],
+    "intent": [
+      "인증 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "아래는 디자인 패턴에 관한 설명이다. 아래 설명을 읽고 보기에서 알맞는 용어를 작성하시오.\n\n- 컬렉션 객체의 내부 구조를 노출하지 않고 순차적으로 접근할 수 있게 하는 패턴이다.\n- 이 패턴은 객체의 내부 표현 방식에 독립적으로 요소에 접근할 수 있도록 해준다.\n- 반복 프로세스를 캡슐화하여 클라이언트 코드에서는 컬렉션의 구체적인 구현에 종속되지 않도록 한다.\n\n### 보기\n\n| 생성패턴 | 구조패턴 | 행위패턴 |\n|---|---|---|\n| Singleton | Adapter | Iterator |\n| Factory Method | Bridge | Visitor |\n| Abstract Factory | Composite | Observer |\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 11,
+    "subject": "미분류",
+    "category": "미분류",
+    "subcategory": "미분류",
+    "primary": "미분류",
+    "secondary": [],
+    "question_type": "계산",
+    "difficulty": "",
+    "concepts": [],
+    "intent": [],
+    "mistakes": [],
+    "language": "",
+    "body": "아래 그림을 바탕으로 RIP을 구성하여 최단 경로 비용을 계산하여 흐름에 맞게 작성하시오.\n\n> 원문은 네트워크 그래프 이미지로 제시됨.\n\n```text\n예제: A →\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 12,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "증감연산",
+    "primary": "증감연산",
+    "secondary": [],
+    "question_type": "계산",
+    "difficulty": "",
+    "concepts": [
+      "증감연산"
+    ],
+    "intent": [
+      "증감연산 핵심 개념 이해"
+    ],
+    "mistakes": [
+      "break 위치",
+      "continue 위치",
+      "증감식 실행 순서"
+    ],
+    "language": "C",
+    "body": "아래의 표를 확인하여 SRT 스케줄링의 평균 대기시간을 계산하여 작성하시오.\n\n| 프로세스 | 도착 시간 | 서비스 시간 |\n|---|---:|---:|\n| A | 0 | 8 |\n| B | 1 | 4 |\n| C | 2 | 9 |\n| D | 3 | 5 |\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 13,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "배열"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "포인터",
+      "증감연산",
+      "배열"
+    ],
+    "intent": [
+      "포인터 증가 이해",
+      "배열 주소 계산"
+    ],
+    "mistakes": [
+      "*p++",
+      "(*p)++",
+      "주소 증가와 값 증가 혼동"
+    ],
+    "language": "C",
+    "body": "다음은 C언어에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n\nint main() {\n    int arr[3][3] = {1, 2, 3, 4, 5, 6, 7, 8, 9};\n    int* parr[2] = {arr[1], arr[2]};\n    printf(\"%d\", parr[1][1] + *(parr[1]+2) + **parr);\n    return 0;\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 14,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "프로세스",
+      "반복문"
+    ],
+    "intent": [
+      "프로세스 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "Java",
+    "body": "다음은 Java 언어에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력값을 작성하시오.\n\n```java\nclass Main {\n    public static void main(String[] args) {\n        int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};\n        ODDNumber OE = new ODDNumber();\n        System.out.print(OE.sum(a, true) + \", \" + OE.sum(a, false));\n    }\n}\n\ninterface Number {\n    int sum(int[] a, boolean odd);\n}\n\nclass ODDNumber implements Number {\n    public int sum(int[] a, boolean odd) {\n        int result = 0;\n        for (int i = 0; i < a.length; i++) {\n            if ((odd && a[i] % 2 != 0) || (!odd && a[i] % 2 == 0))\n                result += a[i];\n        }\n        return result;\n    }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 15,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "반복문",
+      "문자열"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "포인터",
+      "증감연산",
+      "반복문",
+      "문자열"
+    ],
+    "intent": [
+      "포인터 증가 이해",
+      "배열 주소 계산"
+    ],
+    "mistakes": [
+      "*p++",
+      "(*p)++",
+      "주소 증가와 값 증가 혼동"
+    ],
+    "language": "C",
+    "body": "다음은 C언어에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력값을 작성하시오.\n\n```c\n#include <stdio.h>\n#include <string.h>\n\nvoid sumFn(char* d, const char* s) {\n    while (*s) {\n        *d = *s;\n        d++;\n        s++;\n    }\n    *d = '\\0';\n}\n\nint main() {\n    const char* str1 = \"first\";\n    char str2[50] = \"teststring\";\n    int result = 0;\n\n    sumFn(str2, str1);\n\n    for (int i = 0; str2[i] != '\\0'; i++) {\n        result += i;\n    }\n\n    printf(\"%d\", result);\n    return 0;\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 16,
+    "subject": "서버 프로그램 구현",
+    "category": "소프트웨어설계",
+    "subcategory": "결합도",
+    "primary": "결합도",
+    "secondary": [],
+    "question_type": "빈칸",
+    "difficulty": "",
+    "concepts": [
+      "결합도"
+    ],
+    "intent": [
+      "결합도 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "",
+    "body": "아래는 소프트웨어 설계에 대한 내용이다. 내용을 읽고 괄호 안에 알맞는 답을 작성하시오.\n\n- 어떤 모듈이 다른 모듈 내부의 논리적인 흐름을 제어하기 위해, 제어를 통신하거나 제어 요소를 전달하는 결합도이다.\n- 한 모듈이 다른 모듈의 상세한 처리 절차를 알고 있어 이를 통제하는 경우나 처리 기능이 두 모듈에 분리되어 설계된 경우에 발생한다.\n\n```text\n(          ) Coupling\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 17,
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "운영체제",
+    "subcategory": "프로세스",
+    "primary": "프로세스",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "프로세스"
+    ],
+    "intent": [
+      "프로세스 핵심 개념 이해"
+    ],
+    "mistakes": [],
+    "language": "Java",
+    "body": "다음은 Java에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력 값을 작성하시오.\n\n```java\nclass Main {\n    public static void main(String[] args) {\n        String str = \"abacabcd\";\n        boolean[] seen = new boolean[256];\n        System.out.print(calculFn(str, str.length() - 1, seen));\n    }\n\n    public static String calculFn(String str, int index, boolean[] seen) {\n        if (index < 0) return \"\";\n\n        char c = str.charAt(index);\n        String result = calculFn(str, index - 1, seen);\n\n        if (!seen[c]) {\n            seen[c] = true;\n            return c + result;\n        }\n\n        return result;\n    }\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 18,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "증감연산",
+    "primary": "증감연산",
+    "secondary": [],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "증감연산"
+    ],
+    "intent": [
+      "증감연산 핵심 개념 이해"
+    ],
+    "mistakes": [
+      "break 위치",
+      "continue 위치",
+      "증감식 실행 순서"
+    ],
+    "language": "C",
+    "body": "다음은 C언어에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력 값을 작성하시오.\n\n```c\n#include <stdio.h>\n\nvoid swap(int a, int b) {\n    int t = a;\n    a = b;\n    b = t;\n}\n\nint main() {\n    int a = 11;\n    int b = 19;\n\n    swap(a, b);\n\n    switch (a) {\n        case 1:\n            b += 1;\n        case 11:\n            b += 2;\n        default:\n            b += 3;\n            break;\n    }\n\n    printf(\"%d\", a - b);\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 19,
+    "subject": "프로그래밍 언어 활용",
+    "category": "C",
+    "subcategory": "포인터",
+    "primary": "포인터",
+    "secondary": [
+      "증감연산",
+      "구조체"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "포인터",
+      "증감연산",
+      "구조체"
+    ],
+    "intent": [
+      "포인터 증가 이해",
+      "배열 주소 계산"
+    ],
+    "mistakes": [
+      "*p++",
+      "(*p)++",
+      "주소 증가와 값 증가 혼동"
+    ],
+    "language": "C",
+    "body": "다음은 C언어의 구조체에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력 값을 작성하시오.\n\n```c\n#include <stdio.h>\n\nstruct node {\n    int n1;\n    struct node *n2;\n};\n\nint main() {\n    struct node a = {10, NULL};\n    struct node b = {20, NULL};\n    struct node c = {30, NULL};\n    struct node *head = &a;\n\n    a.n2 = &b;\n    b.n2 = &c;\n\n    printf(\"%d\\n\", head->n2->n1);\n\n    return 0;\n}\n```\n\n---",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  },
+  {
+    "year": 2024,
+    "round": 2,
+    "question_number": 20,
+    "subject": "프로그래밍 언어 활용",
+    "category": "Java",
+    "subcategory": "static",
+    "primary": "static",
+    "secondary": [
+      "클래스"
+    ],
+    "question_type": "코드 출력",
+    "difficulty": "",
+    "concepts": [
+      "static",
+      "클래스"
+    ],
+    "intent": [
+      "객체지향 문법 이해",
+      "static 이해"
+    ],
+    "mistakes": [
+      "오버라이딩 대상 메서드",
+      "동적 바인딩",
+      "상속 호출 순서"
+    ],
+    "language": "Java",
+    "body": "다음은 Java에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력 값을 작성하시오.\n\n```java\nclass Main {\n    public static void main(String[] args) {\n        String str = \"ITISTESTSTRING\";\n        String[] result = str.split(\"T\");\n        System.out.print(result[3]);\n    }\n}\n```",
+    "answer": "",
+    "explanation": "",
+    "page": "",
+    "source": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md",
+    "source_file": "ea396d6186dd4c37ba0556acc34c73b6_2024년_2회_정보처리기사_실기_복원문제_문제만.md"
+  }
+]

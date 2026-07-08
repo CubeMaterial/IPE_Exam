@@ -1,0 +1,8 @@
+{
+  "응집도": ["cohesion", "응집도"],
+  "결합도": ["coupling", "결합도"],
+  "GoF": ["gof"],
+  "MVC": ["mvc"],
+  "설계원칙": ["design principle", "설계원칙"],
+  "SOLID": ["solid"]
+}

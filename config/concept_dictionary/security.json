@@ -1,0 +1,12 @@
+{
+  "ISMS": ["isms"],
+  "SQL Injection": ["sql injection", "인젝션"],
+  "XSS": ["xss"],
+  "CSRF": ["csrf"],
+  "AES": ["aes"],
+  "RSA": ["rsa"],
+  "SHA": ["sha"],
+  "접근통제": ["access control", "접근통제"],
+  "인증": ["authentication", "인증"],
+  "방화벽": ["firewall", "방화벽"]
+}

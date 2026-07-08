@@ -68,6 +68,21 @@ class ChromaEmbeddingStore:
             shutil.rmtree(CONFIG.chroma_dir)
         CONFIG.chroma_dir.mkdir(parents=True, exist_ok=True)
 
+    def delete_by_filter(self, metadata_filter: dict[str, Any]) -> int:
+        """메타데이터 조건에 맞는 Chunk를 삭제하고 삭제 개수를 반환합니다."""
+        try:
+            collection = self._get_collection()
+            if collection.count() == 0:
+                return 0
+            result = collection.get(where=metadata_filter)
+            ids = result.get("ids", [])
+            if not ids:
+                return 0
+            collection.delete(ids=ids)
+            return len(ids)
+        except Exception as exc:
+            raise VectorStoreError("조건에 맞는 Chunk 삭제 중 오류가 발생했습니다.") from exc
+
     def _get_collection(self):
         """Chroma 컬렉션을 지연 생성합니다."""
         if self._collection is None:

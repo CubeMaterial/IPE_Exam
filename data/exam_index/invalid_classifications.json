@@ -1,0 +1,25 @@
+[
+  {
+    "reason": "taxonomy subcategory 불일치",
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "알고리즘",
+    "subcategory": "증감연산",
+    "primary": "증감연산",
+    "secondary": [],
+    "context": {}
+  },
+  {
+    "reason": "taxonomy subcategory 불일치",
+    "subject": "응용 SW 기초 기술 활용",
+    "category": "알고리즘",
+    "subcategory": "증감연산",
+    "primary": "증감연산",
+    "secondary": [],
+    "context": {
+      "year": "",
+      "round": "",
+      "question_number": "",
+      "source_file": ""
+    }
+  }
+]
